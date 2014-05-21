@@ -1,7 +1,7 @@
 #Magisterka
 ==========
 
-##Tytuł: "Tworzenie przyjaznego interfejsu użytkownika na podstawie aplikacji PicDrop"
+##Tytuł: "Tworzenie przyjaznego interfejsu użytkownika i udostępnianie treści w aplikacjach internetowych"
 
 ##Plan pracy:<br /> 
 1.	Rozwój interfejsów użytkownika w ostatnich latach – tendencje, kierunki rozwoju<br /> 
