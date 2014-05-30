@@ -1,0 +1,102 @@
+\documentclass[brudnopis]{xmgr}
+
+%\defaultfontfeatures{Scale=MatchLowercase}
+%\setmainfont[Numbers=OldStyle,Ligatures=TeX]{Minion Pro}
+%\setsansfont[Numbers=OldStyle,Ligatures=TeX]{Myriad Pro}
+% for fontspec version < 2.0
+\setmainfont[Numbers=OldStyle,Mapping=tex-text]{Minion Pro}
+\setsansfont[Numbers=OldStyle,Mapping=tex-text]{Myriad Pro}
+%\setmonofont[Scale=0.75]{Monaco}
+
+% Opcjonalnie identyfikator dokumentu 
+% drukowany tylko z włączoną opcją 'brudnopis':
+\wersja   {wersja wstępna [\ymdtoday]}
+
+\author   {Tomasz Sott}
+\nralbumu {165\,334}
+\email    {tsott@inf.ug.edu.pl}
+
+
+\title    {Porównanie pakietów \\do automatyzacji powiadomień\\ w MeteorJS i budowa własnego\\ na podstawie aplikacji do planowania podróży i portalu facebook.com}
+\date     {2014}
+\miejsce  {Gdańsk}
+
+\opiekun  {dr W.Bzyl}
+
+% dodatkowe polecenia
+%\renewcommand{\filename}[1]{\texttt{#1}}
+
+\begin{document}
+
+\begin{abstract}
+ Aplikacja do planowania podrózy oferuje powiadamianie osób trzecich o niedotarciu użytkownika do celu podróży. Odbywa się to poprzez powiadomienie na adres email lub poprzez portal facebook.com. Spośród bogatej oferty pakietów dla frameworku MeteorJS, znajdujących się na portalu Atmosphere zostaną wybrane i porównane pakiety do automatyzacji wyżej wymienionych rodzajów powiadomień. Następnie zostanie stworzony nowy pakiet dopasowany do potrzeb aplikacji do planowania podróży.
+\end{abstract}
+\keywords{MeteorJS, 
+Meteorite, 
+Atmoshere,
+pakiet, 
+automatyzacja powiadomień,
+\\planowanie podróży}
+
+% tytuł i spis treści
+\maketitle
+%
+% wstęp
+\introduction
+
+\chapter{Wprowadzenie do frameworku MeteorJS}
+
+\section{Budowa aplikacji we frameworku MeteorJS}
+
+\section{Funkcjonowanie pakietów w MeteorJS\label{s:dtd}}
+
+\section{Atmosphere i Meteorite}
+
+\section{Tworzenie pakietu do Atmosphere\label{s:edytor}}
+
+\chapter{Pakiety do automatyzacji powiadomień}
+
+\section{Sposoby powiadamiania \label{s:dsssl}}
+
+\section{Istniejące pakiety do automatyzacji powiadomień\label{s:xsl}}
+
+\chapter{Budowa aplikacji do planowania podróży}
+\section{Cele aplikacji}
+\section{Funkcjonowanie aplikacji}
+
+\chapter{Budowa dostosowanego pakietu do automatyzacji powiadomień\label{PRZEGLAD.NARZEDZI}}
+
+\section{Indywidualne powiadomienia mailowe wybranych użytkowników}      
+
+\section{Powiadomienie na timeline na portalu facebook.com}
+
+\section{Integracja powiadomień w jednym pakiecie}
+      
+\section{Implementacja stworzonego pakietu w aplikacji do planowania podróży}
+
+% zakończenie 
+\summary
+
+% załączniki (opcjonalnie):
+\appendix
+\chapter{Tytuł załącznika jeden}
+
+Treść załącznika jeden.
+
+\chapter{Tytuł załącznika dwa}
+
+Treść załącznika dwa.
+
+% literatura (obowiązkowo):
+\bibliographystyle{unsrt}
+\bibliography{xml}
+
+% spis tabel (jeżeli jest potrzebny):
+\listoftables
+
+% spis rysunków (jeżeli jest potrzebny):
+\listoffigures
+
+\oswiadczenie
+
+\end{document}
