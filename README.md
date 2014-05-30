@@ -9,7 +9,8 @@
  Następnie zostanie stworzony nowy program, który będzie spełniał założenia przyjaznego dla użytkownika interfejsu w aplikacji internetowej.
 
 #### Bibliografia
-
+<ul>
 <li>Modeling the User Interface of Web Applications -http://www.pst.informatik.uni-muenchen.de/~kochn/pUML2001-Hen-Koch.pdf</li>
 <li>Jenifer Tidwell- „Projektowanie interfejsów. Sprawdzone wzorce projektowe”</li>
 <li>Robert Hoekman jr -”Magia interfejsu. Praktyczne metody projektowania aplikacji internetowych”</li>
+</ul>
