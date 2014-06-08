@@ -1,0 +1,94 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: magisterka.aux
+The style file: unsrt.bst
+Database file #1: xml.bib
+I was expecting a `,' or a `}'---line 14 of file xml.bib
+ : 
+ : @article{mongoDoc,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 21 of file xml.bib
+ : 
+ : @article{rspecDoc,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 28 of file xml.bib
+ : 
+ : @article{railsDoc,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 35 of file xml.bib
+ : 
+ : @article{UIRails,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 42 of file xml.bib
+ : 
+ : @book{magiaUI,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 80 of file xml.bib
+ : 
+ : @book{StiveKrug,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "StiveKurg"
+Warning--empty journal in UIRails
+Warning--empty year in UIRails
+Warning--empty journal in rails4angular
+Warning--empty journal in modelingUI
+Warning--empty author in angularDoc
+Warning--empty journal in angularDoc
+Warning--empty year in angularDoc
+Warning--empty author in mongoDoc
+Warning--empty journal in mongoDoc
+Warning--empty year in mongoDoc
+Warning--empty author in rspecDoc
+Warning--empty journal in rspecDoc
+Warning--empty year in rspecDoc
+Warning--empty author in railsDoc
+Warning--empty journal in railsDoc
+Warning--empty year in railsDoc
+You've used 10 entries,
+            1791 wiz_defined-function locations,
+            488 strings with 4919 characters,
+and the built_in function-call counts, 1256 in all, are:
+= -- 88
+> -- 28
+< -- 0
++ -- 16
+- -- 6
+* -- 59
+:= -- 191
+add.period$ -- 21
+call.type$ -- 10
+change.case$ -- 7
+chr.to.int$ -- 0
+cite$ -- 26
+duplicate$ -- 86
+empty$ -- 156
+format.name$ -- 6
+if$ -- 273
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 13
+newline$ -- 44
+num.names$ -- 6
+pop$ -- 65
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 30
+stack$ -- 0
+substring$ -- 0
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 16
+while$ -- 6
+width$ -- 12
+write$ -- 77
+(There were 6 error messages)

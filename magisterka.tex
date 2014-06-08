@@ -7,7 +7,7 @@
 \setmainfont[Numbers=OldStyle,Mapping=tex-text]{Minion Pro}
 \setsansfont[Numbers=OldStyle,Mapping=tex-text]{Myriad Pro}
 %\setmonofont[Scale=0.75]{Monaco}
-
+\usepackage{hyperref}
 % Opcjonalnie identyfikator dokumentu 
 % drukowany tylko z włączoną opcją 'brudnopis':
 \wersja   {wersja wstępna [\ymdtoday]}
@@ -29,7 +29,7 @@
 \begin{document}
 
 \begin{abstract}
- Obecne na rynku serwisy do wyszukiwania takie jak Google Grafika, Flickr, Tumblr oraz Pinterest nie pozwalają na łatwe wyszukiwanie i udostępnianie zdjęć wybranych przez użytkownika a ich interfejsy użytkownika nie są mu przyjazne. Spośród bogatej oferty tworzenia UI zostaną wybrane i porównane interfejsy najbardziej intuicyjne i ułatwiające pracę użytkownikowi. Następnie zostanie stworzony nowy program, który będzie spełniał założenia przyjaznego dla użytkownika interfejsu w aplikacji internetowej.
+ Obecne na rynku serwisy do wyszukiwania takie jak Google Grafika, Flickr, Tumblr oraz Pinterest nie pozwalają na łatwe wyszukiwanie i udostępnianie zdjęć wybranych przez użytkownika a ich interfejsy użytkownika nie są mu przyjazne. Spośród bogatej oferty tworzenia UI zostaną wybrane i porównane interfejsy najbardziej intuicyjne i ułatwiające pracę użytkownikowi. Następnie zostanie stworzony nowy program - PicDrop , który będzie spełniał założenia przyjaznego dla użytkownika interfejsu w aplikacji internetowej.
 \end{abstract}
 \keywords{User Interface, Ruby on Rails,Bootstrap, AngularJS, MongoDB, WebSockets, RSpec}
 
@@ -39,6 +39,13 @@
 % wstęp
 \introduction
 
+Interfejs użytkownika (ang. User Interface - UI ) jest podstawowym sposobem komunikacji pomiędzy człowiekiem a maszyną dlatego tak ważne jest, aby był on intuicyjny i przyjazny dla użytkownika. Praca w takim UI jest przyjemniejsza, szybsza i bardziej wydajna, ponieważ nie musimy się zastanawiać gdzie jest dana opcja programu czy strony lub jak uzyskać dany efekt. 
+
+W aplikacjach internetowych interfejs użytkownika jest bardzo ważny, gdyż dzieki niemu użytkownik może w krókim czasie ocenić czy dana strona internetowa mu odpowiada i ewentualnie poszukać innej z lepszym UI. 
+W tej pracy postaram się pokazać na czym polega tworzenie przyjaznego UI i na czym ta przyjazność ma polegać.
+Wskażę również z jakimi problemami musi się uporać developer aplikacji webowych, aby jego aplikacja była intuicyjna i funkcjonalna. Opiszę również jakie narzędzia wybrałem i dlaczego te a nie inne uważam za najlepszy wybór.
+
+
 \chapter{Wprowadzenie do Interfejsów Użytkownika}
 
 \section{Rozwój interfejsów użytkownika w ostatnich latach – tendencje, kierunki rozwoju}
@@ -46,6 +53,16 @@
 \section{Sposoby udostępniania treści\label{s:dtd}}
 
 \section{Zdefinowanie przyjaznego i intuicyjnego interfejsu użytkownika}
+
+\chapter{Budowa aplikacji do wyszukiwania i udostępniania zdjęć -PicDrop }
+
+\section{Cele aplikacji}
+
+\section{Funkcjonowanie aplikacji}
+
+\section{Opis tworzenia aplikacji PicDrop}
+
+\section{Opis własnych rozwiązań}   
 
 \chapter{Przegląd dostępnych narzędzi do tworzenia UI }
 
@@ -59,18 +76,6 @@
 
 \section{Bootstrap}
 
-\chapter{Budowa aplikacji do wyszukiwania i udostępniania zdjęć }
-
-\section{Cele aplikacji}
-
-\section{Funkcjonowanie aplikacji}
-
-\chapter{Opis tworzenia aplikacji przy pomocy wybranych narzędzi\label{PRZEGLAD.NARZEDZI}}
-
-\section{Opis tworzenia aplikacji PicDrop}
-
-\section{Opis własnych rozwiązań}   
-
 \chapter{Wnioski}
 
 % zakończenie 
@@ -81,7 +86,6 @@
 \chapter{Tytuł załącznika jeden}
 
 Treść załącznika jeden.
-
 \chapter{Tytuł załącznika dwa}
 
 Treść załącznika dwa.
@@ -90,19 +94,17 @@ Treść załącznika dwa.
 \bibliographystyle{unsrt}
 \bibliography{xml}
 
-\chapter{Literatura:}
-Modeling the User Interface of Web Applications -http://www.pst.informatik.uni-muenchen.de/~kochn/pUML2001-Hen-Koch.pdf\\
-Steve Krug - ”Don't Make Me Think ”\\
-Don Norman- ”The Design of Everyday Things”\\
-Jenifer Tidwell- „Projektowanie interfejsów. Sprawdzone wzorce projektowe”\\
-Robert Hoekman jr -”Magia interfejsu. Praktyczne metody projektowania aplikacji internetowych”\\
-How to integrate angularjs with rails -https://shellycloud.com/blog/2013/10/how-to-integrate-angularjs-with-rails-4\\
-User Interface Thinking in Rails: An Example https://coderwall.com/p/zg4zfq\\
-http://rubyonrails.org/documentation/\\
-http://rspec.info/\\
-https://docs.angularjs.org/api\\
-http://docs.mongodb.org/manual/\\
-
+\nocite {StiveKurg}
+\nocite {design}
+\nocite {projektowanieUI}
+\nocite {magiaUI}
+\nocite {UIRails}
+\nocite {rails4angular}
+\nocite {modelingUI}
+\nocite {angularDoc}
+\nocite {mongoDoc}
+\nocite {rspecDoc}
+\nocite {railsDoc}
 
 % spis tabel (jeżeli jest potrzebny):
 \listoftables
