@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.6.7)  8 JUN 2014 12:02
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.6.7)  18 JUN 2014 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -869,7 +869,66 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `magisterka.toc'.
 
- [4] [5
+ [4]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'MinionPro(1)' created for font 'Minion Pro' with options
+. [Mapping=tex-text,Numbers=OldStyle,Mapping=tex-text,VerticalPosition=Superior
+].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Minion
+. Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;mapping=tex-text;+su
+ps;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Minion
+. Pro/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;mapping=tex-text;+su
+ps;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Minion
+. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;mapping=tex-text;+
+sups;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Minion
+. Pro/B/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;mapping=tex-text;+
+sups;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Minion
+. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;mapping=tex-text;+
+sups;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Minion
+. Pro/I/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;mapping=tex-text;+
+sups;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Minion
+. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;mapping=tex-text;
++sups;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Minion
+. Pro/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+onum;mapping=tex-text;
++sups;+smcp;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'MinionPro(1)' created for font 'Minion Pro' with options
+. [Mapping=tex-text,Numbers=OldStyle,Mapping=tex-text,VerticalPosition=Superior
+].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [5
 
 ]
 Rozdział 1.
@@ -901,11 +960,7 @@ Dodatek A.
 Dodatek B.
 (./magisterka.bbl [13
 
-])
-
-LaTeX Warning: Citation `StiveKurg' undefined on input line 97.
-
-[14
+]) [14
 
 ] (./magisterka.lot)
 \tf@lot=\write5
@@ -917,7 +972,8 @@ LaTeX Warning: Citation `StiveKurg' undefined on input line 97.
 \tf@lof=\write6
 \openout6 = `magisterka.lof'.
 
- [16
+
+[16
 
 ] [17
 
@@ -927,18 +983,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (./magisterka.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 117.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 117.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 21908 strings out of 493938
- 426451 string characters out of 6148858
+ 21954 strings out of 493938
+ 428492 string characters out of 6148858
  444356 words of memory out of 5000000
- 24976 multiletter control sequences out of 15000+600000
- 7889 words of font info for 57 fonts, out of 8000000 for 9000
+ 25011 multiletter control sequences out of 15000+600000
+ 7961 words of font info for 66 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,11n,45p,945b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 

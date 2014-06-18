@@ -1,11 +1,11 @@
 \begin{thebibliography}{10}
 
-\bibitem{design}
-Don Norman.
+\bibitem{magiaUI}
+Robert~Hoekman jr.
 \newblock {\em
-  \href{http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107}{The
-  Design of Everyday Things}}.
-\newblock Basic Books, 2002.
+  \href{http://helion.pl/ksiazki/magia-interfejsu-praktyczne-metody-projektowania-aplikacji-internetowych-robert-hoekman-jr,magint.htm#szczegoly}{Magia
+  interfejsu. Praktyczne metody projektowania aplikacji internetowych}}.
+\newblock Helion, 2010.
 
 \bibitem{projektowanieUI}
 Jenifer Tidwell.
@@ -14,17 +14,26 @@ Jenifer Tidwell.
   interfejs{\'o}w. Sprawdzone wzorce projektowe}}.
 \newblock Helion, 2012.
 
-\bibitem{magiaUI}
-Robert~Hoekman jr.
+\bibitem{design}
+Don Norman.
 \newblock {\em
-  \href{http://helion.pl/ksiazki/magia-interfejsu-praktyczne-metody-projektowania-aplikacji-internetowych-robert-hoekman-jr,magint.htm#szczegoly}{Magia
-  interfejsu. Praktyczne metody projektowania aplikacji internetowych}}.
-\newblock Helion, 2010.
+  \href{http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107}{The
+  Design of Everyday Things}}.
+\newblock Basic Books, 2002.
+
+\bibitem{StiveKrug}
+Steve Krug.
+\newblock {\em
+  \href{http://helion.pl/ksiazki/nie-kaz-mi-myslec-o-zyciowym-podejsciu-do-funkcjonalnosci-stron-internetowych-steve-krug,niekaz}{Nie
+  ka{\.z} mi my{\'s}le{\'c}! O {\.z}yciowym podej{\'s}ciu do
+  funkcjonalno{\'s}ci stron internetowych}}.
+\newblock Helion, 2012.
 
 \bibitem{UIRails}
 Joe Fiorini.
-\newblock \href{https://coderwall.com/p/zg4zfq/}{User Interface Thinking in
+\newblock \href{https://coderwall.com/p/zg4zfq}{User Interface Thinking in
   Rails: An Example}.
+\newblock 2012.
 
 \bibitem{rails4angular}
 Micha{\l} Kwiatkowski.
@@ -34,22 +43,26 @@ Micha{\l} Kwiatkowski.
 \newblock 2013.
 
 \bibitem{modelingUI}
-Nora~Koch Rolf~Hennicker.
+Rolf Hennicker~Nora Koch.
 \newblock
   \href{http://www.pst.informatik.uni-muenchen.de/~kochn/pUML2001-Hen-Koch.pdf}{Modeling
-  the User Interface of Web Applications }.
+  the User Interface of Web Applications}.
 \newblock 2001.
 
 \bibitem{angularDoc}
 \href{https://docs.angularjs.org/api}{AngularJS documentation}.
+\newblock 2014.
 
 \bibitem{mongoDoc}
 \href {http://docs.mongodb.org/manual/}{MongoDB documentation}.
+\newblock 2014.
 
 \bibitem{rspecDoc}
 \href {http://rspec.info/}{Rspec documentation}.
+\newblock 2014.
 
 \bibitem{railsDoc}
 \href{http://rubyonrails.org/documentation}{Ruby on Rails documentation}.
+\newblock 2014.
 
 \end{thebibliography}
