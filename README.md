@@ -1,4 +1,4 @@
-### Jak stworzyć przyjazny interfejs użytkownika do udostępniania fotografii w AngularJS?
+### Tworzenie przyjaznego interfejsu użytkownika w aplikacjach do udostępniania fotografii w AngularJS
 #### *Oskar Plichta*
 
 * Podgląd pracy w [pdf](https://github.com/oplichta/magisterka/blob/master/magisterka.pdf?raw=true)
