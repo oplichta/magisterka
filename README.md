@@ -1,9 +1,9 @@
 ### Jak stworzyć przyjazny interfejs użytkownika do udostępniania fotografii w AngularJS?
 #### *Oskar Plichta*
 
-* Podglad pracy w [pdf](https://github.com/oplichta/magisterka/blob/master/magisterka.pdf?raw=true)
+* Podgląd pracy w [pdf](https://github.com/oplichta/magisterka/blob/master/magisterka.pdf?raw=true)
 
-####Wprowadzenie
+#### Wprowadzenie
 
 Interfejs użytkownika (ang. User Interface - UI ) jest podstawowym sposobem komunikacji pomiędzy człowiekiem a maszyną dlatego tak ważne jest, aby był on intuicyjny i przyjazny dla użytkownika. Praca w takim UI jest przyjemniejsza, szybsza i bardziej wydajna, ponieważ nie musimy się zastanawiać gdzie jest dana opcja programu czy strony lub jak uzyskać dany efekt.
 
