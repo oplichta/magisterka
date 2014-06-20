@@ -14,8 +14,8 @@ Wskażę również z jakimi problemami musi się uporać developer aplikacji web
 #### Bibliografia
 
 <ul>
-<li>Jenifer Tidwell – <a href="http://helion.pl/ksiazki/projektowanie-interfejsow-sprawdzone-wzorce-projektowe-jenifer-tidwell,projin.htm">"Projektowanie interfejsów. Sprawdzone wzorce projektowe”</a></li>
-<li>Robert Hoekman jr – <a href="http://helion.pl/ksiazki/magia-interfejsu-praktyczne-metody-projektowania-aplikacji-internetowych-robert-hoekman-jr,magint.htm">"Magia interfejsu. Praktyczne metody projektowania aplikacji internetowych”</a></li>
-<li>Rolf Hennicker - <a href="http://www.pst.informatik.uni-muenchen.de/~kochn/pUML2001-Hen-Koch.pdf">"Modeling the User Interface of Web Applications"</a></li>
-<li>Michał Kwiatkowski - <a href="https://shellycloud.com/blog/2013/10/how-to-integrate-angularjs-with-rails-4">"How to integrate angularjs with rails"</a></li>
+<li>Jenifer Tidwell – <a href="http://helion.pl/ksiazki/projektowanie-interfejsow-sprawdzone-wzorce-projektowe-jenifer-tidwell,projin.htm">„Projektowanie interfejsów. Sprawdzone wzorce projektowe”</a></li>
+<li>Robert Hoekman jr – <a href="http://helion.pl/ksiazki/magia-interfejsu-praktyczne-metody-projektowania-aplikacji-internetowych-robert-hoekman-jr,magint.htm">„Magia interfejsu. Praktyczne metody projektowania aplikacji internetowych”</a></li>
+<li>Rolf Hennicker – <a href="http://www.pst.informatik.uni-muenchen.de/~kochn/pUML2001-Hen-Koch.pdf">„Modeling the User Interface of Web Applications”</a></li>
+<li>Michał Kwiatkowski – <a href="https://shellycloud.com/blog/2013/10/how-to-integrate-angularjs-with-rails-4">„How to integrate angularjs with rails”</a></li>
 </ul>
