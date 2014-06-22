@@ -1,24 +1,22 @@
 \BOOKMARK [0][-]{chapter*.4}{Wprowadzenie}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Wprowadzenie do Interfejsów Użytkownika}{}% 2
-\BOOKMARK [1][-]{section.1.1}{Rozwój interfejsów użytkownika w ostatnich latach – tendencje, kierunki rozwoju}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.2}{Sposoby udostępniania treści}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.3}{Zdefinowanie przyjaznego i intuicyjnego interfejsu użytkownika}{chapter.1}% 5
-\BOOKMARK [0][-]{chapter.2}{Budowa aplikacji do wyszukiwania i udostępniania zdjęć -PicDrop }{}% 6
-\BOOKMARK [1][-]{section.2.1}{Cele\040aplikacji}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.2}{Funkcjonowanie\040aplikacji}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Opis\040tworzenia\040aplikacji\040PicDrop}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.4}{Opis własnych rozwiązań}{chapter.2}% 10
-\BOOKMARK [0][-]{chapter.3}{Przegląd dostępnych narzędzi do tworzenia UI }{}% 11
-\BOOKMARK [1][-]{section.3.1}{ Porównanie tworzenia aplikacji za pomocą dostępnych narzędzi}{chapter.3}% 12
-\BOOKMARK [0][-]{chapter.4}{Opis wybranych narzędzi}{}% 13
-\BOOKMARK [1][-]{section.4.1}{Ruby\040on\040Rails}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.2}{AngularJS}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.3}{Bootstrap}{chapter.4}% 16
-\BOOKMARK [0][-]{chapter.5}{Wnioski}{}% 17
-\BOOKMARK [0][-]{chapter*.5}{Zakończenie}{}% 18
-\BOOKMARK [0][-]{appendix.A}{Tytuł załącznika jeden}{}% 19
-\BOOKMARK [0][-]{appendix.B}{Tytuł załącznika dwa}{}% 20
-\BOOKMARK [0][-]{appendix*.6}{Bibliografia}{}% 21
-\BOOKMARK [0][-]{appendix*.7}{Spis\040tablic}{}% 22
-\BOOKMARK [0][-]{appendix*.8}{Spis rysunków}{}% 23
-\BOOKMARK [0][-]{appendix*.9}{Oświadczenie}{}% 24
+\BOOKMARK [0][-]{chapter.1}{Kierunki rozwoju interfejsów użytkownika}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Wprowadzenie do interfejsów użykownika}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Nowe sposoby udostępniania treści}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Przyjazne i intuicyjne interfejsy użytkownika w web 3.0}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{Przyjazne i intuicyjne interfejsy użytkownika w tabletach}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.5}{Przyjazne i intuicyjne interfejsy użytkownika w smartphonach}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Projekt\040UI\040dla\040aplikacji\040PicDrop}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Przyjazność i intuicyjność UI w aplikacji Picdrop}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{Udostępnianie treści w aplikacji Picdrop}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{Aplikacja do wyszukiwania i udostępniania zdjęć PicDrop}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Cele\040aplikacji}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{Funkcjonowanie\040aplikacji}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{Opis\040tworzenia\040aplikacji\040PicDrop}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.4}{Opis własnych rozwiązań}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter*.5}{Zakończenie}{}% 16
+\BOOKMARK [0][-]{appendix.A}{Tytuł załącznika jeden}{}% 17
+\BOOKMARK [0][-]{appendix.B}{Tytuł załącznika dwa}{}% 18
+\BOOKMARK [0][-]{appendix*.6}{Bibliografia}{}% 19
+\BOOKMARK [0][-]{appendix*.7}{Spis\040tablic}{}% 20
+\BOOKMARK [0][-]{appendix*.8}{Spis rysunków}{}% 21
+\BOOKMARK [0][-]{appendix*.9}{Oświadczenie}{}% 22

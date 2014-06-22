@@ -14,6 +14,19 @@ Jenifer Tidwell.
   interfejs{\'o}w. Sprawdzone wzorce projektowe}}.
 \newblock Helion, 2012.
 
+\bibitem{adamAnderson}
+Adam Anderson.
+\newblock \href
+  {http://asanderson.org/posts/2013/06/03/bootstrapping-angular-rails-part-1}{Bootstrapping
+  an AngularJS app in Rails 4.0}.
+\newblock 2013.
+
+\bibitem{angularRailsBootstrap}
+David~Bryant Copeland.
+\newblock \href{http://angular-rails.com/bootstrap.html}{Creating a Skeleton
+  App}.
+\newblock 2014.
+
 \bibitem{design}
 Don Norman.
 \newblock {\em
@@ -49,20 +62,27 @@ Rolf Hennicker~Nora Koch.
   the User Interface of Web Applications}.
 \newblock 2001.
 
+\bibitem{angularRails}
+Jason Swett.
+\newblock
+  \href{https://www.honeybadger.io/blog/2013/12/11/beginners-guide-to-angular-js-rails}{Getting
+  Started with AngularJS and Rails 4}.
+\newblock 2013.
+
 \bibitem{angularDoc}
-\href{https://docs.angularjs.org/api}{AngularJS documentation}.
-\newblock 2014.
+\href{https://docs.angularjs.org/api}{AngularJS API Docs} dostęp 2014-06-21.
+
+\bibitem{bootstrapDoc}
+\href{http://getbootstrap.com}{Bootstrap Docs} dostęp 2014-06-21.
 
 \bibitem{mongoDoc}
-\href {http://docs.mongodb.org/manual/}{MongoDB documentation}.
-\newblock 2014.
+\href {http://docs.mongodb.org/manual/}{MongoDB Docs} dostęp 2014-06-21.
 
 \bibitem{rspecDoc}
-\href {http://rspec.info/}{Rspec documentation}.
-\newblock 2014.
+\href {http://rspec.info/}{Rspec Docs} dostęp 2014-06-21.
 
 \bibitem{railsDoc}
-\href{http://rubyonrails.org/documentation}{Ruby on Rails documentation}.
-\newblock 2014.
+\href{http://rubyonrails.org/documentation}{Ruby on Rails Docs} dostęp
+  2014-06-21.
 
 \end{thebibliography}

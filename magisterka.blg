@@ -3,47 +3,57 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: magisterka.aux
 The style file: unsrt.bst
 Database file #1: mgr.bib
+Warning--empty journal in adamAnderson
+Warning--empty journal in angularRailsBootstrap
 Warning--empty journal in UIRails
 Warning--empty journal in rails4angular
 Warning--empty journal in modelingUI
+Warning--empty journal in angularRails
 Warning--empty author in angularDoc
 Warning--empty journal in angularDoc
+Warning--empty year in angularDoc
+Warning--empty author in bootstrapDoc
+Warning--empty journal in bootstrapDoc
+Warning--empty year in bootstrapDoc
 Warning--empty author in mongoDoc
 Warning--empty journal in mongoDoc
+Warning--empty year in mongoDoc
 Warning--empty author in rspecDoc
 Warning--empty journal in rspecDoc
+Warning--empty year in rspecDoc
 Warning--empty author in railsDoc
 Warning--empty journal in railsDoc
-You've used 11 entries,
+Warning--empty year in railsDoc
+You've used 15 entries,
             1791 wiz_defined-function locations,
-            494 strings with 5219 characters,
-and the built_in function-call counts, 1422 in all, are:
-= -- 110
-> -- 32
+            512 strings with 5898 characters,
+and the built_in function-call counts, 1894 in all, are:
+= -- 138
+> -- 45
 < -- 0
-+ -- 18
-- -- 7
-* -- 47
-:= -- 224
-add.period$ -- 29
-call.type$ -- 11
-change.case$ -- 7
++ -- 25
+- -- 10
+* -- 77
+:= -- 296
+add.period$ -- 35
+call.type$ -- 15
+change.case$ -- 11
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 96
-empty$ -- 175
-format.name$ -- 7
-if$ -- 318
+cite$ -- 36
+duplicate$ -- 128
+empty$ -- 231
+format.name$ -- 10
+if$ -- 413
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 15
-newline$ -- 54
-num.names$ -- 7
-pop$ -- 67
+int.to.str$ -- 15
+missing$ -- 19
+newline$ -- 68
+num.names$ -- 10
+pop$ -- 93
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 32
+skip$ -- 45
 stack$ -- 0
 substring$ -- 0
 swap$ -- 4
@@ -51,8 +61,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
-while$ -- 7
-width$ -- 13
-write$ -- 97
-(There were 11 warnings)
+warning$ -- 21
+while$ -- 10
+width$ -- 17
+write$ -- 121
+(There were 21 warnings)

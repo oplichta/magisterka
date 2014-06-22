@@ -17,7 +17,7 @@
 \email    {oskar.plichta22@gmail.com}
 
 
-\title    {Jak stworzyć przyjazny interfejs użytkownika do udostępniania fotografii w AngularJS? }
+\title    {Tworzenie przyjaznego interfejsu użytkownika w aplikacjach do udostępniania fotografii }
 \date     {2014}
 \miejsce  {Gdańsk}
 
@@ -29,7 +29,9 @@
 \begin{document}
 
 \begin{abstract}
- Obecne na rynku serwisy do wyszukiwania takie jak Google Grafika, Flickr, Tumblr oraz Pinterest nie pozwalają na łatwe wyszukiwanie i udostępnianie zdjęć wybranych przez użytkownika a ich interfejsy użytkownika nie są mu przyjazne. Spośród bogatej oferty tworzenia UI zostaną wybrane i porównane interfejsy najbardziej intuicyjne i ułatwiające pracę użytkownikowi. Następnie zostanie stworzony nowy program - PicDrop , który będzie spełniał założenia przyjaznego dla użytkownika interfejsu w aplikacji internetowej.
+
+W pracy zostanie przedstawiony przyjazny dla użytkownika interfejs aplikacji internetowej w web 3.0. Interfejs zostanie zaimplementowany w programie PicDrop,  który będzie spełniał założenia przyjaznego interfejsu. Celem aplikacji jest zbudowanie intuicyjnego interfejsu użytkownika do udostępniania fotografii wykonanego w AngularJS, Bootstrap oraz Ruby on Rails. Aplikacja ma na celu być prosta w obsłudze i ma za zadainie wyszukiwanie fotografi oraz ich łatwe udostępnianie dla wielu użytkowników jednocześnie. Ostatecznie aplikacja została wykonana zgodnie z założeniami i spełnia wyznaczone cele.
+
 \end{abstract}
 \keywords{User Interface, Ruby on Rails,Bootstrap, AngularJS, MongoDB, WebSockets, RSpec}
 
@@ -38,23 +40,32 @@
 %
 % wstęp
 \introduction
-
-Interfejs użytkownika \footnote{ang. User Interface - UI}  jest podstawowym sposobem komunikacji pomiędzy człowiekiem a maszyną dlatego tak ważne jest, aby był on intuicyjny i przyjazny dla użytkownika. Praca w takim UI jest przyjemniejsza, szybsza i bardziej wydajna, ponieważ nie musimy się zastanawiać gdzie jest dana opcja programu czy strony lub jak uzyskać dany efekt. 
-
-W aplikacjach internetowych interfejs użytkownika jest bardzo ważny, gdyż dzieki niemu użytkownik może w krókim czasie ocenić czy dana strona internetowa mu odpowiada i ewentualnie poszukać innej z lepszym UI. 
-W tej pracy postaram się pokazać na czym polega tworzenie przyjaznego UI i na czym ta przyjazność ma polegać.
-Wskażę również z jakimi problemami musi się uporać developer aplikacji webowych, aby jego aplikacja była intuicyjna i funkcjonalna. Opierając się na książkach między innymi Roberta Hoekmana  \cite {magiaUI} oraz Jenifer Tidwell  \cite {projektowanieUI}  opiszę również jakie narzędzia wybrałem i dlaczego te a nie inne uważam za najlepszy wybór.
+Interfejs użytkownika \footnote{ang. User Interface - UI}  jest podstawowym sposobem komunikacji pomiędzy człowiekiem a maszyną dlatego tak ważne jest, aby był on intuicyjny i przyjazny dla użytkownika. 
+Postaram się pokazać na czym polega tworzenie przyjaznego UI i na czym ta przyjazność ma polegać.
+Wskażę również z jakimi problemami musi się uporać developer aplikacji webowych, aby jego aplikacja była intuicyjna i funkcjonalna. Problem przyjaznego UI bardzo mnie zainteresował i dlatego postanowiłem zgłębić ten temat. Opierając się na  doświadczeniach innych badaczy  między innymi Roberta Hoekmana  \cite {magiaUI} oraz Jenifer Tidwell  \cite {projektowanieUI}, którzy opisali swoje spostrzeżenia w ich książkach, postaram się napisać aplikacje PicDrop, która  będzie miała przyjazne UI. Opiszę dlaczego wybrałem AngularJS, Bootstrap oraz Ruby on Rails do stworzenia tej aplikacji i dlaczego te a nie inne technologie uważam za najlepszy wybór.
 
 
-\chapter{Wprowadzenie do Interfejsów Użytkownika}
+\chapter{Kierunki rozwoju interfejsów użytkownika}
 
-\section{Rozwój interfejsów użytkownika w ostatnich latach – tendencje, kierunki rozwoju}
+\section{Wprowadzenie do interfejsów użykownika}
 
-\section{Sposoby udostępniania treści\label{s:dtd}}
+\section{Nowe sposoby udostępniania treści}
 
-\section{Zdefinowanie przyjaznego i intuicyjnego interfejsu użytkownika}
+\section{Przyjazne i intuicyjne interfejsy użytkownika w web 3.0}
 
-\chapter{Budowa aplikacji do wyszukiwania i udostępniania zdjęć -PicDrop }
+\section{Przyjazne i intuicyjne interfejsy użytkownika w tabletach}
+
+\section{Przyjazne i intuicyjne interfejsy użytkownika w smartphonach}
+
+\chapter{Projekt UI dla aplikacji PicDrop}
+
+\section{Przyjazność i intuicyjność  UI w aplikacji Picdrop}
+
+\section{Udostępnianie treści w aplikacji Picdrop}
+
+\chapter{Aplikacja do wyszukiwania i udostępniania zdjęć PicDrop}
+
+Spośród mnóstwa technologii do tworzenia interfejsów użytkownika, najbardziej przodujące są oparte te na języku JavaScript takie jak Bootstrap, jQuery czy AngularJS. Opierając się na \cite{adamAnderson} oraz \cite{angularRailsBootstrap} postanowiłem wybrać AngularJS, Bootstrap oraz Ruby on Rails. UI zostanie wykonane w AngularJS, jest to stworzona i cały czas usprawniana przez firmę Google, biblioteka języka JavaScript. Posiada ona szereg mechanizmów ułatwiających developerom tworzenie UI na jej podstawie, ma także czytelną i przejrzystą dokumentację. UI aplikacji zostanie dodatkowo upiększone poprzez framework Bootstrap. Na serwer  wybrałem sprawdzonego Ruby on Rails, które pozwala na szybkie tworzenie aplikacji internetowych oraz dzięki narzędziu RSpec na łatwe testowanie kodu. 
 
 \section{Cele aplikacji}
 
@@ -63,20 +74,6 @@ Wskażę również z jakimi problemami musi się uporać developer aplikacji web
 \section{Opis tworzenia aplikacji PicDrop}
 
 \section{Opis własnych rozwiązań}   
-
-\chapter{Przegląd dostępnych narzędzi do tworzenia UI }
-
-\section{ Porównanie tworzenia aplikacji za pomocą dostępnych narzędzi\label{s:dsssl}}
-
-\chapter{Opis wybranych narzędzi\label{s:xsl}}
-
-\section{Ruby on Rails}
-
-\section{AngularJS}
-
-\section{Bootstrap}
-
-\chapter{Wnioski}
 
 % zakończenie 
 \summary
@@ -101,7 +98,11 @@ Treść załącznika dwa.
 \nocite {UIRails}
 \nocite {rails4angular}
 \nocite {modelingUI}
+\nocite{adamAnderson}
+\nocite{angularRailsBootstrap}
+\nocite{angularRails}
 \nocite {angularDoc}
+\nocite{bootstrapDoc}
 \nocite {mongoDoc}
 \nocite {rspecDoc}
 \nocite {railsDoc}
