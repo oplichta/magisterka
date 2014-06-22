@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.6.7)  22 JUN 2014 12:30
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.6.7)  22 JUN 2014 20:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -862,14 +862,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-)
-\tf@toc=\write4
-\openout4 = `magisterka.toc'.
-
  [3
 
 
-]
+])
+\tf@toc=\write4
+\openout4 = `magisterka.toc'.
+
+ [4]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -928,62 +928,74 @@ sups;+smcp;"
 . 
 . This font family consists of the following shapes:
 .................................................
- [4
+ [5
 
 ]
 Rozdział 1.
-[5
 
-]
-Rozdział 2.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 53.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 57.
+
 [6
 
 ]
-Rozdział 3.
+Rozdział 2.
 [7
 
-] [8
+]
+Rozdział 3.
+[8
+
+] [9
 
 ]
 Dodatek A.
-[9
+[10
 
 ]
 Dodatek B.
-(./magisterka.bbl [10
+(./magisterka.bbl [11
 
-]) [11
+]) [12
 
 ] (./magisterka.lot)
 \tf@lot=\write5
 \openout5 = `magisterka.lot'.
 
- [12
+ [13
 
 ] (./magisterka.lof)
 \tf@lof=\write6
 \openout6 = `magisterka.lof'.
 
 
-[13
+[14
 
-] [14
+] [15
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (./magisterka.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 118.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 118.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 117.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 21954 strings out of 493938
- 428523 string characters out of 6148858
+ 21957 strings out of 493938
+ 428639 string characters out of 6148858
  444356 words of memory out of 5000000
- 25011 multiletter control sequences out of 15000+600000
- 7961 words of font info for 66 fonts, out of 8000000 for 9000
+ 25013 multiletter control sequences out of 15000+600000
+ 7969 words of font info for 67 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 53i,6n,45p,945b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,11n,45p,962b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on magisterka.pdf (14 pages).
+Output written on magisterka.pdf (15 pages).
