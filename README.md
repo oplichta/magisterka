@@ -5,10 +5,9 @@
 
 #### Wprowadzenie
 
-Interfejs użytkownika (ang. User Interface - UI ) jest podstawowym sposobem komunikacji pomiędzy człowiekiem a maszyną dlatego tak ważne jest, aby był on intuicyjny i przyjazny dla użytkownika.
-Postaram się pokazać na czym polega tworzenie przyjaznego UI i na czym ta przyjazność ma polegać.
-Wskażę również z jakimi problemami musi się uporać developer aplikacji webowych, aby jego aplikacja była intuicyjna i funkcjonalna. Problem przyjaznego UI bardzo mnie zainteresował i dlatego postanowiłem zgłębić ten temat. Opierając się na  doświadczeniach innych badaczy  między innymi [Roberta Hoekmana](http://helion.pl/ksiazki/magia-interfejsu-praktyczne-metody-projektowania-aplikacji-internetowych-robert-hoekman-jr,magint.htm#szczegoly)  oraz [Jenifer Tidwell](http://helion.pl/ksiazki/projektowanie-interfejsow-sprawdzone-wzorce-projektowe-jenifer-tidwell,projin.htm), którzy opisali swoje spostrzeżenia w ich książkach, postaram się napisać aplikacje PicDrop, która  będzie miała przyjazne UI.
-Opiszę dlaczego wybrałem AngularJS, Bootstrap oraz Ruby on Rails do stworzenia tej aplikacji i dlaczego te a nie inne technologie uważam za najlepszy wybór.
+Interfejs użytkownika (ang. *User Interface* - UI ) jest podstawowym sposobem komunikacji pomiędzy człowiekiem a maszyną dlatego tak ważne jest, aby był on intuicyjny i przyjazny dla użytkownika.
+Postaram się pokazać na czym polega tworzenie przyjaznego UI, aby było intuicyjne dla użytkownika i pozwalało mu na wydajną pracę. Wskażę również z jakimi problemami musi się uporać *developer* aplikacji webowych, aby jego aplikacja była intuicyjna i funkcjonalna. Serwisy do wyszukiwania zdjęć, nie mają dobrego UI i dlatego postanowiłem zgłębić ten temat. Opierając się na  doświadczeniach innych badaczy  między innymi [Roberta Hoekmana jr](http://helion.pl/ksiazki/magia-interfejsu-praktyczne-metody-projektowania-aplikacji-internetowych-robert-hoekman-jr,magint.htm#szczegoly)  oraz [Jenifer Tidwell](http://helion.pl/ksiazki/projektowanie-interfejsow-sprawdzone-wzorce-projektowe-jenifer-tidwell,projin.htm), którzy opisali swoje spostrzeżenia w ich książkach, postaram się napisać aplikacje PicDrop, która  będzie miała przyjazne UI i pozwoli na łatwe udostępnianie treści.
+Opiszę dlaczego wybrałem *AngularJS*, *Bootstrap* oraz *Ruby on Rails* do stworzenia tej aplikacji i dlaczego te technologie uważam za najlepszy wybór.
 
 #### Bibliografia
 
