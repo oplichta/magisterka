@@ -14,19 +14,6 @@ Jenifer Tidwell.
   interfejs{\'o}w. Sprawdzone wzorce projektowe}}.
 \newblock Helion, 2012.
 
-\bibitem{adamAnderson}
-Adam Anderson.
-\newblock \href
-  {http://asanderson.org/posts/2013/06/03/bootstrapping-angular-rails-part-1}{Bootstrapping
-  an AngularJS app in Rails 4.0}.
-\newblock 2013.
-
-\bibitem{angularRailsBootstrap}
-David~Bryant Copeland.
-\newblock \href{http://angular-rails.com/bootstrap.html}{Creating a Skeleton
-  App}.
-\newblock 2014.
-
 \bibitem{design}
 Don Norman.
 \newblock {\em
@@ -42,18 +29,18 @@ Steve Krug.
   funkcjonalno{\'s}ci stron internetowych}}.
 \newblock Helion, 2012.
 
+\bibitem{DouglasCrockford}
+DouglasCrockford.
+\newblock {\em
+  \href{http://helion.pl/ksiazki/javascript-mocne-strony-douglas-crockford,jscmoc.htm#szczegoly}{JavaScript
+  - Mocne Strony}}.
+\newblock Helion, 2011.
+
 \bibitem{UIRails}
 Joe Fiorini.
 \newblock \href{https://coderwall.com/p/zg4zfq}{User Interface Thinking in
   Rails: An Example}.
 \newblock 2012.
-
-\bibitem{rails4angular}
-Micha{\l} Kwiatkowski.
-\newblock
-  \href{https://shellycloud.com/blog/2013/10/how-to-integrate-angularjs-with-rails-4}{How
-  to integrate angularjs with rails}.
-\newblock 2013.
 
 \bibitem{modelingUI}
 Rolf Hennicker~Nora Koch.
@@ -62,27 +49,35 @@ Rolf Hennicker~Nora Koch.
   the User Interface of Web Applications}.
 \newblock 2001.
 
-\bibitem{angularRails}
-Jason Swett.
-\newblock
-  \href{https://www.honeybadger.io/blog/2013/12/11/beginners-guide-to-angular-js-rails}{Getting
-  Started with AngularJS and Rails 4}.
-\newblock 2013.
-
-\bibitem{angularDoc}
-\href{https://docs.angularjs.org/api}{AngularJS API Docs} dostęp 2014-06-21.
-
 \bibitem{bootstrapDoc}
-\href{http://getbootstrap.com}{Bootstrap Docs} dostęp 2014-06-21.
+\href{http://getbootstrap.com}{Bootstrap Docs} dostęp 2015-05-12.
 
 \bibitem{mongoDoc}
-\href {http://docs.mongodb.org/manual/}{MongoDB Docs} dostęp 2014-06-21.
+\href {http://docs.mongodb.org/manual/}{MongoDB Docs} dostęp 2015-05-12.
 
 \bibitem{rspecDoc}
-\href {http://rspec.info/}{Rspec Docs} dostęp 2014-06-21.
+\href {http://rspec.info/}{Rspec Docs} dostęp 2015-05-12.
 
 \bibitem{railsDoc}
 \href{http://rubyonrails.org/documentation}{Ruby on Rails Docs} dostęp
-  2014-06-21.
+  2015-05-12.
+
+\bibitem{emberDoc}
+\href{http://emberjs.com}{EmberJs Docs} dostęp 2015-05-12.
+
+\bibitem{emberCLIDoc}
+\href{http://www.ember-cli.com}{Ember CLI Docs} dostęp 2015-05-12.
+
+\bibitem{emberRails}
+\href{https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux-part-1-the-api-and-cms-with-ruby-on-rails}{Ember
+  Rails } dostęp 2015-05-12.
+
+\bibitem{emberTutorial}
+\href{https://www.airpair.com/javascript/emberjs-using-ember-cli}{EmberJS
+  Tutorial} dostęp 2015-05-12.
+
+\bibitem{emberIntro}
+\href{http://www.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/}{Introduction
+  to Ember} dostęp 2015-05-12.
 
 \end{thebibliography}

@@ -30,10 +30,10 @@
 
 \begin{abstract}
 
-W pracy zostanie przedstawiony przyjazny dla użytkownika interfejs aplikacji internetowej w web 3.0. Interfejs zostanie zaimplementowany w programie PicDrop,  który będzie spełniał założenia przyjaznego interfejsu. Celem aplikacji jest zbudowanie intuicyjnego interfejsu użytkownika do udostępniania fotografii wykonanego w \textit{AngularJS}, \textit{Bootstrap} oraz \textit{Ruby on Rails}. Aplikacja ma na celu być prosta \\ w obsłudze i ma za zadainie wyszukiwanie fotografi oraz ich łatwe udostępnianie dla wielu użytkowników jednocześnie. Ostatecznie aplikacja została wykonana zgodnie z założeniami i spełnia wyznaczone cele.
+W pracy zostanie przedstawiony przyjazny dla użytkownika interfejs aplikacji internetowej w web 3.0. Interfejs zostanie zaimplementowany w programie PicDrop,  który będzie spełniał założenia przyjaznego interfejsu. Celem aplikacji jest zbudowanie intuicyjnego interfejsu użytkownika do udostępniania fotografii wykonanego w \textit{EmberJS}, \textit{Bootstrap} oraz \textit{Ruby on Rails}. Aplikacja ma na celu być prosta \\ w obsłudze i ma za zadainie wyszukiwanie fotografi oraz ich łatwe udostępnianie dla wielu użytkowników jednocześnie. Ostatecznie aplikacja została wykonana zgodnie z założeniami i spełnia wyznaczone cele.
 
 \end{abstract}
-\keywords{\textit{User Interface, Ruby on Rails,Bootstrap, AngularJS, MongoDB, WebSockets, RSpec}}
+\keywords{\textit{User Interface, Ruby on Rails,Bootstrap, EmberJS, MongoDB, WebSockets, RSpec}}
 
 % tytuł i spis treści
 \maketitle
@@ -41,7 +41,7 @@ W pracy zostanie przedstawiony przyjazny dla użytkownika interfejs aplikacji in
 % wstęp
 \introduction
 Interfejs użytkownika \footnote{ang. \textit{User Interface} - UI}  jest podstawowym sposobem komunikacji pomiędzy człowiekiem a maszyną dlatego tak ważne jest, aby był on intuicyjny i przyjazny dla użytkownika. 
-Postaram się pokazać na czym polega tworzenie przyjaznego UI, aby było intuicyjne dla użytkownika i pozwalało mu na wydajną pracę. Wskażę również z jakimi problemami musi się uporać \textit{developer} aplikacji webowych, aby jego aplikacja była intuicyjna i funkcjonalna. Serwisy do wyszukiwania zdjęć, nie mają dobrego UI i dlatego postanowiłem zgłębić ten temat. Opierając się na  doświadczeniach innych badaczy  między innymi Roberta Hoekmana jr  \cite {magiaUI} oraz Jenifer Tidwell  \cite {projektowanieUI}, którzy opisali swoje spostrzeżenia w ich książkach, postaram się napisać aplikacje PicDrop, która  będzie miała przyjazne UI i pozwoli na łatwe udostępnianie treści. Opiszę dlaczego wybrałem \textit{AngularJS}, \textit{Bootstrap} oraz \textit{Ruby on Rails} do stworzenia tej aplikacji i dlaczego te technologie uważam za najlepszy wybór.
+Postaram się pokazać na czym polega tworzenie przyjaznego UI, aby było intuicyjne dla użytkownika i pozwalało mu na wydajną pracę. Wskażę również z jakimi problemami musi się uporać \textit{developer} aplikacji webowych, aby jego aplikacja była intuicyjna i funkcjonalna. Serwisy do wyszukiwania zdjęć, nie mają dobrego UI i dlatego postanowiłem zgłębić ten temat. Opierając się na  doświadczeniach innych badaczy  między innymi Roberta Hoekmana jr  \cite {magiaUI} oraz Jenifer Tidwell  \cite {projektowanieUI}, którzy opisali swoje spostrzeżenia w ich książkach, postaram się napisać aplikacje PicDrop, która  będzie miała przyjazne UI i pozwoli na łatwe udostępnianie treści. Opiszę dlaczego wybrałem \textit{EmberJS}, \textit{Bootstrap} oraz \textit{Ruby on Rails} do stworzenia tej aplikacji i dlaczego te technologie uważam za najlepszy wybór.
 
 
 \chapter{Kierunki rozwoju interfejsów użytkownika}
@@ -64,13 +64,19 @@ Postaram się pokazać na czym polega tworzenie przyjaznego UI, aby było intuic
 
 \chapter{Aplikacja do wyszukiwania i udostępniania zdjęć PicDrop}
 
-Spośród mnóstwa technologii do tworzenia interfejsów użytkownika, najbardziej przodujące są oparte te na języku \textit{JavaScript} takie jak \textit{Bootstrap},\textit{ jQuery} czy\\ \textit{AngularJS}. Opierając się na artykułach \cite{adamAnderson} oraz \cite{angularRailsBootstrap} postanowiłem wybrać \textit{AngularJS}, \textit{Bootstrap} oraz \textit{Ruby on Rails}. UI zostanie wykonane w \textit{AngularJS}, jest to stworzona i cały czas usprawniana przez firmę \textit{Google}, biblioteka języka \textit{JavaScript}. Posiada ona szereg mechanizmów ułatwiających developerom tworzenie UI na jej podstawie, ma także czytelną i przejrzystą dokumentację. UI aplikacji zostanie dodatkowo upiększone poprzez \textit{framework Bootstrap}. Na serwer  wybrałem sprawdzonego \textit{Ruby on Rails}, które pozwala na szybkie tworzenie aplikacji internetowych oraz dzięki narzędziu \textit{RSpec} na łatwe testowanie kodu. 
+Spośród mnóstwa technologii do tworzenia interfejsów użytkownika, najbardziej przodujące są oparte te na języku \textit{JavaScript} takie jak \textit{Bootstrap},\textit{ jQuery} czy\\ \textit{AngularJS}. Opierając się na artykułach \cite{adamAnderson} oraz \cite{angularRailsBootstrap} postanowiłem wybrać \textit{EmberJS}, \textit{Bootstrap} oraz \textit{Ruby on Rails}. UI zostanie wykonane w \textit{EmberJS}, jest to  biblioteka  \textit{open-source} języka \textit{JavaScript} stworzona  przez  Yehuda Katz'a  Tom Dale'a, która jest cały czas usprawniana przez społeczność. Posiada ona szereg mechanizmów ułatwiających developerom tworzenie UI na jej podstawie, ma także czytelną i przejrzystą dokumentację. UI aplikacji zostanie dodatkowo upiększone poprzez \textit{framework Bootstrap}. Na serwer  wybrałem sprawdzonego \textit{Ruby on Rails}, które pozwala na szybkie tworzenie aplikacji internetowych oraz dzięki narzędziu \textit{RSpec} na łatwe testowanie kodu. 
 
 \section{Cele aplikacji}
 
+Głównym celem aplikacji PicDrop jest proste i intuicyjne udostępnianie fotografii. Użytkownik może wgrać własne fotografie lub wyszukac poprzez wbudowaną wyszukiwarkę. Następnie wystarczy, że użytkownik przeciągnie wybrane zdjęcia do bocznego paska i kliknie guzik z symbolem portalu gdzie chce udostępnić swoje fotografie. To wszystko. Obsługa jest szybka i bezproblemowa. 
+
 \section{Funkcjonowanie aplikacji}
 
+Aplikacja wczytuje zdjęcia z bazy danych MongoDB, wysyła je przez JSON do klienta i tam EmberJS odpowiednio obrabia dane pokazując je w formie przyjaznej użytkownikowi. Następnie, gdy chcemy udostępnić jakiś plik to jest to obsługiwane także przez EmberJS, tak aby komunikacja była szybka i niezawodna. 
+
 \section{Opis tworzenia aplikacji PicDrop}
+
+Aplikacja składa się z dwóch części. Pierwszą z nich jest serwer API, które zostało stworzone w technologi Ruby on Rails w oparciu o gem Grape. API jest pośrednikiem między bazą danych MongoDB a drugą częścią aplikacji czyli klientem stworzonym w EmberJS, który jest odpowiedzialny za warstwę wizualną aplikacji. Obie części komunikują się poprzez  JSON. Dzięki takiemu rozwiązaniu można stworzyć dodatkowych klientów, na przykład do aplikacji mobilnych.
 
 \section{Opis własnych rozwiązań}   
 
@@ -94,17 +100,18 @@ Treść załącznika dwa.
 \nocite {design}
 \nocite {projektowanieUI}
 \nocite {StiveKrug}
+\nocite{DouglasCrockford}
 \nocite {UIRails}
-\nocite {rails4angular}
 \nocite {modelingUI}
-\nocite{adamAnderson}
-\nocite{angularRailsBootstrap}
-\nocite{angularRails}
-\nocite {angularDoc}
 \nocite{bootstrapDoc}
 \nocite {mongoDoc}
 \nocite {rspecDoc}
 \nocite {railsDoc}
+\nocite {emberDoc}
+\nocite{emberCLIDoc}
+\nocite{emberRails}
+\nocite{emberTutorial}
+\nocite{emberIntro}
 
 % spis tabel (jeżeli jest potrzebny):
 \listoftables
