@@ -49,35 +49,29 @@ Rolf Hennicker~Nora Koch.
   the User Interface of Web Applications}.
 \newblock 2001.
 
-\bibitem{bootstrapDoc}
-\href{http://getbootstrap.com}{Bootstrap Docs} dostęp 2015-05-12.
-
-\bibitem{mongoDoc}
-\href {http://docs.mongodb.org/manual/}{MongoDB Docs} dostęp 2015-05-12.
-
 \bibitem{rspecDoc}
-\href {http://rspec.info/}{Rspec Docs} dostęp 2015-05-12.
+\href {http://rspec.info/}{Rspec Docs} dost{\k e}p 2015-05-12.
 
 \bibitem{railsDoc}
-\href{http://rubyonrails.org/documentation}{Ruby on Rails Docs} dostęp
+\href{http://rubyonrails.org/documentation}{Ruby on Rails Docs} dost{\k e}p
   2015-05-12.
 
 \bibitem{emberDoc}
-\href{http://emberjs.com}{EmberJs Docs} dostęp 2015-05-12.
+\href{http://emberjs.com}{EmberJs Docs} dost{\k e}p 2015-05-12.
 
 \bibitem{emberCLIDoc}
-\href{http://www.ember-cli.com}{Ember CLI Docs} dostęp 2015-05-12.
+\href{http://www.ember-cli.com}{Ember CLI Docs} dost{\k e}p 2015-05-12.
 
 \bibitem{emberRails}
 \href{https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux-part-1-the-api-and-cms-with-ruby-on-rails}{Ember
-  Rails } dostęp 2015-05-12.
+  Rails } dost{\k e}p 2015-05-12.
 
 \bibitem{emberTutorial}
 \href{https://www.airpair.com/javascript/emberjs-using-ember-cli}{EmberJS
-  Tutorial} dostęp 2015-05-12.
+  Tutorial} dost{\k e}p 2015-05-12.
 
 \bibitem{emberIntro}
 \href{http://www.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/}{Introduction
-  to Ember} dostęp 2015-05-12.
+  to Ember} dost{\k e}p 2015-05-12.
 
 \end{thebibliography}

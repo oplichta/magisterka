@@ -3,21 +3,37 @@
 \contentsline {chapter}{\numberline {1}Kierunki rozwoju interfejsów użytkownika}{6}{chapter.1}
 \contentsline {section}{\numberline {1.1}Wprowadzenie do interfejsów użykownika}{6}{section.1.1}
 \contentsline {section}{\numberline {1.2}Nowe sposoby udostępniania treści}{6}{section.1.2}
-\contentsline {section}{\numberline {1.3}Przyjazne i intuicyjne interfejsy użytkownika\\ w web 3.0}{6}{section.1.3}
-\contentsline {section}{\numberline {1.4}Przyjazne i intuicyjne interfejsy użytkownika\\ w tabletach}{6}{section.1.4}
-\contentsline {section}{\numberline {1.5}Przyjazne i intuicyjne interfejsy użytkownika\\ w smartphonach}{6}{section.1.5}
+\contentsline {section}{\numberline {1.3}Przyjazne i intuicyjne UI\\ w web 3.0}{6}{section.1.3}
+\contentsline {section}{\numberline {1.4}Przyjazne i intuicyjne UI\\ w tabletach}{6}{section.1.4}
+\contentsline {section}{\numberline {1.5}Przyjazne i intuicyjne UI\\ w smartphonach}{6}{section.1.5}
 \contentsline {chapter}{\numberline {2}Projekt UI dla aplikacji PicDrop}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Przyjazność i intuicyjność UI w aplikacji PicDrop}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}Udostępnianie treści w aplikacji PicDrop}{7}{section.2.2}
+\contentsline {section}{\numberline {2.1}Przyjazność i intuicyjność UI w aplikacji PicDrop }{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Wytyczne odnośnie UI w Material Design}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}Interfejs użytkownika w oparciu o framework Materialize }{7}{section.2.3}
 \contentsline {chapter}{\numberline {3}Aplikacja do wyszukiwania i udostępniania zdjęć PicDrop}{8}{chapter.3}
 \contentsline {section}{\numberline {3.1}Cele aplikacji}{8}{section.3.1}
 \contentsline {section}{\numberline {3.2}Funkcjonowanie aplikacji}{8}{section.3.2}
-\contentsline {section}{\numberline {3.3}Opis tworzenia aplikacji PicDrop}{9}{section.3.3}
-\contentsline {section}{\numberline {3.4}Opis własnych rozwiązań}{9}{section.3.4}
-\contentsline {chapter}{Zakończenie}{10}{chapter*.5}
-\contentsline {chapter}{\numberline {A}Tytuł załącznika jeden}{11}{appendix.A}
-\contentsline {chapter}{\numberline {B}Tytuł załącznika dwa}{12}{appendix.B}
-\contentsline {chapter}{Bibliografia}{13}{appendix*.6}
-\contentsline {chapter}{Spis tabel}{14}{appendix*.7}
-\contentsline {chapter}{Spis rysunków}{15}{appendix*.8}
-\contentsline {chapter}{Oświadczenie}{16}{appendix*.9}
+\contentsline {section}{\numberline {3.3}Ogólna budowa aplikacji PicDrop}{9}{section.3.3}
+\contentsline {chapter}{\numberline {4}Szczegóły budowy aplikacji PicDrop}{10}{chapter.4}
+\contentsline {section}{\numberline {4.1}API aplikacji}{10}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Budowa API w oparciu o Ruby on Rails}{10}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Połączenie z bazą danych PostgreSQL}{10}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Dodawanie gemów w Ruby on Rails}{10}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Połączenie z API różnych sieci społecznościowych}{10}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Autoryzacja użytkowników}{10}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Testowanie przy użyciu RSpec}{10}{subsection.4.1.6}
+\contentsline {section}{\numberline {4.2}Front-end aplikacji}{10}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Budowa Front-endu w oparciu o framework EmberJS }{10}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Połączenie z API}{11}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Opis narzędzia Ember-CLI}{11}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Dodawanie wtyczek do aplikacji w EmberJS}{11}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Aplikacja mobilna na system Android}{12}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Zalety aplikacji mobilnej względem strony w mobilnej przeglądarce}{12}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Tworzenie aplikacji przy użyciu narzedzia Cordova}{12}{subsection.4.3.2}
+\contentsline {chapter}{Zakończenie}{13}{chapter*.5}
+\contentsline {chapter}{\numberline {A}Tytuł załącznika jeden}{14}{appendix.A}
+\contentsline {chapter}{\numberline {B}Tytuł załącznika dwa}{15}{appendix.B}
+\contentsline {chapter}{Bibliografia}{16}{appendix*.6}
+\contentsline {chapter}{Spis tabel}{17}{appendix*.7}
+\contentsline {chapter}{Spis rysunków}{18}{appendix*.8}
+\contentsline {chapter}{Oświadczenie}{19}{appendix*.9}
