@@ -1,38 +1,42 @@
 \BOOKMARK [0][-]{chapter*.4}{Wprowadzenie}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Kierunki rozwoju interfejsów użytkownika}{}% 2
-\BOOKMARK [1][-]{section.1.1}{Wprowadzenie do interfejsów użykownika}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.2}{Nowe sposoby udostępniania treści}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.3}{Przyjazne\040i\040intuicyjne\040UI\040w\040web\0403.0}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.4}{Przyjazne\040i\040intuicyjne\040UI\040w\040tabletach}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.5}{Przyjazne\040i\040intuicyjne\040UI\040w\040smartphonach}{chapter.1}% 7
-\BOOKMARK [0][-]{chapter.2}{Projekt\040UI\040dla\040aplikacji\040PicDrop}{}% 8
-\BOOKMARK [1][-]{section.2.1}{Przyjazność i intuicyjność UI w aplikacji PicDrop }{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.2}{Wytyczne odnośnie UI w Material Design}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.3}{Interfejs użytkownika w oparciu o framework Materialize }{chapter.2}% 11
-\BOOKMARK [0][-]{chapter.3}{Aplikacja do wyszukiwania i udostępniania zdjęć PicDrop}{}% 12
-\BOOKMARK [1][-]{section.3.1}{Cele\040aplikacji}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.2}{Funkcjonowanie\040aplikacji}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.3}{Ogólna budowa aplikacji PicDrop}{chapter.3}% 15
-\BOOKMARK [0][-]{chapter.4}{Szczegóły budowy aplikacji PicDrop}{}% 16
-\BOOKMARK [1][-]{section.4.1}{API\040aplikacji}{chapter.4}% 17
-\BOOKMARK [2][-]{subsection.4.1.1}{Budowa\040API\040w\040oparciu\040o\040Ruby\040on\040Rails}{section.4.1}% 18
-\BOOKMARK [2][-]{subsection.4.1.2}{Połączenie z bazą danych PostgreSQL}{section.4.1}% 19
-\BOOKMARK [2][-]{subsection.4.1.3}{Dodawanie gemów w Ruby on Rails}{section.4.1}% 20
-\BOOKMARK [2][-]{subsection.4.1.4}{Połączenie z API różnych sieci społecznościowych}{section.4.1}% 21
-\BOOKMARK [2][-]{subsection.4.1.5}{Autoryzacja użytkowników}{section.4.1}% 22
-\BOOKMARK [2][-]{subsection.4.1.6}{Testowanie przy użyciu RSpec}{section.4.1}% 23
-\BOOKMARK [1][-]{section.4.2}{Front-end\040aplikacji}{chapter.4}% 24
-\BOOKMARK [2][-]{subsection.4.2.1}{Budowa\040Front-endu\040w\040oparciu\040o\040framework\040EmberJS\040}{section.4.2}% 25
-\BOOKMARK [2][-]{subsection.4.2.2}{Połączenie z API}{section.4.2}% 26
-\BOOKMARK [2][-]{subsection.4.2.3}{Opis narzędzia Ember-CLI}{section.4.2}% 27
-\BOOKMARK [2][-]{subsection.4.2.4}{Dodawanie\040wtyczek\040do\040aplikacji\040w\040EmberJS}{section.4.2}% 28
-\BOOKMARK [1][-]{section.4.3}{Aplikacja\040mobilna\040na\040system\040Android}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.3.1}{Zalety aplikacji mobilnej względem strony w mobilnej przeglądarce}{section.4.3}% 30
-\BOOKMARK [2][-]{subsection.4.3.2}{Tworzenie aplikacji przy użyciu narzedzia Cordova}{section.4.3}% 31
-\BOOKMARK [0][-]{chapter*.5}{Zakończenie}{}% 32
-\BOOKMARK [0][-]{appendix.A}{Tytuł załącznika jeden}{}% 33
-\BOOKMARK [0][-]{appendix.B}{Tytuł załącznika dwa}{}% 34
-\BOOKMARK [0][-]{appendix*.6}{Bibliografia}{}% 35
-\BOOKMARK [0][-]{appendix*.7}{Spis\040tabel}{}% 36
-\BOOKMARK [0][-]{appendix*.8}{Spis rysunków}{}% 37
-\BOOKMARK [0][-]{appendix*.9}{Oświadczenie}{}% 38
+\BOOKMARK [0][-]{chapter.1}{Budowa aplikacji modularnej do udostępniania fotografii w web 3.0}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Porównanie dostępnych rozwiązań}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Możliwości zastosowania praktycznego}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Projekt\040i\040analiza}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Aktorzy i przypadki użycia, wymagania funkcjonalne i niefunkcjonalne}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Diagram\040klas}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Diagram\040modelu\040danych}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.4}{Projekt interfejsu użytkownika w oparciu o framework Materialize}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.4.1}{Wytyczne odnośnie UI w Material Design}{section.2.4}% 10
+\BOOKMARK [0][-]{chapter.3}{Implementacja\040aplikacji\040PicDrop}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Architektura\040aplikacji\040PicDrop}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{Użyte technologie}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{API\040aplikacji}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.3.1}{Budowa\040API\040w\040oparciu\040o\040Ruby\040on\040Rails}{section.3.3}% 15
+\BOOKMARK [2][-]{subsection.3.3.2}{Połączenie z bazą danych PostgreSQL}{section.3.3}% 16
+\BOOKMARK [2][-]{subsection.3.3.3}{Dodawanie gemów w Ruby on Rails}{section.3.3}% 17
+\BOOKMARK [2][-]{subsection.3.3.4}{Połączenie z API różnych sieci społecznościowych}{section.3.3}% 18
+\BOOKMARK [2][-]{subsection.3.3.5}{Autoryzacja użytkowników}{section.3.3}% 19
+\BOOKMARK [1][-]{section.3.4}{Front-end\040aplikacji}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.4.1}{Budowa\040Front-endu\040w\040oparciu\040o\040framework\040EmberJS\040}{section.3.4}% 21
+\BOOKMARK [2][-]{subsection.3.4.2}{Połączenie z API}{section.3.4}% 22
+\BOOKMARK [2][-]{subsection.3.4.3}{Opis narzędzia Ember-CLI}{section.3.4}% 23
+\BOOKMARK [2][-]{subsection.3.4.4}{Dodawanie\040wtyczek\040do\040aplikacji\040w\040EmberJS}{section.3.4}% 24
+\BOOKMARK [1][-]{section.3.5}{Aplikacja\040mobilna\040na\040system\040Android}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.5.1}{Zalety aplikacji mobilnej względem strony w mobilnej przeglądarce}{section.3.5}% 26
+\BOOKMARK [2][-]{subsection.3.5.2}{Tworzenie aplikacji przy użyciu narzedzia Cordova}{section.3.5}% 27
+\BOOKMARK [0][-]{chapter.4}{Testy}{}% 28
+\BOOKMARK [1][-]{section.4.1}{Testowanie API przy użyciu RSpec}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.1.1}{Scenariusz\040testowania}{section.4.1}% 30
+\BOOKMARK [2][-]{subsection.4.1.2}{Raport z testów}{section.4.1}% 31
+\BOOKMARK [1][-]{section.4.2}{Testowanie Front-end przy użyciu Jasmine}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.2.1}{Scenariusz\040testowania}{section.4.2}% 33
+\BOOKMARK [2][-]{subsection.4.2.2}{Raport z testów}{section.4.2}% 34
+\BOOKMARK [0][-]{chapter.5}{Wkład własny}{}% 35
+\BOOKMARK [0][-]{chapter*.5}{Zakończenie}{}% 36
+\BOOKMARK [0][-]{appendix.A}{Tytuł załącznika jeden}{}% 37
+\BOOKMARK [0][-]{appendix.B}{Tytuł załącznika dwa}{}% 38
+\BOOKMARK [0][-]{appendix*.6}{Bibliografia}{}% 39
+\BOOKMARK [0][-]{appendix*.7}{Spis\040tabel}{}% 40
+\BOOKMARK [0][-]{appendix*.8}{Spis rysunków}{}% 41
+\BOOKMARK [0][-]{appendix*.9}{Oświadczenie}{}% 42

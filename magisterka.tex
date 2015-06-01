@@ -17,7 +17,7 @@
 \email    {oskar.plichta22@gmail.com}
 
 
-\title    {Tworzenie przyjaznego interfejsu użytkownika w aplikacjach do udostępniania fotografii }
+\title    {Budowa aplikacji modularnej do udostępniania fotografii  w web 3.0}
 \date     {2015}
 \miejsce  {Gdańsk}
 
@@ -44,54 +44,43 @@ Interfejs użytkownika \footnote{ang. \textit{User Interface} - UI}  jest podsta
 Postaram się pokazać na czym polega tworzenie przyjaznego UI, aby było intuicyjne dla użytkownika i pozwalało mu na wydajną pracę. Wskażę również z jakimi problemami musi się uporać \textit{developer} aplikacji webowych, aby jego aplikacja była intuicyjna i funkcjonalna. Serwisy do wyszukiwania zdjęć, nie mają dobrego UI i dlatego postanowiłem zgłębić ten temat. Opierając się na  doświadczeniach innych badaczy  między innymi Roberta Hoekmana jr  \cite {magiaUI} oraz Jenifer Tidwell  \cite {projektowanieUI}, którzy opisali swoje spostrzeżenia w ich książkach, postaram się napisać aplikacje PicDrop, która  będzie miała przyjazne UI i pozwoli na łatwe udostępnianie treści. Opiszę dlaczego wybrałem \textit{EmberJS}, \textit{Bootstrap} oraz \textit{Ruby on Rails} do stworzenia tej aplikacji i dlaczego te technologie uważam za najlepszy wybór.
 
 
-\chapter{Kierunki rozwoju interfejsów użytkownika}
+\chapter{Budowa aplikacji modularnej do udostępniania fotografii  w web 3.0}
 
-\section{Wprowadzenie do interfejsów użykownika}
-
-\section{Nowe sposoby udostępniania treści}
-
-\section{Przyjazne i intuicyjne UI\\ w web 3.0}
-
-\section{Przyjazne i intuicyjne UI\\ w tabletach}
-
-\section{Przyjazne i intuicyjne UI\\ w smartphonach}
-
-\chapter{Projekt UI dla aplikacji PicDrop}
-
-\section{Przyjazność i intuicyjność  UI w aplikacji PicDrop }
-\section{Wytyczne odnośnie UI w Material Design}
-\section{Interfejs użytkownika w oparciu o framework Materialize }
+\section{Porównanie dostępnych rozwiązań}
+Każdy serwis społecznościowy posiada swoje możliwości udostępniania zdjęc, które ograniczają sie do jednej strony naraz. Tak więc jeśli chcemy wgrać swoje zdjęcia jednocześnie na Facebooka oraz Flickr to musimy je wgrać na jeden z tych dwóch serwisów a następnie na kolejny. Takie rozwiązanie zajmuje dużo czasu i jest niekorzystne dla użytkownika.
+\section{Możliwości zastosowania praktycznego}
+Głównym celem aplikacji PicDrop jest proste i intuicyjne udostępnianie fotografii. Użytkownik może wgrać własne fotografie poprzez przeciągniecie do okna przeglądarki. Następnie wystarczy, że użytkownik kliknie guzik z symbolem portalu gdzie chce udostępnić swoje fotografie i zaloguje sie na wybrany portal społecznościowy. To wszystko. Obsługa jest szybka i bezproblemowa. 
 
 
-\chapter{Aplikacja do wyszukiwania i udostępniania zdjęć PicDrop}
-
-Spośród mnóstwa technologii do tworzenia interfejsów użytkownika, najbardziej przodujące są oparte te na języku \textit{JavaScript} takie jak \textit{Bootstrap},\textit{ jQuery} czy\\ \textit{AngularJS}. Opierając się na artykułach \cite{} oraz \cite{} postanowiłem wybrać \textit{EmberJS}, \textit{Materialize} oraz \textit{Ruby on Rails}. UI zostanie wykonane w \textit{EmberJS}, jest to  biblioteka  \textit{open-source} języka \textit{JavaScript} stworzona  przez  Yehuda Katz'a  Tom Dale'a, która jest cały czas usprawniana przez społeczność. Posiada ona szereg mechanizmów ułatwiających developerom tworzenie UI na jej podstawie, ma także czytelną i przejrzystą dokumentację. UI aplikacji zostanie dodatkowo upiększone poprzez \textit{framework Materialize}, a \textit{Jasmine} pozwala na testowanie kodu w JavaScript. Na serwer  wybrałem sprawdzonego \textit{Ruby on Rails}, które pozwala na szybkie tworzenie aplikacji internetowych oraz dzięki narzędziu \textit{RSpec} na łatwe testowanie kodu. 
-
-\section{Cele aplikacji}
-
-Głównym celem aplikacji PicDrop jest proste i intuicyjne udostępnianie fotografii. Użytkownik może wgrać własne fotografie lub wyszukac poprzez wbudowaną wyszukiwarkę. Następnie wystarczy, że użytkownik przeciągnie wybrane zdjęcia do bocznego paska i kliknie guzik z symbolem portalu gdzie chce udostępnić swoje fotografie. To wszystko. Obsługa jest szybka i bezproblemowa. 
-
-\section{Funkcjonowanie aplikacji}
-
+\chapter{Projekt i analiza}
+\section{Aktorzy i przypadki użycia, wymagania funkcjonalne i niefunkcjonalne}
 Aplikacja wczytuje zdjęcia z bazy danych PostgreSQL, wysyła je przez JSON do klienta i tam EmberJS odpowiednio obrabia dane pokazując je w formie przyjaznej użytkownikowi. Następnie, gdy chcemy udostępnić jakiś plik to jest to obsługiwane także przez EmberJS, tak aby komunikacja była szybka i niezawodna. Jednakże jeśli użytkownik wczytuje własne zdjęcia, które chce udostępnić to są one zamieniane na ciąg znaków w standardzie Base64Image i wysyłane wiadomością JSON do API. Tam back-end łączy się z wybranym portalem społecznościowym i przesyła do niego zdjęcia. 
+\section{Diagram klas}
+\section{Diagram modelu danych}
+\section{Projekt interfejsu użytkownika w oparciu o framework Materialize}
+\subsection{Wytyczne odnośnie UI w Material Design}
 
-\section{Ogólna budowa aplikacji PicDrop}
+\chapter{Implementacja aplikacji PicDrop}
+\section{Architektura aplikacji PicDrop}
 
 Aplikacja składa się z dwóch części. Pierwszą z nich jest serwer API, które zostało stworzone w technologi Ruby on Rails w oparciu o gem rails-api. API jest pośrednikiem między bazą danych PostgreSQL a drugą częścią aplikacji czyli klientem stworzonym w EmberJS, który jest odpowiedzialny za warstwę wizualną aplikacji. Obie części komunikują się poprzez  JSON. Dzięki takiemu rozwiązaniu można stworzyć dodatkowych klientów, na przykład do aplikacji mobilnych.
- 
 
-\chapter{Szczegóły budowy aplikacji PicDrop}
+\section{Użyte technologie}
+Część serwerowa aplikacji może zostac wykonana w wielu językach programowania takich jak Ruby, Python, JavaScript czy PHP.
+Wybrałem język Ruby, ponieważ jest on szybkim językiem skryptowym oraz posiada stabilny i sprawdzony framework \textit{Ruby on Rails}, który pozwala na szybkie tworzenie aplikacji internetowych oraz dzięki narzędziu \textit{RSpec} na łatwe testowanie kodu. 
+Spośród mnóstwa technologii do tworzenia interfejsów użytkownika, najbardziej przodujące są oparte te na języku \textit{JavaScript} takie jak \textit{Bootstrap},\textit{ jQuery} czy\\ \textit{AngularJS}. Opierając się na artykułach \cite{} oraz \cite{} postanowiłem wybrać \textit{EmberJS}, \textit{Materialize} oraz \textit{Ruby on Rails}. UI zostanie wykonane w \textit{EmberJS}, jest to  biblioteka  \textit{open-source} języka \textit{JavaScript} stworzona  przez  Yehuda Katz'a  Tom Dale'a, która jest cały czas usprawniana przez społeczność. Posiada ona szereg mechanizmów ułatwiających developerom tworzenie UI na jej podstawie, ma także czytelną i przejrzystą dokumentację. UI aplikacji zostanie dodatkowo upiększone poprzez \textit{framework Materialize}, a \textit{Jasmine} pozwala na testowanie kodu w JavaScript.
+
 \section{API aplikacji}
 \subsection{Budowa API w oparciu o Ruby on Rails}
 \subsection{Połączenie z bazą danych PostgreSQL}
 \subsection{Dodawanie gemów w Ruby on Rails}
 \subsection{Połączenie z API różnych sieci społecznościowych}
 \subsection{Autoryzacja użytkowników}
-\subsection{Testowanie przy użyciu RSpec}
+
 \section{Front-end aplikacji}
 
 \subsection{Budowa Front-endu w oparciu o framework EmberJS }
-Warstwa wizualna aplikacji czyli tak zwany front-end został wykonany przy użyciu frameworka EmberJS. Dzięki temu łatwiej zarządzać tą cześcią aplikacji. EmberJS opiera się na wzorcu Model-View-Controler (pol. Model-Widok-Kontroler)co oznacza, że składa się z
+Warstwa wizualna aplikacji czyli tak zwany front-end został wykonany przy użyciu frameworka EmberJS. Dzięki temu łatwiej zarządzać tą cześcią aplikacji. EmberJS opiera się na wzorcu Model-View-Controler (pol. Model-Widok-Kontroler) co oznacza, że składa się z
 trzech podstawowych części opowiedzialnych za różne akcje. Model  jest pewną reprezentacją problemu bądź logiki aplikacji. W naszym przypadku model jest szablonem z opisanymi typami danych danego zasobu np. zdjęcia. Model również komunikuje się z Ember Data czyli warstwą aplikacji bezpośrednio komunikującą się z serwerem.  Widok opisuje, jak wyświetlić pewną część modelu w ramach interfejsu użytkownika. W EmberJS widok składa się z tak zwanych templates czyli kodem HTML z aktywnie zmieniającymi się częściami. Kontroller przyjmuje dane wejściowe od użytkownika i reaguje na jego akcje, zarządzając aktualizacje modelu oraz odświeżenie widoków. Kontroler w EmberJS pobiera dane z modelu oraz zarządza akcjami w widoku.
 
 \subsection{Połączenie z API}
@@ -107,6 +96,14 @@ Wtyczki są to programy dodające jakąś funkcjonalność do naszego programu, 
 \subsection{Zalety aplikacji mobilnej względem strony w mobilnej przeglądarce}
 \subsection{Tworzenie aplikacji przy użyciu narzedzia Cordova}
 
+\chapter{Testy}
+\section{Testowanie API przy użyciu RSpec}
+\subsection{Scenariusz testowania}
+\subsection{Raport z testów}
+\section{Testowanie Front-end przy użyciu Jasmine}
+\subsection{Scenariusz testowania}
+\subsection{Raport z testów}
+\chapter{Wkład własny}
 % zakończenie 
 \summary
 
