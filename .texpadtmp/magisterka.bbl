@@ -1,0 +1,77 @@
+\begin{thebibliography}{10}
+
+\bibitem{magiaUI}
+Robert~Hoekman jr.
+\newblock {\em
+  \href{http://helion.pl/ksiazki/magia-interfejsu-praktyczne-metody-projektowania-aplikacji-internetowych-robert-hoekman-jr,magint.htm#szczegoly}{Magia
+  interfejsu. Praktyczne metody projektowania aplikacji internetowych}}.
+\newblock Helion, 2010.
+
+\bibitem{projektowanieUI}
+Jenifer Tidwell.
+\newblock {\em
+  \href{http://helion.pl/ksiazki/projektowanie-interfejsow-sprawdzone-wzorce-projektowe-jenifer-tidwell,projin.htm}{Projektowanie
+  interfejs{\'o}w. Sprawdzone wzorce projektowe}}.
+\newblock Helion, 2012.
+
+\bibitem{design}
+Don Norman.
+\newblock {\em
+  \href{http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107}{The
+  Design of Everyday Things}}.
+\newblock Basic Books, 2002.
+
+\bibitem{StiveKrug}
+Steve Krug.
+\newblock {\em
+  \href{http://helion.pl/ksiazki/nie-kaz-mi-myslec-o-zyciowym-podejsciu-do-funkcjonalnosci-stron-internetowych-steve-krug,niekaz}{Nie
+  ka{\.z} mi my{\'s}le{\'c}! O {\.z}yciowym podej{\'s}ciu do
+  funkcjonalno{\'s}ci stron internetowych}}.
+\newblock Helion, 2012.
+
+\bibitem{DouglasCrockford}
+DouglasCrockford.
+\newblock {\em
+  \href{http://helion.pl/ksiazki/javascript-mocne-strony-douglas-crockford,jscmoc.htm#szczegoly}{JavaScript
+  - Mocne Strony}}.
+\newblock Helion, 2011.
+
+\bibitem{UIRails}
+Joe Fiorini.
+\newblock \href{https://coderwall.com/p/zg4zfq}{User Interface Thinking in
+  Rails: An Example}.
+\newblock 2012.
+
+\bibitem{modelingUI}
+Rolf Hennicker~Nora Koch.
+\newblock
+  \href{http://www.pst.informatik.uni-muenchen.de/~kochn/pUML2001-Hen-Koch.pdf}{Modeling
+  the User Interface of Web Applications}.
+\newblock 2001.
+
+\bibitem{rspecDoc}
+\href {http://rspec.info/}{Rspec Docs} dost{\k e}p 2015-05-12.
+
+\bibitem{railsDoc}
+\href{http://rubyonrails.org/documentation}{Ruby on Rails Docs} dost{\k e}p
+  2015-05-12.
+
+\bibitem{emberDoc}
+\href{http://emberjs.com}{EmberJs Docs} dost{\k e}p 2015-05-12.
+
+\bibitem{emberCLIDoc}
+\href{http://www.ember-cli.com}{Ember CLI Docs} dost{\k e}p 2015-05-12.
+
+\bibitem{emberRails}
+\href{https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux-part-1-the-api-and-cms-with-ruby-on-rails}{Ember
+  Rails } dost{\k e}p 2015-05-12.
+
+\bibitem{emberTutorial}
+\href{https://www.airpair.com/javascript/emberjs-using-ember-cli}{EmberJS
+  Tutorial} dost{\k e}p 2015-05-12.
+
+\bibitem{emberIntro}
+\href{http://www.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/}{Introduction
+  to Ember} dost{\k e}p 2015-05-12.
+
+\end{thebibliography}

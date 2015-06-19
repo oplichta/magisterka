@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.aux
+The style file: unsrt.bst
+Database file #1: ../mgr.bib
+Warning--empty journal in UIRails
+Warning--empty journal in modelingUI
+Warning--empty author in rspecDoc
+Warning--empty journal in rspecDoc
+Warning--empty year in rspecDoc
+Warning--empty author in railsDoc
+Warning--empty journal in railsDoc
+Warning--empty year in railsDoc
+Warning--empty author in emberDoc
+Warning--empty journal in emberDoc
+Warning--empty year in emberDoc
+Warning--empty author in emberCLIDoc
+Warning--empty journal in emberCLIDoc
+Warning--empty year in emberCLIDoc
+Warning--empty author in emberRails
+Warning--empty journal in emberRails
+Warning--empty year in emberRails
+Warning--empty author in emberTutorial
+Warning--empty journal in emberTutorial
+Warning--empty year in emberTutorial
+Warning--empty author in emberIntro
+Warning--empty journal in emberIntro
+Warning--empty year in emberIntro
+You've used 14 entries,
+            1791 wiz_defined-function locations,
+            501 strings with 5812 characters,
+and the built_in function-call counts, 1736 in all, are:
+= -- 122
+> -- 35
+< -- 0
++ -- 21
+- -- 7
+* -- 86
+:= -- 249
+add.period$ -- 28
+call.type$ -- 14
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 37
+duplicate$ -- 122
+empty$ -- 222
+format.name$ -- 7
+if$ -- 384
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 19
+newline$ -- 59
+num.names$ -- 7
+pop$ -- 94
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 43
+stack$ -- 0
+substring$ -- 0
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 23
+while$ -- 7
+width$ -- 16
+write$ -- 105
+(There were 23 warnings)
