@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.10.22)  19 JUN 2015 17:17
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.10.22)  3 JUL 2015 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -799,76 +799,95 @@ Overfull \hbox (5.02013pt too wide) in paragraph at lines 27--27
 . 
 . This font family consists of the following shapes:
 .................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'MinionPro(1)' created for font 'Minion Pro' with options
+. [Mapping=tex-text,Numbers=OldStyle,Mapping=tex-text,VerticalPosition=Superior].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'MinionPro(1)' created for font 'Minion Pro' with options
+. [Mapping=tex-text,Numbers=OldStyle,Mapping=tex-text,VerticalPosition=Superior].
+. 
+. This font family consists of the following shapes:
+.................................................
+
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
  [5
 
-]
+] [6]
 Rozdział 1.
-[6
+[7
 
 ]
 Rozdział 2.
-[7
+[8
 
 ]
 Rozdział 3.
 
 Underfull \vbox (badness 1509) has occurred while \output is active []
 
- [8
+ [9
 
-]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 88.
+] [10]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 100.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [9] [10]
+) [11]
 Rozdział 4.
-[11
+[12
 
 ]
 Rozdział 5.
-[12
+[13
 
-] [13
+] [14
 
 ]
 Dodatek A.
-[14
+[15
 
 ]
 Dodatek B.
-(/Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.bbl [15
+(/Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.bbl [16
 
-]) [16
+]) [17
 
 ] (/Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.lot)
 \tf@lot=\write5
 \openout5 = `magisterka.lot'.
 
- [17
+ [18
 
 ] (/Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.lof)
 \tf@lof=\write6
 \openout6 = `magisterka.lof'.
 
- [18
+ [19
 
-] [19
+] [20
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
  (/Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 146.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 146.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 147.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
  ) 
 Here is how much of TeX's memory you used:
  20949 strings out of 493734
  389898 string characters out of 6146347
- 452144 words of memory out of 5000000
+ 464144 words of memory out of 5000000
  24083 multiletter control sequences out of 15000+600000
  7977 words of font info for 68 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  53i,11n,45p,10400b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.pdf (19 pages).
+Output written on /Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.pdf (20 pages).
