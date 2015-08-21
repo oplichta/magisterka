@@ -8,35 +8,34 @@
 \BOOKMARK [1][-]{section.2.3}{Diagram\040modelu\040danych}{chapter.2}% 8
 \BOOKMARK [1][-]{section.2.4}{Projekt interfejsu użytkownika w oparciu o framework Materialize}{chapter.2}% 9
 \BOOKMARK [2][-]{subsection.2.4.1}{Wytyczne odnośnie UI w Material Design}{section.2.4}% 10
-\BOOKMARK [0][-]{chapter.3}{Implementacja\040aplikacji\040PicDrop}{}% 11
-\BOOKMARK [1][-]{section.3.1}{Architektura\040aplikacji\040PicDrop}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.2}{Użyte technologie}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.3}{API\040aplikacji}{chapter.3}% 14
-\BOOKMARK [2][-]{subsection.3.3.1}{Budowa\040API\040w\040oparciu\040o\040Ruby\040on\040Rails}{section.3.3}% 15
-\BOOKMARK [2][-]{subsection.3.3.2}{Połączenie z bazą danych PostgreSQL}{section.3.3}% 16
-\BOOKMARK [2][-]{subsection.3.3.3}{Dodawanie gemów w Ruby on Rails}{section.3.3}% 17
-\BOOKMARK [2][-]{subsection.3.3.4}{Połączenie z API różnych sieci społecznościowych}{section.3.3}% 18
-\BOOKMARK [2][-]{subsection.3.3.5}{Autoryzacja użytkowników}{section.3.3}% 19
-\BOOKMARK [1][-]{section.3.4}{Front-end\040aplikacji}{chapter.3}% 20
-\BOOKMARK [2][-]{subsection.3.4.1}{Budowa\040Front-endu\040w\040oparciu\040o\040framework\040EmberJS\040}{section.3.4}% 21
-\BOOKMARK [2][-]{subsection.3.4.2}{Połączenie z API}{section.3.4}% 22
-\BOOKMARK [2][-]{subsection.3.4.3}{Opis narzędzia Ember-CLI}{section.3.4}% 23
-\BOOKMARK [2][-]{subsection.3.4.4}{Dodawanie\040wtyczek\040do\040aplikacji\040w\040EmberJS}{section.3.4}% 24
-\BOOKMARK [1][-]{section.3.5}{Aplikacja\040mobilna\040na\040system\040Android}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.5.1}{Zalety aplikacji mobilnej względem strony w mobilnej przeglądarce}{section.3.5}% 26
-\BOOKMARK [2][-]{subsection.3.5.2}{Tworzenie aplikacji przy użyciu narzedzia Cordova}{section.3.5}% 27
-\BOOKMARK [0][-]{chapter.4}{Testy}{}% 28
-\BOOKMARK [1][-]{section.4.1}{Testowanie API przy użyciu RSpec}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.1.1}{Scenariusz\040testowania}{section.4.1}% 30
-\BOOKMARK [2][-]{subsection.4.1.2}{Raport z testów}{section.4.1}% 31
-\BOOKMARK [1][-]{section.4.2}{Testowanie Front-end przy użyciu Jasmine}{chapter.4}% 32
-\BOOKMARK [2][-]{subsection.4.2.1}{Scenariusz\040testowania}{section.4.2}% 33
-\BOOKMARK [2][-]{subsection.4.2.2}{Raport z testów}{section.4.2}% 34
-\BOOKMARK [0][-]{chapter.5}{Wkład własny}{}% 35
-\BOOKMARK [0][-]{chapter*.5}{Zakończenie}{}% 36
-\BOOKMARK [0][-]{appendix.A}{Tytuł załącznika jeden}{}% 37
-\BOOKMARK [0][-]{appendix.B}{Tytuł załącznika dwa}{}% 38
-\BOOKMARK [0][-]{appendix*.6}{Bibliografia}{}% 39
-\BOOKMARK [0][-]{appendix*.7}{Spis\040tabel}{}% 40
-\BOOKMARK [0][-]{appendix*.8}{Spis rysunków}{}% 41
-\BOOKMARK [0][-]{appendix*.9}{Oświadczenie}{}% 42
+\BOOKMARK [0][-]{chapter.3}{Architektura\040aplikacji\040PicDrop}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Użyte technologie}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{API\040aplikacji}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.2.1}{Budowa\040API\040w\040oparciu\040o\040Ruby\040on\040Rails}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.2}{Połączenie z bazą danych PostgreSQL}{section.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.2.3}{Dodawanie gemów w Ruby on Rails}{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.4}{Autoryzacja użytkowników}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.5}{Połączenie z API różnych sieci społecznościowych}{section.3.2}% 18
+\BOOKMARK [1][-]{section.3.3}{Front-end\040aplikacji}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.3.1}{Budowa\040Front-endu\040w\040oparciu\040o\040framework\040EmberJS\040}{section.3.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.2}{Połączenie z API}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.3}{Opis narzędzia Ember-CLI}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.4}{Dodawanie\040wtyczek\040do\040aplikacji\040w\040EmberJS}{section.3.3}% 23
+\BOOKMARK [1][-]{section.3.4}{Aplikacja\040mobilna\040na\040system\040Android}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.4.1}{Zalety aplikacji mobilnej względem strony w mobilnej przeglądarce}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.2}{Tworzenie aplikacji przy użyciu narzedzia Cordova}{section.3.4}% 26
+\BOOKMARK [0][-]{chapter.4}{Testy}{}% 27
+\BOOKMARK [1][-]{section.4.1}{Testowanie API przy użyciu RSpec}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.1.1}{Scenariusz\040testowania}{section.4.1}% 29
+\BOOKMARK [2][-]{subsection.4.1.2}{Raport z testów}{section.4.1}% 30
+\BOOKMARK [1][-]{section.4.2}{Testowanie Front-end przy użyciu Jasmine}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.2.1}{Scenariusz\040testowania}{section.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.2.2}{Raport z testów}{section.4.2}% 33
+\BOOKMARK [0][-]{chapter.5}{Wkład własny}{}% 34
+\BOOKMARK [0][-]{chapter*.5}{Zakończenie}{}% 35
+\BOOKMARK [0][-]{appendix.A}{Tytuł załącznika jeden}{}% 36
+\BOOKMARK [0][-]{appendix.B}{Tytuł załącznika dwa}{}% 37
+\BOOKMARK [0][-]{appendix*.6}{Bibliografia}{}% 38
+\BOOKMARK [0][-]{appendix*.7}{Spis\040tabel}{}% 39
+\BOOKMARK [0][-]{appendix*.8}{Spis rysunków}{}% 40
+\BOOKMARK [0][-]{appendix*.9}{Oświadczenie}{}% 41

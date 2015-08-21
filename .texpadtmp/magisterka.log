@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.10.22)  3 JUL 2015 15:26
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.10.22)  18 JUN 2015 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -829,65 +829,65 @@ Rozdział 2.
 [8
 
 ]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 65.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [9]
 Rozdział 3.
 
 Underfull \vbox (badness 1509) has occurred while \output is active []
 
- [9
+ [10
 
-] [10]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 100.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/euenc/eu1lmtt.fd
-File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [11]
+] [11] [12] [13]
 Rozdział 4.
-[12
+[14
 
 ]
 Rozdział 5.
-[13
+[15
 
-] [14
+] [16
 
 ]
 Dodatek A.
-[15
+[17
 
 ]
 Dodatek B.
-(/Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.bbl [16
+(/Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.bbl [18
 
-]) [17
+]) [19
 
 ] (/Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.lot)
 \tf@lot=\write5
 \openout5 = `magisterka.lot'.
 
- [18
+ [20
 
 ] (/Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.lof)
 \tf@lof=\write6
 \openout6 = `magisterka.lof'.
 
- [19
+ [21
 
-] [20
+] [22
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (/Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 147.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 151.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 151.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
  20949 strings out of 493734
  389898 string characters out of 6146347
- 464144 words of memory out of 5000000
+ 465144 words of memory out of 5000000
  24083 multiletter control sequences out of 15000+600000
  7977 words of font info for 68 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  53i,11n,45p,10400b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.pdf (20 pages).
+Output written on /Users/MacBookAir/Documents/git/magisterka/.texpadtmp/magisterka.pdf (22 pages).

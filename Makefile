@@ -1,12 +1,12 @@
 BOOK=magisterka
 
-TEX=xelatex
+TEX=xelatex --shell-escape
 BIBTEX=bibtex
 
 .PHONY: pdf
 
 %.pdf : %.tex
-	$(TEX) $* 
+	$(TEX) $*
 
 mgr :
 	$(TEX) $(BOOK)
@@ -14,8 +14,8 @@ mgr :
 	$(TEX) $(BOOK)
 	$(TEX) $(BOOK)
 
-clean : 
+clean :
 	rm -rf *.{log,aux,out,lot,lof,ilg,toc,blg} *~
 
 xclean : clean
-	rm -rf *.{ind,pdf,idx,bbl} 
+	rm -rf *.{ind,pdf,idx,bbl}
