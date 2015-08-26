@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{l+s+ss}{https}\PYGdefault{p}{:}\PYGdefault{l+s+sr}{//}\PYGdefault{n}{www}\PYGdefault{o}{.}\PYGdefault{n}{facebook}\PYGdefault{o}{.}\PYGdefault{n}{com}\PYGdefault{o}{/}\PYGdefault{n}{auth?response\PYGdefaultZus{}type}\PYGdefault{o}{=}\PYGdefault{n}{code}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{client\PYGdefaultZus{}id}\PYGdefault{o}{=}\PYGdefault{n+no}{CLIENT\PYGdefaultZus{}ID}\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{redirect\PYGdefaultZus{}uri}\PYGdefault{o}{=}\PYGdefault{n+no}{REDIRECT\PYGdefaultZus{}URI}\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{scope}\PYGdefault{o}{=}\PYGdefault{n}{photos}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{n+no}{GET} \PYGdefault{l+s+sr}{/api HTTP/}\PYGdefault{l+m+mi}{1}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{1}
+\PYGdefault{l+s+ss}{Origin}\PYGdefault{p}{:} \PYGdefault{l+s+ss}{http}\PYGdefault{p}{:}\PYGdefault{l+s+sr}{//mo}\PYGdefault{n}{ja}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{strona}\PYGdefault{o}{.}\PYGdefault{n}{pl}
+\PYGdefault{l+s+ss}{Host}\PYGdefault{p}{:} \PYGdefault{n}{moje}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{api}\PYGdefault{o}{.}\PYGdefault{n}{pl}
+\PYGdefault{n+no}{Accept}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{l+s+ss}{Language}\PYGdefault{p}{:} \PYGdefault{n}{en}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n+no}{US}
+\PYGdefault{n+no}{User}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{l+s+ss}{Agent}\PYGdefault{p}{:} \PYGdefault{n+no}{Mozilla}\PYGdefault{o}{/}\PYGdefault{l+m+mi}{5}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{0}
+\end{Verbatim}

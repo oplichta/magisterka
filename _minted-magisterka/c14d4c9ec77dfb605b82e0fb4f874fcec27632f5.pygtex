@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+ \PYGdefault{p}{\PYGdefaultZob{}}
+  \PYGdefault{o}{:}\PYGdefault{n+nx}{provider} \PYGdefault{o}{=\PYGdefaultZgt{}} \PYGdefault{l+s+s1}{\PYGdefaultZsq{}facebook\PYGdefaultZsq{}}\PYGdefault{p}{,}
+  \PYGdefault{o}{:}\PYGdefault{n+nx}{uid} \PYGdefault{o}{=\PYGdefaultZgt{}} \PYGdefault{l+s+s1}{\PYGdefaultZsq{}1234567\PYGdefaultZsq{}}\PYGdefault{p}{,}
+  \PYGdefault{o}{:}\PYGdefault{n+nx}{info} \PYGdefault{o}{=\PYGdefaultZgt{}} \PYGdefault{p}{\PYGdefaultZob{}}
+    \PYGdefault{o}{:}\PYGdefault{n+nx}{nickname} \PYGdefault{o}{=\PYGdefaultZgt{}} \PYGdefault{l+s+s1}{\PYGdefaultZsq{}jbloggs\PYGdefaultZsq{}}\PYGdefault{p}{,}
+    \PYGdefault{o}{:}\PYGdefault{n+nx}{email} \PYGdefault{o}{=\PYGdefaultZgt{}} \PYGdefault{l+s+s1}{\PYGdefaultZsq{}joe@bloggs.com\PYGdefaultZsq{}}\PYGdefault{p}{,}
+    \PYGdefault{o}{:}\PYGdefault{n+nx}{name} \PYGdefault{o}{=\PYGdefaultZgt{}} \PYGdefault{l+s+s1}{\PYGdefaultZsq{}Joe Bloggs\PYGdefaultZsq{}}
+  \PYGdefault{p}{\PYGdefaultZcb{},}
+  \PYGdefault{o}{:}\PYGdefault{n+nx}{credentials} \PYGdefault{o}{=\PYGdefaultZgt{}} \PYGdefault{p}{\PYGdefaultZob{}}
+    \PYGdefault{o}{:}\PYGdefault{n+nx}{token} \PYGdefault{o}{=\PYGdefaultZgt{}} \PYGdefault{l+s+s1}{\PYGdefaultZsq{}ABCDEF\PYGdefaultZsq{}}\PYGdefault{p}{,}
+    \PYGdefault{o}{:}\PYGdefault{n+nx}{expires\PYGdefaultZus{}at} \PYGdefault{o}{=\PYGdefaultZgt{}} \PYGdefault{l+m+mi}{1321747205}\PYGdefault{p}{,}
+    \PYGdefault{o}{:}\PYGdefault{n+nx}{expires} \PYGdefault{o}{=\PYGdefaultZgt{}} \PYGdefault{k+kc}{true}
+  \PYGdefault{p}{\PYGdefaultZcb{}}
+\end{Verbatim}

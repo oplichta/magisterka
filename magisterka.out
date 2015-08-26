@@ -21,21 +21,17 @@
 \BOOKMARK [2][-]{subsection.3.3.2}{Połączenie z API}{section.3.3}% 21
 \BOOKMARK [2][-]{subsection.3.3.3}{Opis narzędzia Ember-CLI}{section.3.3}% 22
 \BOOKMARK [2][-]{subsection.3.3.4}{Dodawanie\040wtyczek\040do\040aplikacji\040w\040EmberJS}{section.3.3}% 23
-\BOOKMARK [1][-]{section.3.4}{Aplikacja\040mobilna\040na\040system\040Android}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.4.1}{Zalety aplikacji mobilnej względem strony w mobilnej przeglądarce}{section.3.4}% 25
-\BOOKMARK [2][-]{subsection.3.4.2}{Tworzenie aplikacji przy użyciu narzedzia Cordova}{section.3.4}% 26
-\BOOKMARK [0][-]{chapter.4}{Testy}{}% 27
-\BOOKMARK [1][-]{section.4.1}{Testowanie API przy użyciu RSpec}{chapter.4}% 28
-\BOOKMARK [2][-]{subsection.4.1.1}{Scenariusz\040testowania}{section.4.1}% 29
-\BOOKMARK [2][-]{subsection.4.1.2}{Raport z testów}{section.4.1}% 30
-\BOOKMARK [1][-]{section.4.2}{Testowanie Front-end przy użyciu Jasmine}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.2.1}{Scenariusz\040testowania}{section.4.2}% 32
-\BOOKMARK [2][-]{subsection.4.2.2}{Raport z testów}{section.4.2}% 33
-\BOOKMARK [0][-]{chapter.5}{Wkład własny}{}% 34
-\BOOKMARK [0][-]{chapter*.5}{Zakończenie}{}% 35
-\BOOKMARK [0][-]{appendix.A}{Tytuł załącznika jeden}{}% 36
-\BOOKMARK [0][-]{appendix.B}{Tytuł załącznika dwa}{}% 37
-\BOOKMARK [0][-]{appendix*.6}{Bibliografia}{}% 38
-\BOOKMARK [0][-]{appendix*.7}{Spis\040tabel}{}% 39
-\BOOKMARK [0][-]{appendix*.8}{Spis rysunków}{}% 40
-\BOOKMARK [0][-]{appendix*.9}{Oświadczenie}{}% 41
+\BOOKMARK [2][-]{subsection.3.3.5}{Same\040origin\040policy\040oraz\040Cross-origin\040resource\040sharing}{section.3.3}% 24
+\BOOKMARK [0][-]{chapter.4}{Testy}{}% 25
+\BOOKMARK [1][-]{section.4.1}{Testowanie API przy użyciu RSpec}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.1.1}{Raport z testów API}{section.4.1}% 27
+\BOOKMARK [1][-]{section.4.2}{Testowanie Front-end przy użyciu QUnit}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.2.1}{Raport z testów Front-end}{section.4.2}% 29
+\BOOKMARK [0][-]{chapter.5}{Wkład własny}{}% 30
+\BOOKMARK [0][-]{chapter*.7}{Zakończenie}{}% 31
+\BOOKMARK [0][-]{appendix.A}{Tytuł załącznika jeden}{}% 32
+\BOOKMARK [0][-]{appendix.B}{Tytuł załącznika dwa}{}% 33
+\BOOKMARK [0][-]{appendix*.8}{Bibliografia}{}% 34
+\BOOKMARK [0][-]{appendix*.9}{Spis\040tabel}{}% 35
+\BOOKMARK [0][-]{appendix*.10}{Spis rysunków}{}% 36
+\BOOKMARK [0][-]{appendix*.11}{Oświadczenie}{}% 37

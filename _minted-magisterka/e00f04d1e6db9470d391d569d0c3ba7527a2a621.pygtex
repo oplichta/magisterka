@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+ \PYGdefault{l+s+ss}{https}\PYGdefault{p}{:}\PYGdefault{l+s+sr}{//}\PYGdefault{n}{www}\PYGdefault{o}{.}\PYGdefault{n}{flickr}\PYGdefault{o}{.}\PYGdefault{n}{com}\PYGdefault{o}{/}\PYGdefault{n}{services}\PYGdefault{o}{/}\PYGdefault{n}{oauth}\PYGdefault{o}{/}\PYGdefault{n}{access\PYGdefaultZus{}token}
+\PYGdefault{p}{?}\PYGdefault{n}{oauth\PYGdefaultZus{}nonce}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{37026218}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}timestamp}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{1305586309}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}verifier}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{5}\PYGdefault{n}{d1b96a26b494074}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}consumer\PYGdefaultZus{}key}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{653}\PYGdefault{n}{e7a6ecc1d528c516cc8f92cf98611}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}signature\PYGdefaultZus{}method}\PYGdefault{o}{=}\PYGdefault{n+no}{HMAC}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n+no}{SHA1}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}version}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{1}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{0}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}token}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{72157626737672178}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{l+m+mo}{022}\PYGdefault{n}{bbd2f4c2f3432}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}signature}\PYGdefault{o}{=}\PYGdefault{n+no}{UD9TGXzrvLIb0Ar5ynqvzatM58U}\PYGdefault{o}{\PYGdefaultZpc{}}\PYGdefault{l+m+mi}{3}\PYGdefault{n}{D}
+\end{Verbatim}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.21)  21 AUG 2015 20:38
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.21)  26 AUG 2015 21:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -842,7 +842,11 @@ onskip \begin {flushleft}\small \textbf {#1}. #2\end {flushleft} \par .
 \c@ContinuedFloat=\count157
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-) (./magisterka.aux)
+) (./magisterka.aux
+
+LaTeX Warning: Label `RYS.1' multiply defined.
+
+)
 \openout1 = `magisterka.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -861,8 +865,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 32.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 32.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 32.
@@ -958,9 +961,9 @@ LaTeX Info: Redefining \nameref on input line 32.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 42.
+(Font)              <14.4> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 42.
+(Font)              <7> on input line 41.
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -977,13 +980,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-
-Overfull \hbox (5.02013pt too wide) in paragraph at lines 26--26
- [][] [][][]\EU1/MinionPro(0)/m/n/12 Zalety aplikacji mobilnej względem strony 
-w mobilnej prze- 
- []
-
-[3
+ [3
 
 
 ])
@@ -1064,6 +1061,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 [8]
 Rozdział 2.
+[9
+
+] [10] [11]
+Rozdział 3.
 \openout3 = `magisterka.pyg'.
 
 \openout5 = `magisterka.mintedcmd'.
@@ -1076,65 +1077,199 @@ gest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + macro + \"\\makeatother\
 \endinput\n \"); f.close();")...executed.
 
 (./magisterka.mintedmd5)
-(./_minted-magisterka/93f286862f34fd889d1b8618459cca729fcf4cd8.pygtex
-LaTeX Font Info:    Font shape `EU1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `EU1/lmtt/b/n' tried instead on input line 2.
-) [9
-
-]
-[10] [11]
-Rozdział 3.
-
+(./_minted-magisterka/c14d4c9ec77dfb605b82e0fb4f874fcec27632f5.pygtex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12
 
 ]
+LaTeX Font Info:    Font shape `EU1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `EU1/lmtt/b/n' tried instead on input line 13.
+)
+[13]
+File: images/rails.png Graphic file (type QTm)
+ <use  "images/rails.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-[14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [14]
+[15]
+Underfull \vbox (badness 2735) has occurred while \output is active []
 
- [15]
-[16] [17]
+ [16]
+[17]
+\openout3 = `magisterka.pyg'.
+
+\openout5 = `magisterka.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"magist
+erka.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magis
+terka.pyg\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magisterka
+.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" + chr(123) + hasher.hexdi
+gest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + macro + \"\\makeatother\
+\endinput\n \"); f.close();")...executed.
+
+ (./magisterka.mintedmd5)
+(./_minted-magisterka/cce8ec79c6214b928eacb5886d26b5594012fa44.pygtex) [18]
+\openout3 = `magisterka.pyg'.
+
+\openout5 = `magisterka.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"magist
+erka.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magis
+terka.pyg\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magisterka
+.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" + chr(123) + hasher.hexdi
+gest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + macro + \"\\makeatother\
+\endinput\n \"); f.close();")...executed.
+
+
+(./magisterka.mintedmd5)
+(./_minted-magisterka/8f0845c7330c93342716035bc0e432b0c24c6684.pygtex)
+\openout3 = `magisterka.pyg'.
+
+\openout5 = `magisterka.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"magist
+erka.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magis
+terka.pyg\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magisterka
+.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" + chr(123) + hasher.hexdi
+gest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + macro + \"\\makeatother\
+\endinput\n \"); f.close();")...executed.
+
+
+(./magisterka.mintedmd5)
+(./_minted-magisterka/9f3b93cf58ee7f4b87dac7660751604585e40f42.pygtex)
+\openout3 = `magisterka.pyg'.
+
+\openout5 = `magisterka.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"magist
+erka.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magis
+terka.pyg\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magisterka
+.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" + chr(123) + hasher.hexdi
+gest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + macro + \"\\makeatother\
+\endinput\n \"); f.close();")...executed.
+
+
+(./magisterka.mintedmd5)
+(./_minted-magisterka/e00f04d1e6db9470d391d569d0c3ba7527a2a621.pygtex) [19]
+\openout3 = `magisterka.pyg'.
+
+\openout5 = `magisterka.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"magist
+erka.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magis
+terka.pyg\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magisterka
+.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" + chr(123) + hasher.hexdi
+gest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + macro + \"\\makeatother\
+\endinput\n \"); f.close();")...executed.
+
+
+(./magisterka.mintedmd5)
+(./_minted-magisterka/ca34c6b38a04206317ad98bb67aef47df8dcd70b.pygtex
+Overfull \hbox (23.20721pt too wide) in paragraph at lines 176--1
+\EU1/MinionPro(0)/m/n/12 kierowuje nas do adresu naszego API tj. []\EU1/lmtt/m/
+n/12 /users/auth/facebook\EU1/MinionPro(0)/m/n/12 . Następnie \EU1/MinionPro(0)
+/m/it/12 Omniauth
+ []
+
+)
+File: images/ember.png Graphic file (type QTm)
+ <use  "images/ember.png" >
+Underfull \vbox (badness 5939) has occurred while \output is active []
+
+ [20]
+[21] [22]
+\openout3 = `magisterka.pyg'.
+
+\openout5 = `magisterka.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"magist
+erka.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magis
+terka.pyg\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magisterka
+.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" + chr(123) + hasher.hexdi
+gest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + macro + \"\\makeatother\
+\endinput\n \"); f.close();")...executed.
+
+ (./magisterka.mintedmd5)
+(./_minted-magisterka/7f8e4b8ce2eb108e96ba85e180bdd8883a7fbc1a.pygtex)
+\openout3 = `magisterka.pyg'.
+
+\openout5 = `magisterka.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"magist
+erka.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magis
+terka.pyg\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magisterka
+.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" + chr(123) + hasher.hexdi
+gest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + macro + \"\\makeatother\
+\endinput\n \"); f.close();")...executed.
+
+
+(./magisterka.mintedmd5)
+(./_minted-magisterka/1b8188cc601090727b4db05eba5bbf656e6a8509.pygtex)
+\openout3 = `magisterka.pyg'.
+
+\openout5 = `magisterka.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"magist
+erka.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magis
+terka.pyg\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magisterka
+.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" + chr(123) + hasher.hexdi
+gest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + macro + \"\\makeatother\
+\endinput\n \"); f.close();")...executed.
+
+
+(./magisterka.mintedmd5)
+(./_minted-magisterka/b3ed874b0956207e54bf5adc4c26d9a379bbc17d.pygtex [23]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+)
+\openout3 = `magisterka.pyg'.
+
+\openout5 = `magisterka.mintedcmd'.
+
+runsystem(python -c "import hashlib; hasher = hashlib.sha1(); f = open(\"magist
+erka.mintedcmd\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magis
+terka.pyg\", \"rb\"); hasher.update(f.read()); f.close(); f = open(\"magisterka
+.mintedmd5\", \"w\"); macro = \"\\edef\\minted@hash\" + chr(123) + hasher.hexdi
+gest() + chr(125) + \"\"; f.write(\"\\makeatletter\" + macro + \"\\makeatother\
+\endinput\n \"); f.close();")...executed.
+
+
+(./magisterka.mintedmd5)
+(./_minted-magisterka/3cff5aef5539720a320dc2503d2e13c3cafd28dc.pygtex) [24]
 Rozdział 4.
+[25
 
-Underfull \vbox (badness 5260) has occurred while \output is active []
-
- [18
-
-]
-[19]
+] [26]
 Rozdział 5.
-[20
+[27
 
-] [21
+] [28
 
 ]
 Dodatek A.
-[22
+[29
 
 ]
 Dodatek B.
-(./magisterka.bbl [23
+(./magisterka.bbl [30
 
-]) [24
+]) [31
 
 ] (./magisterka.lot)
 \tf@lot=\write8
 \openout8 = `magisterka.lot'.
 
- [25
+ [32
 
 ] (./magisterka.lof)
 \tf@lof=\write9
 \openout9 = `magisterka.lof'.
 
 
-[26
+[33
 
-] [27
+] [34
 
 ]
 runsystem(rm "magisterka.mintedcmd")...executed.
@@ -1143,20 +1278,24 @@ runsystem(rm "magisterka.mintedmd5")...executed.
 
 runsystem(rm "magisterka.pyg")...executed.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
  (./magisterka.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 181.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 181.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 315.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 315.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
  ) 
 Here is how much of TeX's memory you used:
- 24354 strings out of 493706
- 459146 string characters out of 6145769
+ 24434 strings out of 493706
+ 462201 string characters out of 6145769
  554574 words of memory out of 5000000
- 27443 multiletter control sequences out of 15000+600000
- 8001 words of font info for 71 fonts, out of 8000000 for 9000
+ 27469 multiletter control sequences out of 15000+600000
+ 8025 words of font info for 74 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,11n,92p,10396b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,10396b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on magisterka.pdf (27 pages).
+Output written on magisterka.pdf (34 pages).

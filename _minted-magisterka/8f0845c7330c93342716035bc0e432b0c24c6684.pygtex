@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+ \PYGdefault{n}{oauth\PYGdefaultZus{}callback\PYGdefaultZus{}confirmed}\PYGdefault{o}{=}\PYGdefault{k+kp}{true}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}token}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{72157626737672178}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{l+m+mo}{022}\PYGdefault{n}{bbd2f4c2f3432}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}token\PYGdefaultZus{}secret}\PYGdefault{o}{=}\PYGdefault{n}{fccb68c4e6103197}
+\end{Verbatim}

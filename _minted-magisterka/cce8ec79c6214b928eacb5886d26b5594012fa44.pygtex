@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{l+s+ss}{https}\PYGdefault{p}{:}\PYGdefault{l+s+sr}{//}\PYGdefault{n}{www}\PYGdefault{o}{.}\PYGdefault{n}{flickr}\PYGdefault{o}{.}\PYGdefault{n}{com}\PYGdefault{o}{/}\PYGdefault{n}{services}\PYGdefault{o}{/}\PYGdefault{n}{oauth}\PYGdefault{o}{/}\PYGdefault{n}{request\PYGdefaultZus{}token}
+\PYGdefault{p}{?}\PYGdefault{n}{oauth\PYGdefaultZus{}nonce}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{89601180}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}timestamp}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{1305583298}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}consumer\PYGdefaultZus{}key}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{653}\PYGdefault{n}{e7a6ecc1d528c516cc8f92cf98611}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}signature\PYGdefaultZus{}method}\PYGdefault{o}{=}\PYGdefault{n+no}{HMAC}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n+no}{SHA1}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}version}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{1}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{0}
+\PYGdefault{o}{\PYGdefaultZam{}}\PYGdefault{n}{oauth\PYGdefaultZus{}callback}\PYGdefault{o}{=}\PYGdefault{n}{http}\PYGdefault{o}{\PYGdefaultZpc{}}\PYGdefault{l+m+mi}{3}\PYGdefault{n}{A}\PYGdefault{o}{\PYGdefaultZpc{}}\PYGdefault{l+m+mi}{2}\PYGdefault{n}{F}\PYGdefault{o}{\PYGdefaultZpc{}}\PYGdefault{l+m+mi}{2}\PYGdefault{n+no}{Fwww}\PYGdefault{o}{.}\PYGdefault{n}{example}\PYGdefault{o}{.}\PYGdefault{n}{com}
+\end{Verbatim}

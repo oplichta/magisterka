@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{n}{config}\PYGdefault{o}{.}\PYGdefault{n}{middleware}\PYGdefault{o}{.}\PYGdefault{n}{use} \PYGdefault{n+no}{Rack}\PYGdefault{o}{::}\PYGdefault{n+no}{Cors} \PYGdefault{k}{do}
+   \PYGdefault{n}{allow} \PYGdefault{k}{do}
+       \PYGdefault{n}{origins} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}*\PYGdefaultZdq{}}
+       \PYGdefault{n}{resource} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}*\PYGdefaultZdq{}}\PYGdefault{p}{,} \PYGdefault{l+s+ss}{headers}\PYGdefault{p}{:} \PYGdefault{l+s+ss}{:any}\PYGdefault{p}{,} \PYGdefault{n+nb}{methods}\PYGdefault{p}{:} \PYGdefault{o}{[}\PYGdefault{l+s+ss}{:get}\PYGdefault{p}{,} \PYGdefault{l+s+ss}{:post}\PYGdefault{p}{,} \PYGdefault{l+s+ss}{:put}\PYGdefault{p}{,} \PYGdefault{l+s+ss}{:delete}\PYGdefault{p}{,} \PYGdefault{l+s+ss}{:options}\PYGdefault{o}{]}
+   \PYGdefault{k}{end}
+\PYGdefault{k}{end}
+\end{Verbatim}

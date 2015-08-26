@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{n+nx}{ENV}\PYGdefault{p}{.}\PYGdefault{n+nx}{contentSecurityPolicy} \PYGdefault{o}{=} \PYGdefault{p}{\PYGdefaultZob{}}
+    \PYGdefault{l+s+s1}{\PYGdefaultZsq{}default\PYGdefaultZhy{}src\PYGdefaultZsq{}}\PYGdefault{o}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}http://www.facebook.com/\PYGdefaultZdq{}}\PYGdefault{p}{,}
+    \PYGdefault{l+s+s1}{\PYGdefaultZsq{}script\PYGdefaultZhy{}src\PYGdefaultZsq{}}\PYGdefault{o}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}\PYGdefaultZsq{}self\PYGdefaultZsq{} \PYGdefaultZsq{}unsafe\PYGdefaultZhy{}inline\PYGdefaultZsq{} \PYGdefaultZsq{}unsafe\PYGdefaultZhy{}eval\PYGdefaultZsq{} \PYGdefaultZdq{}}\PYGdefault{p}{,}
+    \PYGdefault{l+s+s1}{\PYGdefaultZsq{}font\PYGdefaultZhy{}src\PYGdefaultZsq{}}\PYGdefault{o}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}\PYGdefaultZsq{}self\PYGdefaultZsq{} http://fonts.gstatic.com\PYGdefaultZdq{}}\PYGdefault{p}{,}
+    \PYGdefault{l+s+s1}{\PYGdefaultZsq{}connect\PYGdefaultZhy{}src\PYGdefaultZsq{}}\PYGdefault{o}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}\PYGdefaultZsq{}self\PYGdefaultZsq{} http://localhost:3000/ http://localhost:3000/photos http://127.0.0.1:3000 http://localhost:3000/users/sign\PYGdefaultZus{}in \PYGdefaultZdq{}}\PYGdefault{p}{,}
+    \PYGdefault{l+s+s1}{\PYGdefaultZsq{}img\PYGdefaultZhy{}src\PYGdefaultZsq{}}\PYGdefault{o}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}\PYGdefaultZsq{}self\PYGdefaultZsq{} http://localhost:3000 http://localhost:4200/category\PYGdefaultZdq{}} \PYGdefault{p}{,}
+    \PYGdefault{l+s+s1}{\PYGdefaultZsq{}report\PYGdefaultZhy{}uri\PYGdefaultZsq{}}\PYGdefault{o}{:}\PYGdefault{l+s+s2}{\PYGdefaultZdq{}\PYGdefaultZsq{}localhost\PYGdefaultZsq{}\PYGdefaultZdq{}}\PYGdefault{p}{,}
+    \PYGdefault{l+s+s1}{\PYGdefaultZsq{}style\PYGdefaultZhy{}src\PYGdefaultZsq{}}\PYGdefault{o}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}\PYGdefaultZsq{}self\PYGdefaultZsq{} \PYGdefaultZsq{}unsafe\PYGdefaultZhy{}inline\PYGdefaultZsq{} http://fonts.googleapis.com\PYGdefaultZdq{}}\PYGdefault{p}{,}
+    \PYGdefault{l+s+s1}{\PYGdefaultZsq{}media\PYGdefaultZhy{}src\PYGdefaultZsq{}}\PYGdefault{o}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}\PYGdefaultZsq{}self\PYGdefaultZsq{}\PYGdefaultZdq{}}
+  \PYGdefault{p}{\PYGdefaultZcb{}}
+\end{Verbatim}

@@ -13,30 +13,26 @@
 \contentsline {section}{\numberline {3.1}Użyte technologie}{12}{section.3.1}
 \contentsline {section}{\numberline {3.2}API aplikacji}{13}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Budowa API w oparciu o Ruby on Rails}{13}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Połączenie z bazą danych PostgreSQL}{13}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Dodawanie gemów w Ruby on Rails}{14}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Autoryzacja użytkowników}{14}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Połączenie z API różnych sieci społecznościowych}{15}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Front-end aplikacji}{16}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Budowa Front-endu w oparciu o framework EmberJS }{16}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Połączenie z API}{16}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Opis narzędzia Ember-CLI}{16}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Dodawanie wtyczek do aplikacji w EmberJS}{17}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Aplikacja mobilna na system Android}{17}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Zalety aplikacji mobilnej względem strony w mobilnej przeglądarce}{17}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Tworzenie aplikacji przy użyciu narzedzia Cordova}{17}{subsection.3.4.2}
-\contentsline {chapter}{\numberline {4}Testy}{18}{chapter.4}
-\contentsline {section}{\numberline {4.1}Testowanie API przy użyciu RSpec}{18}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Scenariusz testowania}{18}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Raport z testów}{18}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Testowanie Front-end przy użyciu Jasmine}{18}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Scenariusz testowania}{19}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Raport z testów}{19}{subsection.4.2.2}
-\contentsline {chapter}{\numberline {5}Wkład własny}{20}{chapter.5}
-\contentsline {chapter}{Zakończenie}{21}{chapter*.5}
-\contentsline {chapter}{\numberline {A}Tytuł załącznika jeden}{22}{appendix.A}
-\contentsline {chapter}{\numberline {B}Tytuł załącznika dwa}{23}{appendix.B}
-\contentsline {chapter}{Bibliografia}{24}{appendix*.6}
-\contentsline {chapter}{Spis tabel}{25}{appendix*.7}
-\contentsline {chapter}{Spis rysunków}{26}{appendix*.8}
-\contentsline {chapter}{Oświadczenie}{27}{appendix*.9}
+\contentsline {subsection}{\numberline {3.2.2}Połączenie z bazą danych PostgreSQL}{15}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Dodawanie gemów w Ruby on Rails}{16}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Autoryzacja użytkowników}{17}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Połączenie z API różnych sieci społecznościowych}{18}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Front-end aplikacji}{20}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Budowa Front-endu w oparciu o framework EmberJS }{20}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Połączenie z API}{21}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Opis narzędzia Ember-CLI}{22}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Dodawanie wtyczek do aplikacji w EmberJS}{22}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Same origin policy oraz Cross-origin resource sharing}{22}{subsection.3.3.5}
+\contentsline {chapter}{\numberline {4}Testy}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Testowanie API przy użyciu RSpec}{25}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Raport z testów API}{25}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Testowanie Front-end przy użyciu QUnit}{25}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Raport z testów Front-end}{26}{subsection.4.2.1}
+\contentsline {chapter}{\numberline {5}Wkład własny}{27}{chapter.5}
+\contentsline {chapter}{Zakończenie}{28}{chapter*.7}
+\contentsline {chapter}{\numberline {A}Tytuł załącznika jeden}{29}{appendix.A}
+\contentsline {chapter}{\numberline {B}Tytuł załącznika dwa}{30}{appendix.B}
+\contentsline {chapter}{Bibliografia}{31}{appendix*.8}
+\contentsline {chapter}{Spis tabel}{32}{appendix*.9}
+\contentsline {chapter}{Spis rysunków}{33}{appendix*.10}
+\contentsline {chapter}{Oświadczenie}{34}{appendix*.11}
