@@ -3,8 +3,21 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: magisterka.aux
 The style file: unsrt.bst
 Database file #1: mgr.bib
+Warning--empty year in RailsTutorialBook
 Warning--empty journal in UIRails
 Warning--empty journal in modelingUI
+Warning--empty author in emberRails
+Warning--empty journal in emberRails
+Warning--empty year in emberRails
+Warning--empty journal in Ember
+Warning--empty year in Ember
+Warning--empty author in emberTutorial
+Warning--empty journal in emberTutorial
+Warning--empty year in emberTutorial
+Warning--empty author in emberIntro
+Warning--empty journal in emberIntro
+Warning--empty journal in InDephEmber
+Warning--empty year in InDephEmber
 Warning--empty author in rspecDoc
 Warning--empty journal in rspecDoc
 Warning--empty year in rspecDoc
@@ -17,54 +30,54 @@ Warning--empty year in emberDoc
 Warning--empty author in emberCLIDoc
 Warning--empty journal in emberCLIDoc
 Warning--empty year in emberCLIDoc
-Warning--empty author in emberRails
-Warning--empty journal in emberRails
-Warning--empty year in emberRails
-Warning--empty author in emberTutorial
-Warning--empty journal in emberTutorial
-Warning--empty year in emberTutorial
-Warning--empty author in emberIntro
-Warning--empty journal in emberIntro
-Warning--empty year in emberIntro
-You've used 14 entries,
+Warning--empty author in postgresDoc
+Warning--empty journal in postgresDoc
+Warning--empty year in postgresDoc
+Warning--empty author in FacebookDev
+Warning--empty journal in FacebookDev
+Warning--empty year in FacebookDev
+Warning--empty author in flickr
+Warning--empty journal in flickr
+Warning--empty year in flickr
+You've used 17 entries,
             1791 wiz_defined-function locations,
-            501 strings with 5701 characters,
-and the built_in function-call counts, 1736 in all, are:
-= -- 122
-> -- 35
+            509 strings with 5844 characters,
+and the built_in function-call counts, 2009 in all, are:
+= -- 133
+> -- 38
 < -- 0
-+ -- 21
++ -- 24
 - -- 7
-* -- 86
-:= -- 249
-add.period$ -- 28
-call.type$ -- 14
-change.case$ -- 9
+* -- 118
+:= -- 279
+add.period$ -- 30
+call.type$ -- 17
+change.case$ -- 14
 chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 122
-empty$ -- 222
+cite$ -- 53
+duplicate$ -- 142
+empty$ -- 254
 format.name$ -- 7
-if$ -- 384
+if$ -- 431
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 19
-newline$ -- 59
+int.to.str$ -- 17
+missing$ -- 20
+newline$ -- 67
 num.names$ -- 7
-pop$ -- 94
+pop$ -- 113
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 43
+skip$ -- 57
 stack$ -- 0
 substring$ -- 0
-swap$ -- 5
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 23
+warning$ -- 36
 while$ -- 7
-width$ -- 16
-write$ -- 105
-(There were 23 warnings)
+width$ -- 19
+write$ -- 115
+(There were 36 warnings)

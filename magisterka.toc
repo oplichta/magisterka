@@ -4,35 +4,33 @@
 \contentsline {section}{\numberline {1.1}Porównanie dostępnych rozwiązań}{7}{section.1.1}
 \contentsline {section}{\numberline {1.2}Możliwości zastosowania praktycznego}{8}{section.1.2}
 \contentsline {chapter}{\numberline {2}Projekt i analiza}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Aktorzy i przypadki użycia, wymagania funkcjonalne i niefunkcjonalne}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}Diagram klas}{10}{section.2.2}
-\contentsline {section}{\numberline {2.3}Diagram modelu danych}{10}{section.2.3}
-\contentsline {section}{\numberline {2.4}Projekt interfejsu użytkownika w oparciu o framework Materialize}{10}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Wytyczne odnośnie UI w Material Design}{11}{subsection.2.4.1}
-\contentsline {chapter}{\numberline {3}Architektura aplikacji PicDrop}{12}{chapter.3}
-\contentsline {section}{\numberline {3.1}Użyte technologie}{12}{section.3.1}
-\contentsline {section}{\numberline {3.2}API aplikacji}{13}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Budowa API w oparciu o Ruby on Rails}{13}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Połączenie z bazą danych PostgreSQL}{15}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Dodawanie gemów w Ruby on Rails}{16}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Autoryzacja użytkowników}{17}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Połączenie z API różnych sieci społecznościowych}{18}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Front-end aplikacji}{20}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Budowa Front-endu w oparciu o framework EmberJS }{20}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Połączenie z API}{21}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Opis narzędzia Ember-CLI}{22}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Dodawanie wtyczek do aplikacji w EmberJS}{22}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Same origin policy oraz Cross-origin resource sharing}{22}{subsection.3.3.5}
-\contentsline {chapter}{\numberline {4}Testy}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}Testowanie API przy użyciu RSpec}{25}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Raport z testów API}{25}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Testowanie Front-end przy użyciu QUnit}{25}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Raport z testów Front-end}{26}{subsection.4.2.1}
-\contentsline {chapter}{\numberline {5}Wkład własny}{27}{chapter.5}
-\contentsline {chapter}{Zakończenie}{28}{chapter*.7}
-\contentsline {chapter}{\numberline {A}Tytuł załącznika jeden}{29}{appendix.A}
-\contentsline {chapter}{\numberline {B}Tytuł załącznika dwa}{30}{appendix.B}
-\contentsline {chapter}{Bibliografia}{31}{appendix*.8}
-\contentsline {chapter}{Spis tabel}{32}{appendix*.9}
-\contentsline {chapter}{Spis rysunków}{33}{appendix*.10}
-\contentsline {chapter}{Oświadczenie}{34}{appendix*.11}
+\contentsline {section}{\numberline {2.1}Wymagania funkcjonalne i niefunkcjonalne}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Diagram klas i opis modelu danych}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}Projekt interfejsu użytkownika w oparciu o \textit {framework Materialize}}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Wytyczne odnośnie UI w Material Design}{11}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {3}Architektura aplikacji PicDrop}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Użyte technologie}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}API aplikacji}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Budowa API w oparciu o Ruby on Rails}{14}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Połączenie z bazą danych PostgreSQL}{16}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Dodawanie gemów w Ruby on Rails}{17}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Autoryzacja użytkowników}{18}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Połączenie z API różnych sieci społecznościowych}{19}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Front-end aplikacji}{21}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Budowa \textit {front-endu} w oparciu o \textit {framework Ember.js} }{21}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Połączenie z API}{22}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Opis narzędzia Ember-CLI}{23}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Dodawanie wtyczek do aplikacji w \textit {Ember.js}}{23}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}\textit {Same origin policy} oraz \textit {Cross-origin resource sharing}}{23}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Aplikacja mobilna na system Android}{26}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Zalety aplikacji mobilnej względem strony w mobilnej przeglądarce}{26}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Tworzenie aplikacji przy użyciu narzędzia \textit {Cordova}}{26}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {4}Testy}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Testowanie API przy użyciu RSpec}{29}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Raport z testów API}{29}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Testowanie \textit {front-end} przy użyciu \textit {QUnit}}{30}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Raport z testów Front-end}{31}{subsection.4.2.1}
+\contentsline {chapter}{Zakończenie}{33}{chapter*.11}
+\contentsline {chapter}{Bibliografia}{35}{chapter*.12}
+\contentsline {chapter}{Spis rysunków}{37}{chapter*.13}
+\contentsline {chapter}{Oświadczenie}{39}{chapter*.14}

@@ -1,4 +1,4 @@
-\documentclass[brudnopis]{xmgr}
+\documentclass[openright]{xmgr}
 
 %\defaultfontfeatures{Scale=MatchLowercase}
 %\setmainfont[Numbers=OldStyle,Ligatures=TeX]{Minion Pro}
@@ -32,18 +32,18 @@
 \begin{document}
 
 \begin{abstract}
-W pracy zostanie przedstawiony program do udostępniania fotografii na kilka serwisów społecznościowych jednocześnie z intuicyjnym interfejsem Material Design. Dzięki temu w prosty i szybki sposób można podzielić się swoimi zdjęciami z innymi użytkownikami kilku sieci społecznościowych. Aplikacja będzie wykonana z dwóch modułów - części serwerowej i wizualnej. Część serwerowa jest oparta o \textit{Ruby on Rails} a wizualna wykonana w \textit{EmberJS} oraz \textit{Materialize}. Aplikacje mobilna dla systemu Android wykonane zostały dzięki aplikacji \textit{Cordova}, która pozwala przekształcić aplikację opartą o \textit{EmberJS} oraz \textit{Ember CLI} w natywną aplikacje dla danego systemu mobilnego. Ostatecznie aplikacja została wykonana zgodnie z założeniami i spełnia wyznaczone cele.
+W pracy zostanie przedstawiony program do udostępniania fotografii na kilka serwisów społecznościowych jednocześnie z intuicyjnym interfejsem korzystającym z \textit{Material Design} \footnote{\textit{Material Design} - stworzony przez firmę \textit{ Google} szereg wytycznych odnośnie designu, w celu uzyskania wrażenia interfejsu wykonanego z kilku warstw kolorowego papieru. Więcej w podrozdziale 2.3.1}. Dzięki temu w prosty i szybki sposób można podzielić się swoimi zdjęciami z innymi użytkownikami kilku sieci społecznościowych. Aplikacja będzie wykonana z dwóch modułów - części serwerowej i wizualnej. Część serwerowa jest oparta o \textit{Ruby on Rails} a wizualna wykonana w \textit{Ember.js} oraz \textit{Materialize CSS}. Aplikacja mobilna dla systemu \textit{Android}  została wykonana poprzez aplikację \textit{Cordova}, która pozwala przekształcić aplikację opartą o \textit{Ember.js} oraz \textit{Ember CLI} w natywną aplikacje dla systemu mobilnego. Ostatecznie aplikacja została wykonana zgodnie z założeniami i spełnia wyznaczone cele.
 
 \end{abstract}
-\keywords{\textit{User Interface, Material Design, Ruby on Rails, EmberJS, PostgreSQL, RSpec, QUnit}}
+\keywords{\textit{User Interface, Material Design, Ruby on Rails, Ember.js, PostgreSQL, RSpec, QUnit}}
 
 % tytuł i spis treści
 \maketitle
 %
 % wstęp
 \introduction
-\indent Fotografie są jednym z najczęstszych typów danych przesyłanych w Web 3.0. Gwałtowny rozrost sieci społecznościowych spowodował, że prawie każdy udostępnia zdjęcia aby podzielić się nimi z rodziną i przyjaciółmi. Temat wysyłania zdjęć do kilku serwisów jednocześnie, tak aby nie jeszcze raz nie powtarzać tej samej czynności na innym serwisie społecznościowym, pozostaje otwarty i dlatego postanowiłem go zgłębić.
-\newline\indent Portale takie jak Facebook, Flickr czy Twitter prześcigają się w tym aby wysyłanie zdjęć na ich serwer było jak najprostsze. Większość z nich pozwala na tzw. \textit{drag and drop}\footnote{ang. \textit{drag and drop} - przeciągnij i upuść} fotografii oraz na wysyłanie ich do innych serwisów. Zakładając, że mamy zdjęcia z wakacji i chcemy je udostępnić na Facebooku oraz umieścić na naszym koncie Flickr w celu archiwizacji musimy zalogować się na Facebooka, następnie wysłać zdjęcia na serwer Facebooka, ewentualnie dopisać opis i kliknąć w przycisk do udostępniania, po czym całość powtórzyć na serwisie Flickr.Aplikacja, którą opisuje w tej pracy pozwala na jednoczesne wysyłanie zdjęć na kilka serwisów społecznościowych za pomocą kilku kliknięć. Wystarczy wybrać zdjęcia dzięki drag and drop, zalogować się na wybrane przez nas serwisy a następnie kliknąć wyślij. Wszystko przebiega szybko i sprawnie a my oszczędzamy nasz czas.  Aplikacja ta jest tzw. aplikacją modułową co znaczy, że w przeciwieństwie do aplikacji monolitycznej, składa się z  niezależnych od siebie części tj. serwerowej oraz wizualnej. Obie części komunikują się ze sobą za pomocą wiadomości JSON. Część serwerowa odpowiada za komunikację z bazą danych, komunikację z serwerami zewnętrznymi oraz autoryzację użytkowników i wysyłanie danych do front-endu czyli aplikacji wizualnej. Zostanie ona wykonana w języku Ruby i frameworku \textit{Ruby on Rails}.   Aplikacja wizualna, która zostanie wykonana w języku JavaScript i frameworku \textit{EmberJS}, ma za zadanie wyświetlanie danych w przystępnej formie dla użytkownika poprzez tzw. interfejs. Omówię zagadnienie aplikacji modularnej i monolitycznej bardziej szczegółowo w jednym z kolejnych rozdziałów. Interfejs użytkownika \footnote{ang. \textit{User Interface} - UI}  jest podstawowym sposobem komunikacji pomiędzy człowiekiem a maszyną dlatego tak ważne jest, aby był on intuicyjny i przyjazny dla użytkownika. Postaram się pokazać dlaczego UI w mojej aplikacji jest przyjazny, intuicyjny dla użytkownika i pozwala mu na wydajną pracę a wszystko dzięki wytycznym Google Material Design, które jest nowym designem dla aplikacji od firmy Google. Więcej na temat Material Design oraz interfejsu aplikacji PicDrop w kolejnych rozdziałach.\newline \indent Większość smartphonów posiada dobrej jakości aparaty, zarówno z przodu jak i z tyłu urządzenia, dlatego w każdej chwili możemy wysłać zdjęcia z dowolnego miejsca do rodziny i przyjaciół poprzez sieci społecznościowe, za pomocą natywnej aplikacji na dany system mobilny. Dzięki temu, że moja aplikacja jest modułowa, jej część serwerowa czyli API pozwala na połączenie z nią różnych części wizualnych tzw. front-end z systemów mobilnych takich jak np. iOS lub Android. Jest to możliwe dzięki aplikacji Cordova, która zamienia aplikację \textit{EmberJS} w natywną aplikację na dany system mobilny przez co jest ona łatwiejsza w obsłudze i lepiej wykorzystuje mały wyświetlacz smartphona niż aplikacja przeglądarkowa. Opiszę dokładniej ten proces w odpowiednim rozdziale oraz podam inne zalety aplikacji natywnej. Wskażę również z jakimi problemami musi się uporać \textit{developer} aplikacji webowych, aby jego aplikacja była intuicyjna i funkcjonalna. Wyjaśnię, które elementy mojej aplikacji testuję i w jaki sposób. Opierając się na  doświadczeniach innych badaczy  między innymi Roberta Hoekmana jr  \cite {magiaUI} oraz Jenifer Tidwell  \cite {projektowanieUI}, którzy opisali swoje spostrzeżenia w ich książkach, postaram się napisać aplikacje PicDrop, która  będzie miała przyjazne UI i pozwoli na łatwe udostępnianie treści. Opiszę dlaczego wybrałem \textit{EmberJS}, \textit{MaterializeCSS} oraz \textit{Ruby on Rails} do stworzenia tej aplikacji i dlaczego te technologie uważam za najlepszy wybór.
+\indent Fotografie są jednym z najczęstszych typów danych przesyłanych w \textit{Web 3.0}. Gwałtowny rozrost sieci społecznościowych spowodował, że prawie każdy udostępnia zdjęcia aby podzielić się nimi z rodziną i przyjaciółmi. Temat wysyłania zdjęć do kilku serwisów jednocześnie, tak aby nie jeszcze raz nie powtarzać tej samej czynności na innym serwisie społecznościowym, pozostaje otwarty i dlatego postanowiłem go zgłębić.
+\newline\indent Portale takie jak \textit{Facebook}, \textit{Flickr} czy \textit{Twitter} prześcigają się w tym aby wysyłanie zdjęć na ich serwer było jak najprostsze. Większość z nich pozwala na tzw. \textit{drag and drop}\footnote{ang. \textit{drag and drop} - przeciągnij i upuść} fotografii oraz na wysyłanie ich do innych serwisów. Zakładając, że mamy zdjęcia z wakacji i chcemy je udostępnić na \textit{Facebooku} oraz umieścić na naszym koncie \textit{Flickr} w celu archiwizacji, musimy zalogować się na \textit{Facebooka}, następnie wysłać zdjęcia na serwer \textit{Facebooka}, ewentualnie dopisać opis i kliknąć w przycisk do udostępniania, po czym całość powtórzyć na serwisie \textit{Flickr}. Aplikacja, którą opisuje w tej pracy pozwala na jednoczesne wysyłanie zdjęć na kilka serwisów społecznościowych za pomocą kilku kliknięć. Wystarczy wybrać zdjęcia dzięki \textit{drag and drop}, zalogować się na wybrane przez nas serwisy a następnie kliknąć wyślij. Wszystko przebiega szybko i sprawnie a my oszczędzamy nasz czas. Aplikacja ta jest tzw. aplikacją modułową co znaczy, że w przeciwieństwie do aplikacji monolitycznej, składa się z  niezależnych od siebie części tj. serwerowej oraz wizualnej. Obie części komunikują się ze sobą za pomocą wiadomości \textit{JSON}. Część serwerowa odpowiada za komunikację z bazą danych, komunikację z serwerami zewnętrznymi oraz autoryzację użytkowników i wysyłanie danych do \textit{front-endu} czyli aplikacji wizualnej. Zostanie ona wykonana w języku \textit{Ruby} i \textit{frameworku} \textit{Ruby on Rails}.   Aplikacja wizualna, która zostanie wykonana w języku \textit{JavaScript} i \textit{frameworku} \textit{Ember.js}, ma za zadanie wyświetlanie danych w przystępnej formie dla użytkownika poprzez tzw. interfejs. Omówię zagadnienie aplikacji modularnej i monolitycznej bardziej szczegółowo w jednym z kolejnych rozdziałów. Interfejs użytkownika \footnote{ang. \textit{User Interface} - UI}  jest podstawowym sposobem komunikacji pomiędzy człowiekiem a maszyną dlatego tak ważne jest, aby był on intuicyjny i przyjazny dla użytkownika. Postaram się pokazać dlaczego \textit{UI} w mojej aplikacji jest przyjazny, intuicyjny dla użytkownika i pozwala mu na wydajną pracę a wszystko dzięki wytycznym \textit{Google Material Design}, które jest nowym designem dla aplikacji od firmy \textit{Google}. Więcej na temat \textit{Material Design} oraz interfejsu aplikacji \textit{PicDrop} w kolejnych rozdziałach.\newline \indent Większość smartphonów posiada dobrej jakości aparaty, zarówno z przodu jak i z tyłu urządzenia, dlatego w każdej chwili możemy wysłać zdjęcia z dowolnego miejsca do rodziny i przyjaciół poprzez sieci społecznościowe, za pomocą natywnej aplikacji na dany system mobilny. Dzięki temu, że moja aplikacja jest modułowa, jej część serwerowa czyli \textit{API} pozwala na połączenie z nią różnych części wizualnych tzw. \textit{front-end} z systemów mobilnych takich jak np. \textit{iOS} lub \textit{Android}. Jest to możliwe dzięki aplikacji \textit{Cordova}, która zamienia aplikację \textit{Ember.js} w natywną aplikację na dany system mobilny przez co jest ona łatwiejsza w obsłudze i lepiej wykorzystuje mały wyświetlacz smartphona niż aplikacja przeglądarkowa. Opiszę dokładniej ten proces w odpowiednim rozdziale oraz podam inne zalety aplikacji natywnej. Wskażę również z jakimi problemami musi się uporać \textit{developer} aplikacji webowych, aby jego aplikacja była intuicyjna i funkcjonalna. Wyjaśnię, które elementy mojej aplikacji testuję i w jaki sposób. Opierając się na  doświadczeniach innych badaczy  między innymi Michael'a Hartl'a \cite{RailsTutorialBook} oraz Steve'a Krug'a  \cite {StiveKrug}, którzy opisali swoje spostrzeżenia w ich książkach, postaram się napisać aplikacje \textit{PicDrop}, która  będzie miała przyjazne \textit{UI} i pozwoli na łatwe udostępnianie treści. Opiszę dlaczego wybrałem \textit{Ember.js}, \textit{MaterializeCSS} oraz \textit{Ruby on Rails} do stworzenia tej aplikacji i dlaczego te technologie uważam za najlepszy wybór.
 
 
 \chapter{Budowa aplikacji modularnej do udostępniania fotografii  w web 3.0}
@@ -54,8 +54,8 @@ Każdy serwis społecznościowy posiada swoje możliwości udostępniania zdję�
 Głównym celem aplikacji \textit{PicDrop} jest proste i intuicyjne udostępnianie fotografii. Pierszym krokiem jest założenie konta w aplikacji lub zalogownaie przy użyciu adresu email oraz hasła. Następnie użytkownik może wgrać własne fotografie poprzez przeciągniecie do okna przeglądarki, gdzie zobaczy miłą dla oka animację pulsującego koła. Dostępny jest również estetycznie wyglądający guzik w kształcie koła z plusem na środku. Gdy wybierze zdjęcia pokażą się ich miniatury. Następnie wystarczy, że użytkownik kliknie guzik z nazwą portalu gdzie chce udostępnić swoje fotografie i zaloguje się na wybrany portal społecznościowy. Później jedno kliknięcie wysyła asynchronicznie wszystkie zdjęcia na serwery \textit{Flickra} i \textit{Facebooka}. To wszystko. Obsługa jest szybka i intuicyjna. Gdybyśmy stwierdzili, że nie chcemy wysyłać jednego ze zdjęć możemy je usunąć klikając ikonę kosza. Zdjęcia można powiększać, klikając na nie. Funkcja ta może być szczególnie przydatna gdy zdjęcie ma dużo detali a my chcemy mu się dokładniej przyjrzeć. Można także udostępnić pojedyncze zdjęcie klikając na  odpowiednią ikonę. Aplikacja ma piękny design oparty o \textit{Material Design} od firmy \textit{Google} dlatego korzystanie z niej jest miłe dla oka. Dzięki tej aplikacji możemy zaoszczędzić czas gdy chcemy szybko udostępnić zdjęcia znajomym a jednocześnie zapisać je na serwerach dla archiwizacji. Portal \textit{Flickr} od firmy \textit{Yahoo} zapewnia każdemu użytkownikowi 1 TB czyli 1024 GB miejsca na zdjęcia za darmo. Taka ilość przestrzeni powinna zaspokoić potrzeby najbardziej wymagających użytkowników.
 
 \chapter{Projekt i analiza}
-\section{Aktorzy i przypadki użycia, wymagania funkcjonalne i niefunkcjonalne}
-Aplikacja wczytuje zdjęcia z bazy danych PostgreSQL, wysyła je przez JSON do klienta i tam EmberJS odpowiednio obrabia dane pokazując je w formie przyjaznej użytkownikowi. Następnie, gdy chcemy udostępnić jakiś plik to jest to obsługiwane także przez EmberJS, tak aby komunikacja była szybka i niezawodna. Jednakże jeśli użytkownik wczytuje własne zdjęcia, które chce udostępnić to są one zamieniane na ciąg znaków w standardzie Base64Image i wysyłane wiadomością JSON do API. Tam back-end łączy się z wybranym portalem społecznościowym i przesyła do niego zdjęcia.
+\section{Wymagania funkcjonalne i niefunkcjonalne}
+Aplikacja wczytuje zdjęcia z bazy danych PostgreSQL, wysyła je przez JSON do klienta i tam \textit{Ember.js} odpowiednio obrabia dane pokazując je w formie przyjaznej użytkownikowi. Następnie, gdy chcemy udostępnić jakiś plik to jest to obsługiwane także przez \textit{Ember.js}, tak aby komunikacja była szybka i niezawodna. Jednakże jeśli użytkownik wczytuje własne zdjęcia, które chce udostępnić to są one zamieniane na ciąg znaków w standardzie \textit{Base64Image} i wysyłane wiadomością \textit{JSON} do \textit{API}. Tam \textit{back-end} łączy się z wybranym portalem społecznościowym i przesyła do niego zdjęcia.
 
  Wymagania funkcjonalne aplikacji to: 
 \begin{itemize}
@@ -72,22 +72,32 @@ Wymagania niefunkcjonalne aplikacji to:
   \item Aplikacja nie powinna udostępniać osobom trzecim danych użytkowników zapisanych w bazie danych.
 \end{itemize}
   
-\section{Diagram klas}
-
-\section{Diagram modelu danych}
+\section{Diagram klas i opis modelu danych}
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\hsize]{images/diagram_klas.png}
+\caption{Diagram klas aplikacji \textit{PicDrop}\label{RYS.1}}
+\source{Własne}
+\end{figure}
 \textit{PicDrop} posiada trzy modele danych. Są to \textit{User}, \textit{Photo} oraz \textit{Authorization}. Pierwszy z nich służy do obsługi danych użytkownika i logowania do aplikacji. Zawiera on pola do zapisywania email, hasła, potwierdzenia hasła, tokenu użytkownika oraz jego nazwę. Drugi natomiast jest modelem dla danych o wysyłanych zdjęciach, czyli na przykład nazwa, adres url oraz nazwa właściciela. Ostatni model przechowuje dane z kont społecznościowych. Zapisywane są w nim loginy, hasła oraz tokeny autoryzacji użytkowników. 
-\section{Projekt interfejsu użytkownika w oparciu o framework Materialize}
-	Interfejs użytkownika musi być czytelny i łatwy w obsłudze a jednocześnie pozwalać na wydajną pracę. W aplikacji \textit{PicDrop} główny nacisk położyłem na intuicyjność i szybkość działania. Do stworzenia designu aplikacji użyłem \textit{frameworka MaterializeCSS} opartym o \textit{Material Design} o którym więcej w kolejnym podrozdziale. \textit{MaterializeCSS} pozwala na używanie komponentów webowych, z których chcemy zbudować naszą aplikacje. Do wyboru mamy wiele różnych typów menu, kart, guzików, formularzy, paneli nawigacyjnych. Proponowana jest także paleta barw, tak aby strona spełniała założenia \textit{Material Design}. Framework ten odpowiada także za łatwe rozmieszczenie komponentów na stronie. Dzieje się tak poprzez tak zwany \textit{Grid}, który dzieli stronę na 12 kolumn co pozwala na zawijanie wierszy na urządzeniach mobilnych bez utraty treści i konieczności przewijania strony. \textit{UI} aplikacji jest także funkcjonalne. Dobrym przykładem jest wybieranie fotografii za pomocą upuszczenia ich w oknie przeglądarki internetowej. Głównymi komponentami użytymi w mojej aplikacji jest panel nawigacyjny u góry oraz karty z miniaturkami zdjęć. Poza tym użyłem pól formularzy oraz guzików, które po naciśnięciu wyświetlają tak zwaną falę, przez co użytkownik wie, że dany guzik został naciśnięty.
+\section{Projekt interfejsu użytkownika w oparciu o \textit{framework Materialize}}
+	Interfejs użytkownika musi być czytelny i łatwy w obsłudze a jednocześnie pozwalać na wydajną pracę. W aplikacji \textit{PicDrop} główny nacisk położyłem na intuicyjność i szybkość działania. Do stworzenia designu aplikacji użyłem \textit{frameworka MaterializeCSS} opartym o \textit{Material Design} o którym więcej w kolejnym podrozdziale. \textit{MaterializeCSS} pozwala na używanie komponentów webowych, z których chcemy zbudować naszą aplikacje. Do wyboru mamy wiele różnych typów menu, kart, guzików, formularzy, paneli nawigacyjnych. Proponowana jest także paleta barw, tak aby strona spełniała założenia \textit{Material Design}. \textit{Framework} ten odpowiada także za łatwe rozmieszczenie komponentów na stronie. Dzieje się tak poprzez tak zwany \textit{Grid}, który dzieli stronę na 12 kolumn co pozwala na zawijanie wierszy na urządzeniach mobilnych bez utraty treści i konieczności przewijania strony. \textit{UI} aplikacji jest także funkcjonalne. Dobrym przykładem jest wybieranie fotografii za pomocą upuszczenia ich w oknie przeglądarki internetowej. Głównymi komponentami użytymi w mojej aplikacji jest panel nawigacyjny u góry oraz karty z miniaturkami zdjęć. Poza tym użyłem pól formularzy oraz guzików, które po naciśnięciu wyświetlają tak zwaną falę, przez co użytkownik wie, że dany guzik został naciśnięty.
 \subsection{Wytyczne odnośnie UI w Material Design}
-Google Material Design został zaprezentowany pierwszy raz na Google I/O w 2014 roku wraz z systemem Android i jego wersją Lolipop.  Dzięki temu wszystkie aplikacje na platformę od \textit{Google’a} posiadają spójny wygląd. Wytyczne przedstawiają paletę barw, typografię, ikony, bardziej spójną hierarchię interfejsu oraz wszelkie zasady co i jak powinno się tworzyć. Mimo, że od tamtego wydarzenia minęło już trochę czasu to jest on używany przez Google w kolejnych edycjach systemu Android. Głównymi założeniami tego designu jest to że składa on się z kilku  nałożonych na siebie warstw papieru w różnych kolorach. Dzięki temu mamy wrażenie głębi a wszystko jest przejrzyste i intuicyjne. Dodatkowo animacje w \textit{Material Design} dopasowują się do kolejnej wytycznej czyli do takiego animowania elementów na ekranie, żeby użytkownik miał najważniejsze elementy cały czas na widoku, żeby te nie pojawiały się znikąd. 
+\textit{Google Material Design} został zaprezentowany pierwszy raz na \textit{Google I/O }w 2014 roku wraz z systemem Android i jego wersją \textit{Lolipop}.  Dzięki temu wszystkie aplikacje na platformę od \textit{Google’a} posiadają spójny wygląd. Wytyczne przedstawiają paletę barw, typografię, ikony, bardziej spójną hierarchię interfejsu oraz wszelkie zasady co i jak powinno się tworzyć. Mimo, że od tamtego wydarzenia minęło już trochę czasu to jest on używany przez \textit{Google} w kolejnych edycjach systemu \textit{Android}. Głównymi założeniami tego designu jest to że składa on się z kilku  nałożonych na siebie warstw papieru w różnych kolorach. Górne warstwy rzucają cień w zależności od odległości od podłoża. Dzięki temu mamy wrażenie głębi a wszystko jest przejrzyste i intuicyjne. Guziki  po naciśnięciu są animowane efektem fali co jest czytelnym sygnałem, że dany przycisk został naciśnięty. Dodatkowo animacje w \textit{Material Design} dopasowują się do kolejnej wytycznej czyli do takiego animowania elementów na ekranie, żeby użytkownik miał najważniejsze elementy cały czas na widoku, żeby te nie pojawiały się znikąd. Kolejną wytyczną dotyczącą animacji jest takie ich odwzorowanie aby wyglądały na naturalne poruszanie się, na przykład animacja wyskakujących elementów powinna wyglądać jakbyśmy podrzucili piłkę czyli nie za szybko ani nie za wolno, z zatrzymaniem na ułamek sekundy w maksymalnym położeniu.  
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\hsize]{images/Material_Design_example.png}
+\caption{Przykładowe elementy w \textit{Material Design}\label{RYS.1}}
+\source{https://en.wikipedia.org/wiki/MaterialDesign}
+\end{figure}
 
 \chapter{Architektura aplikacji PicDrop}
-Aplikacja składa się z dwóch części. Pierwszą z nich jest serwer API, które zostało stworzone w \textit{frameworku Ruby on Rails}. API jest pośrednikiem między bazą danych \textit{PostgreSQL} a drugą częścią aplikacji czyli klientem stworzonym w \textit{EmberJS}, który jest odpowiedzialny za warstwę wizualną aplikacji. Obie części komunikują się poprzez \textit{JSON}. Dzięki takiemu rozwiązaniu można stworzyć dodatkowych klientów, na przykład do aplikacji mobilnych.
+Aplikacja składa się z dwóch części. Pierwszą z nich jest serwer API, które zostało stworzone w \textit{frameworku Ruby on Rails}. API jest pośrednikiem między bazą danych \textit{PostgreSQL} a drugą częścią aplikacji czyli klientem stworzonym w \textit{Ember.js}, który jest odpowiedzialny za warstwę wizualną aplikacji. Obie części komunikują się poprzez \textit{JSON}. Dzięki takiemu rozwiązaniu można stworzyć dodatkowych klientów, na przykład do aplikacji mobilnych.
 
 \section{Użyte technologie}
 Część serwerowa aplikacji może zostać wykonana w wielu językach programowania takich jak \textit{Ruby}, \textit{Python}, \textit{JavaScript} czy \textit{PHP}.
 Wybrałem język \textit{Ruby}, ponieważ jest on szybkim językiem skryptowym oraz posiada stabilny i sprawdzony \textit{framework} \textit{Ruby on Rails}, który pozwala na szybkie tworzenie aplikacji internetowych oraz dzięki narzędziu \textit{RSpec} na łatwe testowanie kodu.
-Spośród mnóstwa technologii do tworzenia interfejsów użytkownika, najbardziej przodujące są oparte te na języku \textit{JavaScript} takie jak \textit{Bootstrap},\textit{ jQuery} czy\\ \textit{AngularJS}. Opierając się na artykułach \cite{} oraz \cite{} postanowiłem wybrać \textit{EmberJS}, \textit{Materialize} oraz \textit{Ruby on Rails}. UI zostanie wykonane w \textit{EmberJS}, jest to  biblioteka  \textit{open-source} języka \textit{JavaScript} stworzona  przez  \textit{Yehuda Katz}'a i \textit{Tom}'a \textit{Dale}'a, która jest cały czas usprawniana przez społeczność. Posiada ona szereg mechanizmów ułatwiających developerom tworzenie \textit{UI} na jej podstawie, ma także czytelną i przejrzystą dokumentację. UI aplikacji zostanie dodatkowo upiększone poprzez \textit{framework Materialize}, a \textit{QUnit} pozwala na testowanie kodu JavaScript w \textit{Emberze}.
+Spośród mnóstwa technologii do tworzenia interfejsów użytkownika, najbardziej przodujące są oparte te na języku \textit{JavaScript} takie jak \textit{Bootstrap},\textit{ jQuery} czy\\ \textit{AngularJS}. Opierając się na artykułach \cite{} oraz \cite{} postanowiłem wybrać \textit{Ember.js}, \textit{Materialize} oraz \textit{Ruby on Rails}. UI zostanie wykonane w \textit{Ember.js}, jest to  biblioteka  \textit{open-source} języka \textit{JavaScript} stworzona  przez  \textit{Yehuda Katz}'a i \textit{Tom}'a \textit{Dale}'a, która jest cały czas usprawniana przez społeczność. Posiada ona szereg mechanizmów ułatwiających developerom tworzenie \textit{UI} na jej podstawie, ma także czytelną i przejrzystą dokumentację. UI aplikacji zostanie dodatkowo upiększone poprzez \textit{framework Materialize}, a \textit{QUnit} pozwala na testowanie kodu JavaScript w \textit{Ember.js}.
 
 \section{API aplikacji}
 \subsection{Budowa API w oparciu o Ruby on Rails}
@@ -123,18 +133,18 @@ Kontrolery łączą modele i widoki. W \textit{Ruby on Rails} odpowiadają za pr
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\hsize]{images/rails.png}
-\caption{Html-reporter\label{RYS.1}}
+\caption{Budowa aplikacji napisanej w \textit{Ruby on Rails}\label{RYS.1}}
 \source{https://robots.thoughtbot.com/shared-terminology-yet-different-concepts-between-emberjs-and-rails}
 \end{figure}
 
 \subsection{Połączenie z bazą danych PostgreSQL}
 \textit{PostgreSQL} jest SQL-ową bazą danych, rekomendowaną dla \textit{Ruby on Rails}, przez swoją ścisłą integrację z wcześniej wymienionym \textit{framework}em oraz posiada dobre narzędzia i metody zarządzania. Standardową bazą danych w aplikacjach stworzonych w \textit{Ruby on Rails} jest \textit{SQLite}, jednakże nie jest ona wspierana przez \textit{Heroku}, który jest najpopularniejszym darmowym serwer dla aplikacji w \textit{Ruby on Rails}. Brak wsparcia jest spowodowany tym, że \textit{SQLite} działa głównie w pamięci, i tylko od czasu do czasu zapisuje dane do pliku. O ile takie rozwiązanie jest dobre dla małych lokalnych aplikacji, których dane mogą być łatwo przenoszone, nie sprawdza się na serwerach \textit{Heroku}, gdyż w darmowej wersji, nasza aplikacja może działać maksymalnie przez 18 godzin na dobę po czym jest wyłączana. Takie nagłe wyłączenie spowodowałoby utratę całej bazy danych. Drugim ważnym aspektem jest skalowanie aplikacji. Większy program może zostać uruchomiony na większej ilości zasobów sprzętowych tak zwanych \textit{dyno}, a baza danych \textit{SQLite} może pracować tylko na jednym procesie, tak więc jeśli będzie więcej procesów każdy z nich będzie posiadać własną bazę danych a dane nie będą synchronizowane prawidłowo. W związku z powyższym powinniśmy używać \textit{PostgreSQL} na etapie produkcyjnym naszej aplikacji.\newline \indent Zmiana bazy danych z \textit{SQLite} na \textit{PostgreSQL} nie jest zbyt trudna. Pierwszym krokiem jest zainstalowanie bazy na komputerze, na którym ma być uruchomiona aplikacja. Na oficjalnej stronie można znaleźć linki do pobrania. Po zainstalowaniu, musimy dodać do naszej aplikacji \verb|gem 'pg'| który zapewnia kompatybilność z bazą \textit{PostgreSQL}, a usuwamy \verb|gem 'sqlite3'|. Następnie modyfikujemy plik \textit{database.yml}, który jest plikiem konfiguracyjnym naszej aplikacji. Ostatnim krokiem jest utworzenie bazy danych na nowym środowisku przy pomocy komendy \verb|rake db:create db:migrate|  
 \subsection{Dodawanie gemów w Ruby on Rails}
-Jedną z największych zalet Ruby on Rails jest dopasowanie się frameworka do naszych potrzeb za pomocą minibibliotek tzw. gemów, tworzonych przez developerów z całego świata.
-W sieci można znaleźć tysiące różnych gemów, a każdy z nich posiada przeważnie tylko jedno specyficzne zadanie. Gemy, które są w ciągłym użytku są na bieżąco aktualizowane, dzięki czemu są poprawiane błędy i dodawane nowe funkcje. Przykładowo jeżeli chcemy testować naszą aplikacje, możemy to zrobić dzięki gemowi RSpec. Pozwala on na testowanie różnorakich elementów naszej aplikacji od walidacji pól w formularzach do kontrolerów i zapisywania danych w bazie.\newline \indent Aby dodać nowy gem do naszej aplikacji wystarczy dodać jego nazwę do pliku Gemfile w głównym katalogu naszej aplikacji go zapisać. Następnie wystarczy w terminalu otworzyć folder z naszą aplikacją i wpisać komendę "bundle install". Ruby on Rails automatycznie zainstaluje najnowszą wersję danego gemu, chyba, że wpisaliśmy konkretną wersję w pliku Gemfile. Całość przebiega szybko i sprawnie.
+Jedną z największych zalet \textit{Ruby on Rails} jest dopasowanie się \textit{frameworka} do naszych potrzeb za pomocą minibibliotek tzw. gemów, tworzonych przez developerów z całego świata.
+W sieci można znaleźć tysiące różnych gemów, a każdy z nich posiada przeważnie tylko jedno specyficzne zadanie. \textit{Gemy}, które są w ciągłym użytku są na bieżąco aktualizowane, dzięki czemu są poprawiane błędy i dodawane nowe funkcje. Przykładowo jeżeli chcemy testować naszą aplikacje, możemy to zrobić dzięki gemowi \textit{RSpec}. Pozwala on na testowanie różnorakich elementów naszej aplikacji od walidacji pól w formularzach do kontrolerów i zapisywania danych w bazie.\newline \indent Aby dodać nowy gem do naszej aplikacji wystarczy dodać jego nazwę do pliku \textit{Gemfile} w głównym katalogu naszej aplikacji go zapisać. Następnie wystarczy w terminalu otworzyć folder z naszą aplikacją i wpisać komendę \verb|bundle install|. \textit{Ruby on Rails} automatycznie zainstaluje najnowszą wersję danego \textit{gemu}, chyba, że wpisaliśmy konkretną wersję w pliku \textit{Gemfile}. Całość przebiega szybko i sprawnie.
 
 \subsection{Autoryzacja użytkowników}
-Autoryzacja użytkowników jest jednym z najważniejszych zagadnień w aplikacji PicDrop. Dzięki niej logujemy się do aplikacji jak i do serwisów społecznościowych, na które chcemy umieścić zdjęcia. Bez niej ktoś obcy mógłby korzystać z naszych danych logowania z Facebooka i Flickr bez naszej wiedzy. Cały proces autoryzacji jest dość skomplikowany i przebiega w kilku etapach. Gdy chcemy się zalogować wpisujemy nasz login i hasło a następnie klikamy na guzik Log in. Nasz login jest adresem email i musi być unikatowy, dlatego mamy pewność, że nie będzie dwóch takich samych kont ale z różnymi hasłami, dzięki czemu nikt się nie zaloguje na nasze konto. \textit{Ember.js} pobiera dane z naszego formularza i wysyła je używając wiadomości \textit{JSON} do naszego serwera. Tam aplikacja generuje dla danego użytkownika klucz tzw. token, który jest przechowywany w bazie danych i na nim opiera się tzw. sesja dzięki, której jesteśmy zalogowani nawet jeśli odświeżymy stronę. Token jest odsyłany do \textit{Ember.js} i jesteśmy zalogowani. \newline \indent Jak pisałem we wcześniejszym rozdziale, aplikacja na serwerze posiada  trzy modele - \textit{User}, \textit{Photo} oraz \textit{Authorization}. Model \textit{User} jest zarządzany przez gem \textit{Devise}. Jest to najpopularniejszy gem do uwierzytelniania w Ruby on Rails. Ma wiele funkcji i składa się z 10 modułów dzięki czemu może być dostosowany do potrzeb developera. Wymienię tylko najważniejsze z nich dla mojej aplikacji. Pierwszy z nich to \textit{Database Authenticatable}, który szyfruje i zachowuje hasło w bazie danych to autoryzacji użytkownika podczas logowania. Drugi to \textit{Omniauthable} dodaje on wsparcie dla OmniAuth, który jest gemem do logowania się w aplikacjach \textit{Ruby on Rails} na różne serwisy społecznościowe. Omówię go dokładniej w następnym rozdziale. Następny to \textit{Timeoutable}, który porzuca sesję dla nieaktywnego użytkownika przez sprecyzowany okres czasu. Takie rozwiązanie znacznie zwiększa bezpieczeństwo naszych danych, ponieważ nawet jeśli zostawimy zalogowany komputer to po czasie wygaśnięcia sesji musimy się ponownie zalogować co nie pozwala użytkować naszego konta przez osoby trzecie.
+Autoryzacja użytkowników jest jednym z najważniejszych zagadnień w aplikacji \textit{PicDrop}. Dzięki niej logujemy się do aplikacji jak i do serwisów społecznościowych, na które chcemy umieścić zdjęcia. Bez niej ktoś obcy mógłby korzystać z naszych danych logowania z \textit{Facebooka} i \textit{Flickr} bez naszej wiedzy. Cały proces autoryzacji jest dość skomplikowany i przebiega w kilku etapach. Gdy chcemy się zalogować wpisujemy nasz login i hasło a następnie klikamy na guzik Log in. Nasz login jest adresem email i musi być unikatowy, dlatego mamy pewność, że nie będzie dwóch takich samych kont ale z różnymi hasłami, dzięki czemu nikt się nie zaloguje na nasze konto. \textit{Ember.js} pobiera dane z naszego formularza i wysyła je używając wiadomości \textit{JSON} do naszego serwera. Tam aplikacja generuje dla danego użytkownika klucz tzw. token, który jest przechowywany w bazie danych i na nim opiera się tzw. sesja dzięki, której jesteśmy zalogowani nawet jeśli odświeżymy stronę. Token jest odsyłany do \textit{Ember.js} i jesteśmy zalogowani. \newline \indent Jak pisałem we wcześniejszym rozdziale, aplikacja na serwerze posiada  trzy modele - \textit{User}, \textit{Photo} oraz \textit{Authorization}. Model \textit{User} jest zarządzany przez gem \textit{Devise}. Jest to najpopularniejszy gem do uwierzytelniania w \textit{Ruby on Rails}. Ma wiele funkcji i składa się z 10 modułów dzięki czemu może być dostosowany do potrzeb developera. Wymienię tylko najważniejsze z nich dla mojej aplikacji. Pierwszy z nich to \textit{Database Authenticatable}, który szyfruje i zachowuje hasło w bazie danych to autoryzacji użytkownika podczas logowania. Drugi to \textit{Omniauthable} dodaje on wsparcie dla OmniAuth, który jest gemem do logowania się w aplikacjach \textit{Ruby on Rails} na różne serwisy społecznościowe. Omówię go dokładniej w następnym rozdziale. Następny to \textit{Timeoutable}, który porzuca sesję dla nieaktywnego użytkownika przez sprecyzowany okres czasu. Takie rozwiązanie znacznie zwiększa bezpieczeństwo naszych danych, ponieważ nawet jeśli zostawimy zalogowany komputer to po czasie wygaśnięcia sesji musimy się ponownie zalogować co nie pozwala użytkować naszego konta przez osoby trzecie.
 \newline\indent \textit{Ember.js} do autoryzacji używa biblioteki \textit{Ember Simple Auth} i jej modułu kompatybilnego z \textit{Devise}, który nosi nazwę \textit{Ember Simple Auth Devise}. Biblioteka ta zapewnia kompleksowe zarządzanie sesją i logowaniem do aplikacji opartych na \textit{Ember.js}, gdyż posiada wiele modułów dla różnych typów uwierzytelniania. Są to między innymi \textit{simple-auth-oauth2 }, który pozwala na logowanie w standardzie \textit{OAuth2}. Standard ten jest używany przez Facebooka i zostanie dokładniej omówiony w jednym z kolejnych rozdziałów. Kolejny moduł to \textit{simple-auth-torii}. Jest to moduł kompatybilny z biblioteką \textit{Torii}, która odpowiada za logowanie w standardzie \textit{OAuth 1a}. Standard ten jest wykorzystywany między innymi przez \textit{Twittera} i \textit{Flickra}.
 
 \subsection{Połączenie z API różnych sieci społecznościowych} l User Authorization URL: Access Token URL: wysyłanie zdjęc
@@ -173,7 +183,7 @@ http://www.example.com/
 &oauth_token=72157626737672178-022bbd2f4c2f3432
 &oauth_signature=UD9TGXzrvLIb0Ar5ynqvzatM58U%3D
 \end{minted}
-\newpage\indent W standardzie OAuth 2.0, używany przez między innymi \textit{Facebooka}. Gdy chcemy się zalogować do tego serwisu wystarczy nacisnąć guzik logowania, który przekierowuje nas do adresu naszego API tj. \verb|/users/auth/facebook|. Następnie \textit{Omniauth} łączy się z serwerami \textit{Facebook'a} generując mniej więcej taki adres 
+\newpage\indent W standardzie \textit{OAuth 2}, używany przez między innymi \textit{Facebooka}. Gdy chcemy się zalogować do tego serwisu wystarczy nacisnąć guzik logowania, który przekierowuje nas do adresu naszego API tj. \verb|/users/auth/facebook|. Następnie \textit{Omniauth} łączy się z serwerami \textit{Facebook'a} generując mniej więcej taki adres 
 \begin{minted}[frame=single, fontsize=\normalsize, breaklines=true]{ruby}
 https://www.facebook.com/auth?response_type=code
 &client_id=CLIENT_ID&redirect_uri=REDIRECT_URI&scope=photos
@@ -182,8 +192,8 @@ https://www.facebook.com/auth?response_type=code
 
 \section{Front-end aplikacji}
 
-\subsection{Budowa Front-endu w oparciu o framework EmberJS }
-Warstwa wizualna aplikacji czyli tak zwany front-end został wykonany przy użyciu frameworka EmberJS. Dzięki temu łatwiej zarządzać tą cześcią aplikacji. \textit{EmberJS} opiera się na wzorcu \textit{Model-View-Controler} \footnote{ang. Model-Widok-Kontroler} co oznacza, że składa się z
+\subsection{Budowa \textit{front-endu} w oparciu o \textit{framework Ember.js} }
+Warstwa wizualna aplikacji czyli tak zwany front-end został wykonany przy użyciu \textit{frameworka Ember.js}. Dzięki temu łatwiej zarządzać tą cześcią aplikacji. \textit{Ember.js} opiera się na wzorcu \textit{Model-View-Controler} \footnote{pol. Model-Widok-Kontroler} co oznacza, że składa się z
 trzech podstawowych części odpowiedzialnych za różne akcje. 
 \begin{figure}[H]
 \centering
@@ -191,24 +201,24 @@ trzech podstawowych części odpowiedzialnych za różne akcje.
 \caption{Diagram budowy Ember.js\label{RYS.1}}
 \source{https://robots.thoughtbot.com/shared-terminology-yet-different-concepts-between-emberjs-and-rails}
 \end{figure}
-Model  jest pewną reprezentacją problemu bądź logiki aplikacji. W naszym przypadku model jest szablonem z opisanymi typami danych danego zasobu np. zdjęcia. Model również komunikuje się z Ember Data czyli warstwą aplikacji bezpośrednio komunikującą się z serwerem.  Widok opisuje, jak wyświetlić pewną część modelu w ramach interfejsu użytkownika. W EmberJS widok składa się z tak zwanych templates czyli kodem HTML z aktywnie zmieniającymi się częściami. Kontroller przyjmuje dane wejściowe od użytkownika i reaguje na jego akcje, zarządzając aktualizacje modelu oraz odświeżenie widoków. Kontroler w EmberJS pobiera dane z modelu oraz zarządza akcjami w widoku.
+Model  jest pewną reprezentacją problemu bądź logiki aplikacji. W naszym przypadku model jest szablonem z opisanymi typami danych danego zasobu np. zdjęcia. Model również komunikuje się z \textit{Ember Data} czyli warstwą aplikacji bezpośrednio komunikującą się z serwerem.  Widok opisuje, jak wyświetlić pewną część modelu w ramach interfejsu użytkownika. W \textit{Ember.js} widok składa się z tak zwanych \textit{templates} czyli kodem HTML z aktywnie zmieniającymi się częściami. Kontroler przyjmuje dane wejściowe od użytkownika i reaguje na jego akcje, zarządzając aktualizacje modelu oraz odświeżenie widoków. Kontroler w \textit{Ember.js} pobiera dane z modelu oraz zarządza akcjami w widoku.
 
 \subsection{Połączenie z API}
-Połączenie z serwerem aplikacji jest jedną z najważniejszych rzeczy w całej aplikacji. To dzięki niemu możemy się komunikować z serwerem oraz przetwarzac dane z bazy danych. EmberJS do pobierania i przetwarzania danych korzysta z biblioteki Ember Data. Ma ona kilka wbudowanych tzw. adapterów do połączenia z różnymi typami serwerów napisanych w różnych językach i technologiach. W mojej aplikacji używam ActiveModelAdapter, który działa bezproblemowo z ActiveModel w Ruby on Rails przeprowadzając serializacje i deserializację danych z EmberJS do wiadomości JSON.
+Połączenie z serwerem aplikacji jest jedną z najważniejszych rzeczy w całej aplikacji. To dzięki niemu możemy się komunikować z serwerem oraz przetwarzac dane z bazy danych. \textit{Ember.js} do pobierania i przetwarzania danych korzysta z biblioteki \textit{Ember Data}. Ma ona kilka wbudowanych tzw. adapterów do połączenia z różnymi typami serwerów napisanych w różnych językach i technologiach. W mojej aplikacji używam \textit{ActiveModelAdapter}, który działa bezproblemowo z \textit{ActiveModel} w \textit{Ruby on Rails} przeprowadzając serializacje i deserializację danych z \textit{Ember.js} do wiadomości \textit{JSON}.
 
 \subsection{Opis narzędzia Ember-CLI}
-Ember-CLI (Command Line Interface) to program narzędziowy, który zarządza aplikacją napisaną we frameworku EmberJS. Głównymi zaletami korzystania z tego narzędzia jest zarządzanie plikami, zależnościami, proste dodawanie wtyczek, uruchamianie serwera, generowanie konkretnych części programu jak np. model lub kontroler.
+\textit{Ember CLI} \footnote{ang. \textit{Command Line Interface}} to program narzędziowy, który zarządza aplikacją napisaną we \textit{frameworku} \textit{Ember.js}. Głównymi zaletami korzystania z tego narzędzia jest zarządzanie plikami, zależnościami, proste dodawanie wtyczek, uruchamianie serwera, generowanie konkretnych części programu jak np. model lub kontroler.
 
-\subsection{Dodawanie wtyczek do aplikacji w EmberJS}
-Wtyczki są to programy dodające jakąś funkcjonalność do naszego programu, dzięki czemu nie musimy wszystkich elementów pisać od podstaw. Wystarczy jak poszukamy wtyczki zapewniającej nam funkcjonalność, której szukamy np. t17-ember-upload pozwala na wgrywanie zdjęć do naszej aplikacji poprzez proste \textit{Drag \& Drop}\footnote{pol. Przeciągnij i upuść}.  Aby dodać wtyczkę wystarczy zainstalować ją przy użyciu NPM lub bowera  po czym dodać app.import w pliku Brocfile.js. Następnie należy zaimportować konkretny moduł z wtyczki do naszej części aplikacji i już można używac widoku oraz akcji z wtyczki.
-\subsection{Same origin policy oraz Cross-origin resource sharing} 
-\textit{Same Origin Policy} uniemożliwia dwóm osobnym kontekstom Javascript modyfikacji swoich drzew DOM. Dzięki temu strona Agresora aggressive.com nie może modyfikować DOM strony Banku bank.com, w sytuacji kiedy np. te dwie strony są otwarte w kartach przeglądarki. Jednakże jeśli chcemy aby skrypt z jednego kontekstu modyfikowały inny takie zmiany zostaną wykonane. Wszystko dlatego, że strona ma ten sam \textit{Origin} czyli pochodznie. Na pochodzenie ma wpływ:
+\subsection{Dodawanie wtyczek do aplikacji w \textit{Ember.js}}
+Wtyczki są to programy dodające jakąś funkcjonalność do naszego programu, dzięki czemu nie musimy wszystkich elementów pisać od podstaw. Wystarczy jak poszukamy wtyczki zapewniającej nam funkcjonalność, której szukamy np. \textit{t17-ember-upload} pozwala na wgrywanie zdjęć do naszej aplikacji poprzez proste \textit{Drag \& Drop}\footnote{pol. Przeciągnij i upuść}.  Aby dodać wtyczkę wystarczy zainstalować ją przy użyciu \textit{NPM} lub \textit{bowera}  po czym dodać app.import w pliku \textit{Brocfile.js}. Następnie należy zaimportować konkretny moduł z wtyczki do naszej części aplikacji i już można używać widoku oraz akcji z wtyczki.
+\subsection{\textit{Same origin policy} oraz \textit{Cross-origin resource sharing}} 
+\textit{Same Origin Policy} uniemożliwia dwóm osobnym kontekstom \textit{Javascript} modyfikacji swoich drzew DOM. Dzięki temu strona Agresora \textit{aggressive.com} nie może modyfikować DOM strony Banku \textit{ bank.com}, w sytuacji kiedy np. te dwie strony są otwarte w kartach przeglądarki. Jednakże jeśli chcemy aby skrypt z jednego kontekstu modyfikowały inny takie zmiany zostaną wykonane. Wszystko dlatego, że strona ma ten sam \textit{Origin} czyli pochodzenie. Na pochodzenie ma wpływ:
 \begin{itemize}
 \item protokół
 \item host
 \item port
 \end{itemize}
-Zasada \textit{SOP} jest jednocześnie zbawieniem i przekleństwem. Z jednej strony, jest to mechanizm skutecznie chroniący każdą stronę internetową, z drugiej – ogranicza developerów, którzy chcą np. asynchronicznie pobrać zasób z innej domeny. Aby pomóc developerom firma W3C wprowadziła \textit{Cross-Origin Resource Sharing} \footnote{and. dzielenie zasobów różnego pochodzenia}. Jest to metoda omijania SOP polegająca na odpowiednim ustawianiu nagłówków HTTP. Przeglądarka wysyła do serwera nagłówek “Origin”. Mówi w nim z jakiej strony chcemy się dostać do zasobu. Serwer musi zgodzić się na stronę źródłową. Załóżmy, że strona jest pod adresem http://moja-strona.pl a API ma adres http://moje-api.pl/api. Żądanie przeglądarki będzie wyglądać tak:
+Zasada \textit{SOP} jest jednocześnie zbawieniem i przekleństwem. Z jednej strony, jest to mechanizm skutecznie chroniący każdą stronę internetową, z drugiej – ogranicza developerów, którzy chcą np. asynchronicznie pobrać zasób z innej domeny. Aby pomóc developerom firma \textit{W3C} wprowadziła \textit{Cross-Origin Resource Sharing} \footnote{and. dzielenie zasobów różnego pochodzenia}. Jest to metoda omijania \textit{SOP} polegająca na odpowiednim ustawianiu nagłówków HTTP. Przeglądarka wysyła do serwera nagłówek “Origin”. Mówi w nim z jakiej strony chcemy się dostać do zasobu. Serwer musi zgodzić się na stronę źródłową. Załóżmy, że strona jest pod adresem \verb|http://moja-strona.pl| a API ma adres \verb|http://moje-api.pl/api|. Żądanie przeglądarki będzie wyglądać tak:
 \begin{minted}[frame=single, fontsize=\normalsize, breaklines=true]{ruby}
 GET /api HTTP/1.1
 Origin: http://moja-strona.pl
@@ -221,7 +231,7 @@ Odpowiedź serwera to:
 Access-Control-Allow-Origin: http://moja-strona.pl
 Content-Type: text/html; charset=utf-8
 \end{minted}
-Nagłówek Access-Control-Allow-Origin mówi przeglądarce, że serwer zgadza się, żeby moja-strona.pl sięgała do naszego API. Można w tym miejscu ustawić gwiazdkę, wtedy serwer zgadza się na wszystkie strony.Aby móc wykorzystywać Cross-Origin Resource Sharing w swoim serwisie muszą zostać spełnione dwa  warunki:
+Nagłówek \textit{Access-Control-Allow-Origin} mówi przeglądarce, że serwer zgadza się, żeby \verb|moja-strona.pl| sięgała do naszego API. Można w tym miejscu ustawić gwiazdkę, wtedy serwer zgadza się na wszystkie strony.Aby móc wykorzystywać \textit{Cross-Origin Resource Sharing} w swoim serwisie muszą zostać spełnione dwa  warunki:
 \begin{itemize}
 \item przeglądarka musi obsługiwać CORS
 \item serwer, do którego się odwołujemy musi być odpowiednio skonfigurowany
@@ -242,24 +252,50 @@ ENV.contentSecurityPolicy = {
     'default-src': "http://www.facebook.com/",
     'script-src': "'self' 'unsafe-inline' 'unsafe-eval' ",
     'font-src': "'self' http://fonts.gstatic.com", 
-    'connect-src': "'self' http://localhost:3000/ http://localhost:3000/photos http://127.0.0.1:3000 http://localhost:3000/users/sign_in ",
+    'connect-src': "'self' http://localhost:3000/ http://localhost:3000/photos http://127.0.0.1:3000",
     'img-src': "'self' http://localhost:3000 http://localhost:4200/category" ,
     'report-uri':"'localhost'",
     'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com", 
     'media-src': "'self'"
   }
 \end{minted}
+\section{Aplikacja mobilna  na system Android}
+\subsection{Zalety aplikacji mobilnej względem strony w mobilnej przeglądarce}
+Aplikacja mobilna ma szereg zalet względem strony otwieranej w przeglądarce. Przede wszystkim natywna aplikacja lepiej wykorzystuje miejsce na wyświetlaczu, którego i tak mało jest na \textit{smartphonie}. Dzieje się tak przede wszystkim z powodu braku paska adresu, który jest w przeglądarce mobilnej i który zabiera przestrzeń z góry aplikacji. Zamiast tego w aplikacji mobilnej znajduje się pasek nawigacyjny, często jest także umieszczony z lewej strony w wysuwanym menu. Aplikacja taka zapewnia także lepszą kompatybilność z systemem mobilnym, gdyż jest pisana na kilka wersji systemu a nie na wszystkie urządzenia mobilne z dowolnym systemem operacyjnym. Kolejną zaletą aplikacji mobilnej jest możliwość korzystania ze zasobów sprzętowych \textit{smartphona}, gdyż posiadają one wiele czujników, jak na przykład żyroskop czy \textit{GPS}, do których \textit{developer} może mieć dostęp. Następną zaletą jest używanie niektórych aplikacji bez połączenia z internetem, co w przypadku aplikacji przeglądarkowej jest niemożliwe. Podsumowując, natywna aplikacja posiada wiele zalet, a stworzenie jej dzięki narzędziu \textit{Cordova} nie zajmuje zbyt wiele czasu tak więc warto się zainteresować tym tematem podczas tworzenia aplikacji przy użyciu \textit{Ember CLI}.
+\subsection{Tworzenie aplikacji przy użyciu narzędzia \textit{Cordova}}
+\textit{Apache Cordova} jest narzędziem umożliwiającym łatwe budowanie aplikacji mobilnej z projektu napisanego w \textit{Ember CLI}. Wymagania programu  to zainstalowanie środowiska \textit{Android SDK}, na które składają się różne moduły do obsługi kolejnych wersji tego systemu mobilnego. Kolejnym krokiem jest zainstalowanie samego narzędzia poprzez komendę:
+\begin{minted}[frame=single, fontsize=\normalsize, breaklines=true]{js}
+ npm install -g cordova
+ \end{minted}
+  następnie instalujemy dodatek do \textit{Ember CLI} 
+  \begin{minted}[frame=single, fontsize=\normalsize, breaklines=true]{js}
+  ember install ember-cli-cordova
+  \end{minted}
+  Do inicjalizacji aplikacji mobilnej służy polecenie 
+  \begin{minted}[frame=single, fontsize=\normalsize, breaklines=true]{js}
+  ember generate cordova-init com.poeticsystems.hello --platform=android
+  \end{minted}
+   dodając na końcu na jaką platformę mobilną aplikacja będzie budowana . Ostatecznie budujemy aplikację dzięki komendzie:
+    \begin{minted}[frame=single, fontsize=\normalsize, breaklines=true]{js}
+   ember cordova:build --platform=android
+   \end{minted}
+   Jeśli wszystko przebiegnie zgodnie z planem nasza aplikacja mobilna jest gotowa. Teraz wystarczy ją umieścić na naszym urządzeniu z systemem \textit{Android} i zainstalować. Warto również wspomnieć, że standardowe ustawienia bezpieczeństwa nie pozwalają na instalację oprogramowania spoza sklepu \textit{Play} lecz można to zmienić w ustawieniach systemowych.
 \chapter{Testy}
 \section{Testowanie API przy użyciu RSpec}
-\textit{RSpec} jest najpopularniejszą biblioteką używaną do testowania aplikacji napisanych w \textit{Ruby on Rails}. Testy dzielą się na 3 typy. Pierwszy z nich to testy kontrolera, które spawdzają poprawność zapisywania i odczytywania danych w bazie. Dzięki temu wiadomo czy aplikacja prawidłowo komunikuje się z bazą danych. Drugi typ testów to testy modelu danych. Testy te głównie sprawdzają czy walidatory, czyli elementy sprawdzające poprawność i format danych wpisywanych przez użytkownika, działają prawidłowo. Gdyby nie było walidacji, można by było na przykład zamiast imienia wpisać dowolny ciąg znaków o dowolnej długości co może powodować konflikty i błędy podczas przetwarzania danych. Trzeci typ testów to testy funkcjonalne, czyli testy zachowania interfejsu użytkownika na konkretne akcje, jak na przykład wpisanie w pole formularza lub kliknięcie na guzik. Do testów funkcjonalnych często używana jest dodatkowa biblioteka \textit{Capybara}, która współpracuje z Rspec. 
+\textit{RSpec} jest najpopularniejszą biblioteką używaną do testowania aplikacji napisanych w \textit{Ruby on Rails}. Testy dzielą się na 3 typy. Pierwszy z nich to testy kontrolera, które sprawdzają poprawność zapisywania i odczytywania danych w bazie. Dzięki temu wiadomo czy aplikacja prawidłowo komunikuje się z bazą danych. Drugi typ testów to testy modelu danych. Testy te głównie sprawdzają czy walidatory, czyli elementy sprawdzające poprawność i format danych wpisywanych przez użytkownika, działają prawidłowo. Gdyby nie było walidacji, można by było na przykład zamiast imienia wpisać dowolny ciąg znaków o dowolnej długości co może powodować konflikty i błędy podczas przetwarzania danych. Trzeci typ testów to testy funkcjonalne, czyli testy zachowania interfejsu użytkownika na konkretne akcje, jak na przykład wpisanie w pole formularza lub kliknięcie na guzik. Do testów funkcjonalnych często używana jest dodatkowa biblioteka \textit{Capybara}, która współpracuje z \textit{RSpec}. 
 
 \subsection{Raport z testów API}
-W \textit{API} aplikacji zostało przetestowane głównie łączenie się aplikacji ze sieciami społecznościowymi tj. \textit{Facebook} oraz \textit{Flickr}. 
-\section{Testowanie Front-end przy użyciu QUnit}
-\textit{QUnit} jest standardową biblioteką używaną do testowania aplikacji napisanych w \textit{Ember.js}. Pozwala na pisanie zarówno \textit{Unit tests} \footnote{ang. Testy jednostkowe} jak i \textit{Acceptance tests} \footnote{ang. Testy akceptujące}.  Testy jednostkowe to wyizolowane części funkcjonalności, bez ich zależności od innych elementów. Przykładowo:
+W \textit{API} aplikacji zostało przetestowane głównie łączenie się aplikacji ze sieciami społecznościowymi tj. \textit{Facebook} oraz \textit{Flickr}. \begin{figure}[H]
+\centering
+\includegraphics[width=1\hsize]{images/rails_testy.png}
+\caption{Testy w \textit{RSpec}\label{RYS.1}}
+\source{Własne}
+\end{figure}
+\section{Testowanie \textit{front-end} przy użyciu \textit{QUnit}}
+\textit{QUnit} jest standardową biblioteką używaną do testowania aplikacji napisanych w \textit{Ember.js}. Pozwala na pisanie zarówno \textit{Unit tests} \footnote{pol. Testy jednostkowe} jak i \textit{Acceptance tests} \footnote{ang. Testy akceptujące}.  Testy jednostkowe to wyizolowane części funkcjonalności, bez ich zależności od innych elementów. Przykładowo:
 \begin{itemize}
 \item Użytkownik ma imię.
-\item Użytkownik ma imię i nazwisko, które nie może przekaraczać 50 znaków.
+\item Użytkownik ma imię i nazwisko, które nie może przekraczać 50 znaków.
 \item Zdjęcie ma nazwę.
 \end{itemize}
 Testy akceptacyjne są używane do testowania interakcji użytkownika z aplikacją. Przykładowo:
@@ -268,44 +304,53 @@ Testy akceptacyjne są używane do testowania interakcji użytkownika z aplikacj
 \item Użytkownik może utworzyć nowe konto.
 \item Użytkownik po zalogowaniu jest przekierowany do strony głównej.
 \end{itemize}
-Uruchamianie testów może przebiegać na dwa sposoby. Pierwszy z nich to wpisanie komendy \verb|ember test|. Aplikacja uruchomi wszystkie testy w konsoli i ewentualne błędy zostaną również tam wyświetlone. Drugim sposobem jest normalne uruchomienie serwera i wpisanie adresu serwera z koncówką \verb|/tests|. W oknie przeglądarki zostaną pokazane wszystkie testy.
-\newline \indent Warto wspomnieć również o tzw. \textit{helperach} czyli plikach zawierających niestandardowe metody pomagające testować kod.
+Uruchamianie testów może przebiegać na dwa sposoby. Pierwszy z nich to wpisanie komendy \verb|ember test|. Aplikacja uruchomi wszystkie testy w konsoli i ewentualne błędy zostaną również tam wyświetlone. Drugim sposobem jest normalne uruchomienie serwera i wpisanie adresu serwera z końcówką \verb|/tests|. W oknie przeglądarki zostaną pokazane wszystkie testy.
+\newline \indent Warto wspomnieć również o tzw. \textit{helpers} czyli plikach zawierających niestandardowe metody pomagające testować kod.
 \subsection{Raport z testów Front-end}
-W \textit{front-endzie} główny nacisk został położony na przetestowanie logowania i uwierzytelniania użytkowników i te elementy zostały przetestowane automatycznie. Reszta aplikacji została przetestowana ręcznie a znalezione błędy zostały usunięte.
-\chapter{Wkład własny}
+W \textit{front-endzie} główny nacisk został położony na przetestowanie logowania i uwierzytelniania użytkowników i te elementy zostały przetestowane automatycznie. Reszta aplikacji została przetestowana ręcznie a znalezione błędy zostały usunięte. Poniżej przykładowy zrzut ekranu przedstawiający testy wyświetlane w przeglądarce internetowej:
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\hsize]{images/ember-testy.png}
+\caption{Testy w \textit{Ember.js}\label{RYS.1}}
+\source{Własne}
+\end{figure}
 % zakończenie
 \summary
-W niniejszej pracy starałem się pokazać budowę aplikacji modularnej, zalety i wady takiego rozwiązania oraz szereg różnych problemów z jakimi musi się uporać developer podczas pisania takowej aplikacji. 
+W niniejszej pracy starałem się pokazać budowę aplikacji modularnej, zalety i wady takiego rozwiązania oraz szereg różnych problemów z jakimi musi się uporać developer podczas pisania takowej aplikacji. W początkowym stadium aplikacja modularna jest trudniejsza do wykonania, gdyż \textit{web developer} musi nauczyć się wielu nowych technologii, z którymi do tej pory mógł nie mieć do czynienia, jednakże w dalszym etapie rozwoju aplikacji ten trud się opłaca, ponieważ rozdzielenie programu na \textit{front-end} i \textit{back-end} pozwala na lepsze dostosowywanie go do potrzeb użytkowników oraz łatwe tworzenie nowych aplikacji klienckich na przykład na urządzenia mobilne.
 % załączniki (opcjonalnie):
-\appendix
-\chapter{Tytuł załącznika jeden}
+%\appendix
+%\chapter{Tytuł załącznika jeden}
 
-Treść załącznika jeden.
-\chapter{Tytuł załącznika dwa}
+%Treść załącznika jeden.
+%\chapter{Tytuł załącznika dwa}
 
-Treść załącznika dwa.
+%Treść załącznika dwa.
 
 % literatura (obowiązkowo):
 \bibliographystyle{unsrt}
 \bibliography{mgr}
 
-\nocite {magiaUI}
-\nocite {design}
-\nocite {projektowanieUI}
+\nocite{RailsTutorialBook}
 \nocite {StiveKrug}
 \nocite{DouglasCrockford}
 \nocite {UIRails}
-\nocite {modelingUI}
+\nocite{emberRails}
+\nocite{Ember}
+\nocite{emberTutorial}
+\nocite{InDephEmber}
 \nocite {rspecDoc}
 \nocite {railsDoc}
 \nocite {emberDoc}
 \nocite{emberCLIDoc}
-\nocite{emberRails}
-\nocite{emberTutorial}
-\nocite{emberIntro}
+\nocite{postgresDoc}
+\nocite{FacebookDev}
+\nocite{flickr}
+
+
+
 
 % spis tabel (jeżeli jest potrzebny):
-\listoftables
+%\listoftables
 
 % spis rysunków (jeżeli jest potrzebny):
 \listoffigures

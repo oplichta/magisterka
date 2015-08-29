@@ -1,25 +1,10 @@
 \begin{thebibliography}{10}
 
-\bibitem{magiaUI}
-Robert~Hoekman jr.
-\newblock {\em
-  \href{http://helion.pl/ksiazki/magia-interfejsu-praktyczne-metody-projektowania-aplikacji-internetowych-robert-hoekman-jr,magint.htm#szczegoly}{Magia
-  interfejsu. Praktyczne metody projektowania aplikacji internetowych}}.
-\newblock Helion, 2010.
-
-\bibitem{projektowanieUI}
-Jenifer Tidwell.
-\newblock {\em
-  \href{http://helion.pl/ksiazki/projektowanie-interfejsow-sprawdzone-wzorce-projektowe-jenifer-tidwell,projin.htm}{Projektowanie
-  interfejs{\'o}w. Sprawdzone wzorce projektowe}}.
-\newblock Helion, 2012.
-
-\bibitem{design}
-Don Norman.
-\newblock {\em
-  \href{http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107}{The
-  Design of Everyday Things}}.
-\newblock Basic Books, 2002.
+\bibitem{RailsTutorialBook}
+Michael Hartl.
+\newblock {\em \href{https://www.railstutorial.org/book}{Ruby on Rails
+  Tutorial} dost{\k e}p 2015-09-01}.
+\newblock SoftConver.
 
 \bibitem{StiveKrug}
 Steve Krug.
@@ -49,29 +34,53 @@ Rolf Hennicker~Nora Koch.
   the User Interface of Web Applications}.
 \newblock 2001.
 
-\bibitem{rspecDoc}
-\href {http://rspec.info/}{Rspec Docs} dost{\k e}p 2015-05-12.
-
-\bibitem{railsDoc}
-\href{http://rubyonrails.org/documentation}{Ruby on Rails Docs} dost{\k e}p
-  2015-05-12.
-
-\bibitem{emberDoc}
-\href{http://emberjs.com}{EmberJs Docs} dost{\k e}p 2015-05-12.
-
-\bibitem{emberCLIDoc}
-\href{http://www.ember-cli.com}{Ember CLI Docs} dost{\k e}p 2015-05-12.
-
 \bibitem{emberRails}
-\href{https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux-part-1-the-api-and-cms-with-ruby-on-rails}{Ember
-  Rails } dost{\k e}p 2015-05-12.
+\href{https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux-part-1-the-api-and-cms-with-ruby-on-rails}{Rails
+  + Ember.js (with the Ember CLI)} dost{\k e}p 2015-09-01.
+
+\bibitem{Ember}
+Vic Ramon.
+\newblock \href{http://ember.vicramon.com}{Vic Ramon's Ember Tutorial} dost{\k
+  e}p 2015-09-01.
 
 \bibitem{emberTutorial}
 \href{https://www.airpair.com/javascript/emberjs-using-ember-cli}{EmberJS
-  Tutorial} dost{\k e}p 2015-05-12.
+  Tutorial} dost{\k e}p 2015-09-01.
 
 \bibitem{emberIntro}
 \href{http://www.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/}{Introduction
-  to Ember} dost{\k e}p 2015-05-12.
+  to Ember} dost{\k e}p 2015-09-01.
+\newblock 2013.
+
+\bibitem{InDephEmber}
+Julien Knebel.
+\newblock
+  \href{http://www.smashingmagazine.com/2013/11/an-in-depth-introduction-to-ember-js/}{An
+  In-Depth Introduction To Ember.js} dost{\k e}p 2015-09-01.
+
+\bibitem{rspecDoc}
+\href {http://rspec.info/}{Rspec Docs} dost{\k e}p 2015-09-01.
+
+\bibitem{railsDoc}
+\href{http://rubyonrails.org/documentation}{Ruby on Rails Docs} dost{\k e}p
+  2015-09-01.
+
+\bibitem{emberDoc}
+\href{http://emberjs.com}{EmberJs Docs} dost{\k e}p 2015-09-01.
+
+\bibitem{emberCLIDoc}
+\href{http://www.ember-cli.com}{Ember CLI Docs} dost{\k e}p 2015-09-01.
+
+\bibitem{postgresDoc}
+\href {http://www.postgresql.org/docs/}{PostgreSQL Docs} dost{\k e}p
+  2015-09-01.
+
+\bibitem{FacebookDev}
+\href{https://developers.facebook.com}{Facebook Developer Site} dost{\k e}p
+  2015-09-01.
+
+\bibitem{flickr}
+\href{https://www.flickr.com/services/}{Flickr Developer Site} dost{\k e}p
+  2015-09-01.
 
 \end{thebibliography}
