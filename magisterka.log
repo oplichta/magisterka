@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.21)  29 AUG 2015 14:16
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.8.21)  30 AUG 2015 13:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1351,22 +1351,22 @@ runsystem(rm "magisterka.mintedmd5")...executed.
 
 runsystem(rm "magisterka.pyg")...executed.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 362.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 362.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
  (./magisterka.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 362.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 362.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 360.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 360.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 362.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 360.
  ) 
 Here is how much of TeX's memory you used:
- 24471 strings out of 493706
- 463774 string characters out of 6145769
+ 24469 strings out of 493706
+ 463750 string characters out of 6145769
  554584 words of memory out of 5000000
- 27483 multiletter control sequences out of 15000+600000
+ 27481 multiletter control sequences out of 15000+600000
  8041 words of font info for 76 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  53i,12n,92p,10396b,548s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -27,13 +27,6 @@ Joe Fiorini.
   Rails: An Example}.
 \newblock 2012.
 
-\bibitem{modelingUI}
-Rolf Hennicker~Nora Koch.
-\newblock
-  \href{http://www.pst.informatik.uni-muenchen.de/~kochn/pUML2001-Hen-Koch.pdf}{Modeling
-  the User Interface of Web Applications}.
-\newblock 2001.
-
 \bibitem{emberRails}
 \href{https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux-part-1-the-api-and-cms-with-ruby-on-rails}{Rails
   + Ember.js (with the Ember CLI)} dost{\k e}p 2015-09-01.
@@ -46,11 +39,6 @@ Vic Ramon.
 \bibitem{emberTutorial}
 \href{https://www.airpair.com/javascript/emberjs-using-ember-cli}{EmberJS
   Tutorial} dost{\k e}p 2015-09-01.
-
-\bibitem{emberIntro}
-\href{http://www.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/}{Introduction
-  to Ember} dost{\k e}p 2015-09-01.
-\newblock 2013.
 
 \bibitem{InDephEmber}
 Julien Knebel.
