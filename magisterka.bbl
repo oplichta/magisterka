@@ -14,6 +14,15 @@ Steve Krug.
   funkcjonalno{\'s}ci stron internetowych}}.
 \newblock Helion, 2012.
 
+\bibitem{emberRails}
+\href{https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux-part-1-the-api-and-cms-with-ruby-on-rails}{Rails
+  + Ember.js (with the Ember CLI)} dost{\k e}p 2015-09-01.
+
+\bibitem{Ember}
+Vic Ramon.
+\newblock \href{http://ember.vicramon.com}{Vic Ramon's Ember Tutorial} dost{\k
+  e}p 2015-09-01.
+
 \bibitem{DouglasCrockford}
 DouglasCrockford.
 \newblock {\em
@@ -24,17 +33,7 @@ DouglasCrockford.
 \bibitem{UIRails}
 Joe Fiorini.
 \newblock \href{https://coderwall.com/p/zg4zfq}{User Interface Thinking in
-  Rails: An Example}.
-\newblock 2012.
-
-\bibitem{emberRails}
-\href{https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux-part-1-the-api-and-cms-with-ruby-on-rails}{Rails
-  + Ember.js (with the Ember CLI)} dost{\k e}p 2015-09-01.
-
-\bibitem{Ember}
-Vic Ramon.
-\newblock \href{http://ember.vicramon.com}{Vic Ramon's Ember Tutorial} dost{\k
-  e}p 2015-09-01.
+  Rails: An Example} dost{\k e}p 2015-09-01.
 
 \bibitem{emberTutorial}
 \href{https://www.airpair.com/javascript/emberjs-using-ember-cli}{EmberJS
