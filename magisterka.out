@@ -18,7 +18,7 @@
 \BOOKMARK [1][-]{section.3.3}{Front-end\040aplikacji}{chapter.3}% 18
 \BOOKMARK [2][-]{subsection.3.3.1}{Budowa\040front-endu\040w\040oparciu\040o\040framework\040Ember.js\040}{section.3.3}% 19
 \BOOKMARK [2][-]{subsection.3.3.2}{Połączenie z API}{section.3.3}% 20
-\BOOKMARK [2][-]{subsection.3.3.3}{Opis narzędzia Ember-CLI}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.3}{Opis narzędzia Ember CLI}{section.3.3}% 21
 \BOOKMARK [2][-]{subsection.3.3.4}{Dodawanie\040wtyczek\040do\040aplikacji\040w\040Ember.js}{section.3.3}% 22
 \BOOKMARK [2][-]{subsection.3.3.5}{Same\040origin\040policy\040oraz\040Cross-origin\040resource\040sharing}{section.3.3}% 23
 \BOOKMARK [1][-]{section.3.4}{Aplikacja\040mobilna\040na\040system\040Android}{chapter.3}% 24
@@ -28,7 +28,7 @@
 \BOOKMARK [1][-]{section.4.1}{Testowanie API przy użyciu RSpec}{chapter.4}% 28
 \BOOKMARK [2][-]{subsection.4.1.1}{Raport z testów API}{section.4.1}% 29
 \BOOKMARK [1][-]{section.4.2}{Testowanie front-end przy użyciu QUnit}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.2.1}{Raport z testów Front-end}{section.4.2}% 31
+\BOOKMARK [2][-]{subsection.4.2.1}{Raport z testów front-end}{section.4.2}% 31
 \BOOKMARK [0][-]{chapter*.11}{Zakończenie}{}% 32
 \BOOKMARK [0][-]{chapter*.12}{Bibliografia}{}% 33
 \BOOKMARK [0][-]{chapter*.13}{Spis rysunków}{}% 34

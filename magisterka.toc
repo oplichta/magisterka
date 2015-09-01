@@ -7,29 +7,29 @@
 \contentsline {section}{\numberline {2.1}Wymagania funkcjonalne i niefunkcjonalne}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}Diagram klas i opis modelu danych}{10}{section.2.2}
 \contentsline {section}{\numberline {2.3}Projekt interfejsu użytkownika w oparciu o \textit {framework Materialize}}{11}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Wytyczne odnośnie UI w Material Design}{11}{subsection.2.3.1}
-\contentsline {chapter}{\numberline {3}Architektura aplikacji PicDrop}{13}{chapter.3}
+\contentsline {subsection}{\numberline {2.3.1}Wytyczne odnośnie \textit {UI} w \textit {Material Design}}{11}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {3}Architektura aplikacji \textit {PicDrop}}{13}{chapter.3}
 \contentsline {section}{\numberline {3.1}Użyte technologie}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}API aplikacji}{14}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Budowa API w oparciu o Ruby on Rails}{14}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Połączenie z bazą danych PostgreSQL}{16}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Dodawanie gemów w Ruby on Rails}{17}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.2}\textit {API} aplikacji}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Budowa \textit {API} w oparciu o \textit {Ruby on Rails}}{14}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Połączenie z bazą danych \textit {PostgreSQL}}{16}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Dodawanie gemów w \textit {Ruby on Rails}}{17}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Autoryzacja użytkowników}{18}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Połączenie z API różnych sieci społecznościowych}{19}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Front-end aplikacji}{21}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.5}Połączenie z \textit {API} różnych sieci społecznościowych}{19}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}\textit {Front-end} aplikacji}{21}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Budowa \textit {front-endu} w oparciu o \textit {framework Ember.js} }{21}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Połączenie z API}{22}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Opis narzędzia Ember-CLI}{23}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.2}Połączenie z \textit {API}}{22}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Opis narzędzia \textit {Ember CLI}}{23}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Dodawanie wtyczek do aplikacji w \textit {Ember.js}}{23}{subsection.3.3.4}
 \contentsline {subsection}{\numberline {3.3.5}\textit {Same origin policy} oraz \textit {Cross-origin resource sharing}}{23}{subsection.3.3.5}
-\contentsline {section}{\numberline {3.4}Aplikacja mobilna na system Android}{26}{section.3.4}
+\contentsline {section}{\numberline {3.4}Aplikacja mobilna na system \textit {Android}}{26}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Zalety aplikacji mobilnej względem strony w mobilnej przeglądarce}{26}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Tworzenie aplikacji przy użyciu narzędzia \textit {Cordova}}{26}{subsection.3.4.2}
 \contentsline {chapter}{\numberline {4}Testy}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Testowanie API przy użyciu RSpec}{29}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Raport z testów API}{29}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.1}Testowanie \textit {API} przy użyciu \textit {RSpec}}{29}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Raport z testów \textit {API}}{29}{subsection.4.1.1}
 \contentsline {section}{\numberline {4.2}Testowanie \textit {front-end} przy użyciu \textit {QUnit}}{30}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Raport z testów Front-end}{31}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Raport z testów \textit {front-end}}{31}{subsection.4.2.1}
 \contentsline {chapter}{Zakończenie}{33}{chapter*.11}
 \contentsline {chapter}{Bibliografia}{35}{chapter*.12}
 \contentsline {chapter}{Spis rysunków}{37}{chapter*.13}
